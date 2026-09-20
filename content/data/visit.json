@@ -1,0 +1,137 @@
+{
+  "_editing": "Everything on the Visit page except hours and address, which come from site.json. The first-visit guide is written for someone who has never been inside a mandir — keep that reader in mind when editing.",
+
+  "firstVisit": {
+    "intro": {
+      "en": "You are welcome exactly as you are. You do not need to be Hindu, to know Marathi, to know any of the prayers, or to have been to a mandir before. Nothing will be asked of you and nothing is expected. What follows is only so you know what to expect.",
+      "mr": "आपले स्वागत आहे. कोणतीही पूर्वतयारी आवश्यक नाही."
+    },
+    "steps": [
+      {
+        "title": { "en": "Leave footwear at the entrance", "mr": "पादत्राणे प्रवेशद्वारी ठेवा" },
+        "body": {
+          "en": "There are shelves just inside the door. Socks are perfectly fine to keep on."
+        }
+      },
+      {
+        "title": { "en": "Take darshan", "mr": "दर्शन घ्या" },
+        "body": {
+          "en": "Walk up to the sanctum, stand for as long as you like, and fold your hands if that feels natural. Many devotees bow; you are not required to. There is no queue on ordinary days."
+        }
+      },
+      {
+        "title": { "en": "Pradakshina, if you wish", "mr": "प्रदक्षिणा" },
+        "body": {
+          "en": "A slow clockwise circuit around the sanctum. Any number is fine; many do it once, some do eleven."
+        }
+      },
+      {
+        "title": { "en": "Sit for a while", "mr": "काही वेळ बसा" },
+        "body": {
+          "en": "Floor seating with cushions, and chairs along the side wall for anyone who needs them. Sit for two minutes or two hours."
+        }
+      },
+      {
+        "title": { "en": "Receive prasad", "mr": "प्रसाद घ्या" },
+        "body": {
+          "en": "Offered with the right hand and received with both. It is food that has been offered first — eating it is part of the visit, not an obligation."
+        }
+      }
+    ],
+    "etiquette": [
+      { "en": "Dress is informal. Modest clothing covering shoulders and knees is appreciated." },
+      { "en": "Photography is fine in the hall, but please not during aarti." },
+      { "en": "Please silence phones inside the sanctum." },
+      { "en": "Offerings of flowers, fruit or a coconut are welcome, and entirely optional." },
+      { "en": "Children are genuinely welcome — noise is not a problem here." }
+    ],
+    "offering": {
+      "en": "If you would like to make an offering, flowers, fruit, a coconut or dry sweets are all traditional. Please do not bring anything containing meat, eggs, onion or garlic into the sanctum.",
+      "mr": "फुले, फळे, नारळ किंवा सुका खाऊ अर्पण करता येतो."
+    }
+  },
+
+  "parking": {
+    "summary": {
+      "en": "Free parking is available in the lot at 2350 Paragon Dr. On ordinary darshan days there is ample space.",
+      "mr": "२३५० Paragon Dr येथे मोफत वाहनतळ उपलब्ध आहे."
+    },
+    "notes": [
+      { "en": "On utsav days the lot fills early — arrive at least thirty minutes before the programme, or plan to use street parking on Paragon Dr." },
+      { "en": "Accessible bays are marked nearest the entrance and are kept clear for blue-badge holders." },
+      { "en": "Volunteers direct parking on Pragat Din. Please follow their guidance rather than the usual bays." },
+      { "en": "Please do not park in neighbouring business lots — we share this block." }
+    ],
+    "overflowNote": null
+  },
+
+  "accessibility": {
+    "summary": {
+      "en": "The mandir is on a single level with step-free access from the parking lot to the sanctum.",
+      "mr": "मंदिरात पायऱ्यांविना प्रवेश उपलब्ध आहे."
+    },
+    "features": [
+      { "en": "Step-free entrance and a single-level interior", "available": true },
+      { "en": "Accessible parking bays nearest the entrance", "available": true },
+      { "en": "Chairs available for anyone who cannot sit on the floor", "available": true },
+      { "en": "Accessible restroom", "available": true },
+      { "en": "Seating reserved near the front for devotees with limited mobility, on request", "available": true },
+      { "en": "Hearing loop", "available": false },
+      { "en": "Large-print upasana booklets", "available": false }
+    ],
+    "contactNote": {
+      "en": "If there is something you need in order to attend comfortably, call (408) 785-1450 or email info@shrigajananseva.org before you come. We would much rather arrange it in advance.",
+      "mr": "आपल्याला काही विशेष सोयीची आवश्यकता असल्यास आधी संपर्क साधा."
+    }
+  },
+
+  "impact": {
+    "_editing": "Shown on the home page as a seva impact strip. Set `verified: false` on anything that is an estimate — the site marks it as approximate rather than presenting it as audited. Set the whole block to null to hide the strip.",
+    "periodLabel": { "en": "In the last twelve months" },
+    "stats": [
+      { "value": null, "label": { "en": "Meals served" }, "verified": false },
+      { "value": null, "label": { "en": "Blankets distributed" }, "verified": false },
+      { "value": null, "label": { "en": "Volunteer hours" }, "verified": false },
+      { "value": null, "label": { "en": "Students served" }, "verified": false }
+    ]
+  },
+
+  "faq": [
+    {
+      "q": { "en": "Do I need to be Hindu to visit?" },
+      "a": {
+        "en": "No. The mandir is open to anyone who wishes to come. Maharaj's central teaching was that no being is separate from God — that includes you, whatever you believe."
+      }
+    },
+    {
+      "q": { "en": "Is there an entry fee or a donation expectation?" },
+      "a": {
+        "en": "No, to both. There is a donation box, and nobody watches it."
+      }
+    },
+    {
+      "q": { "en": "Can I bring my children?" },
+      "a": {
+        "en": "Yes, and please do. Children are welcome in every part of the mandir and noise is not a problem."
+      }
+    },
+    {
+      "q": { "en": "I don't read Marathi. Can I still follow the upasana?" },
+      "a": {
+        "en": "Yes. The Upasana Booklet includes transliteration, and you are welcome to simply sit and listen. Many regular devotees followed along for months before they joined in."
+      }
+    },
+    {
+      "q": { "en": "Can I offer Shrungar Seva or sponsor a mahaprasad?" },
+      "a": {
+        "en": "Yes. Both are arranged in advance — speak to a trustee on a darshan day or email info@shrigajananseva.org."
+      }
+    },
+    {
+      "q": { "en": "Is the mandir open on days other than Thursday, Saturday and Sunday?" },
+      "a": {
+        "en": "Not for general darshan. Daily seva continues online on Zoom every day of the year."
+      }
+    }
+  ]
+}

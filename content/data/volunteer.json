@@ -1,0 +1,128 @@
+{
+  "_editing": "Volunteer programme. `opportunities` drives the Get Involved list; set `open: false` to keep one listed but closed. The student programme copy sits in content/pages/student-service-hours.en.md.",
+
+  "intro": {
+    "en": "The mandir has no paid staff. Every aarti sung, every meal cooked, every blanket packed is volunteer seva. There is a place for every skill and for every amount of time you can give — including none at all, which is also fine.",
+    "mr": "मंदिरात कोणीही पगारी कर्मचारी नाही. प्रत्येक सेवा स्वयंसेवकांमार्फत होते."
+  },
+
+  "opportunities": [
+    {
+      "slug": "mahaprasad-service",
+      "title": { "en": "Mahaprasad service", "mr": "महाप्रसाद सेवा" },
+      "team": "annadan",
+      "commitment": { "en": "3–4 hours, monthly" },
+      "description": {
+        "en": "Serve and clear mahaprasad at the monthly upasana. No cooking experience needed — the kitchen team handles preparation."
+      },
+      "open": true,
+      "minAge": 12
+    },
+    {
+      "slug": "kitchen-seva",
+      "title": { "en": "Kitchen seva", "mr": "स्वयंपाक सेवा" },
+      "team": "annadan",
+      "commitment": { "en": "5–6 hours, monthly" },
+      "description": {
+        "en": "Cooking for upasana and utsav. Useful if you are comfortable cooking at scale, but the team will teach you."
+      },
+      "open": true,
+      "minAge": 16
+    },
+    {
+      "slug": "drive-logistics",
+      "title": { "en": "Seva drive logistics", "mr": "उपक्रम व्यवस्थापन" },
+      "team": "outreach",
+      "commitment": { "en": "One weekend day, a few times a year" },
+      "description": {
+        "en": "Sorting, packing and loading for the food, blanket, school supply and toy drives. Physically active seva."
+      },
+      "open": true,
+      "minAge": 14
+    },
+    {
+      "slug": "driver",
+      "title": { "en": "Distribution driver", "mr": "वाहतूक सेवा" },
+      "team": "outreach",
+      "commitment": { "en": "Half a day, a few times a year" },
+      "description": {
+        "en": "Deliver packed goods to partner shelters and food banks. Requires a valid licence and a vehicle that can carry boxes."
+      },
+      "open": true,
+      "minAge": 18
+    },
+    {
+      "slug": "utsav-crowd",
+      "title": { "en": "Utsav parking and crowd seva", "mr": "उत्सव व्यवस्थापन" },
+      "team": "utsav",
+      "commitment": { "en": "Utsav days only" },
+      "description": {
+        "en": "Parking direction, queue management and helping elderly devotees. The single largest need at Pragat Din."
+      },
+      "open": true,
+      "minAge": 15
+    },
+    {
+      "slug": "newsletter-media",
+      "title": { "en": "Newsletter and media seva", "mr": "वृत्तपत्र व माध्यम सेवा" },
+      "team": "media",
+      "commitment": { "en": "A few hours a month, remote" },
+      "description": {
+        "en": "Writing, photography, video editing, translation into Marathi, and keeping this website current. Can be done entirely from home."
+      },
+      "open": true,
+      "minAge": 14
+    },
+    {
+      "slug": "upasana-support",
+      "title": { "en": "Upasana support", "mr": "उपासना सहाय्य" },
+      "team": "upasana",
+      "commitment": { "en": "Weekly or monthly" },
+      "description": {
+        "en": "Preparing the sanctum, arranging flowers, helping newcomers find their place in the booklet."
+      },
+      "open": true,
+      "minAge": 12
+    }
+  ],
+
+  "studentProgramme": {
+    "title": { "en": "Student service hours", "mr": "विद्यार्थी सेवा तास" },
+    "summary": {
+      "en": "High school students earn verified community service hours through seva at the mandir — accepted for graduation requirements and college applications.",
+      "mr": "हायस्कूल विद्यार्थ्यांना मंदिरातील सेवेतून प्रमाणित सेवा तास मिळतात."
+    },
+    "activities": [
+      { "en": "Event logistics and setup" },
+      { "en": "Crowd management at utsav" },
+      { "en": "Food service coordination" },
+      { "en": "Supply chain support for seva drives" },
+      { "en": "Administrative and data entry seva" },
+      { "en": "Photography, video and social media" }
+    ],
+    "requirements": [
+      { "en": "Currently enrolled in high school" },
+      { "en": "Guardian consent on file before the first shift, for students under 18" },
+      { "en": "Sign in and sign out at the volunteer desk for every shift" },
+      { "en": "A minimum of one completed shift before a letter can be issued" }
+    ],
+    "guardianConsentNote": {
+      "en": "For students under 18 we require a guardian's written consent before the first shift. This covers participation, emergency contact and permission for photographs at public events. Consent can be withdrawn at any time by emailing info@shrigajananseva.org.",
+      "mr": "१८ वर्षांखालील विद्यार्थ्यांसाठी पालकांची लेखी संमती आवश्यक आहे."
+    },
+    "letterProcess": [
+      {
+        "en": "Hours are logged by the volunteer lead at the end of each shift."
+      },
+      {
+        "en": "A seva team lead verifies the log within one week."
+      },
+      {
+        "en": "Request a letter from your account, or by emailing info@shrigajananseva.org."
+      },
+      {
+        "en": "The letter is issued on Shri Gajanan Seva letterhead with a verification code your school can check with us."
+      }
+    ]
+  }
+}

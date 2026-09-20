@@ -1,0 +1,101 @@
+{
+  "_editing": "Organisation-wide facts. Anything set to null is not yet published — the site hides that block rather than showing a blank. Fill it in and it appears. See docs/CONTENT-EDITING.md.",
+
+  "legalName": "Shri Gajanan Seva",
+  "displayName": { "en": "Shri Gajanan Seva", "mr": "श्री गजानन सेवा" },
+  "tagline": { "en": "Bay Area, California", "mr": "बे एरिया, कॅलिफोर्निया" },
+  "url": "https://shrigajananseva.org",
+
+  "nonprofit": {
+    "status": "501(c)(3)",
+    "state": "California",
+    "ein": null,
+    "determinationLetterUrl": null,
+    "annualReportUrl": null,
+    "form990Url": null,
+    "candidSealUrl": null
+  },
+
+  "contact": {
+    "phone": "(408) 785-1450",
+    "phoneE164": "+14087851450",
+    "email": "info@shrigajananseva.org",
+    "charityEmail": "charity@shrigajananseva.org",
+    "newsletterEmail": "newsletter@shrigajananseva.org",
+    "privacyEmail": "info@shrigajananseva.org"
+  },
+
+  "address": {
+    "street": "2350 Paragon Dr",
+    "locality": "San Jose",
+    "region": "CA",
+    "postalCode": "95131",
+    "country": "US",
+    "mapQuery": "2350 Paragon Dr, San Jose, CA 95131",
+    "latitude": 37.3841,
+    "longitude": -121.9045
+  },
+
+  "timezone": "America/Los_Angeles",
+
+  "hours": [
+    { "day": 4, "opens": "07:00", "closes": "21:00", "note": { "en": "Darshan and seva" } },
+    { "day": 6, "opens": "10:00", "closes": "18:00", "note": { "en": "Darshan and seva" } },
+    { "day": 0, "opens": "10:00", "closes": "18:00", "note": { "en": "Darshan and seva" } }
+  ],
+  "hoursNote": {
+    "en": "The mandir is open every Thursday, Saturday and Sunday for darshan and seva. Daily seva continues online on all other days.",
+    "mr": "मंदिर दर गुरुवार, शनिवार व रविवारी दर्शन व सेवेसाठी उघडे असते."
+  },
+
+  "social": [
+    {
+      "id": "youtube",
+      "label": "YouTube",
+      "url": "https://www.youtube.com/channel/UCwI-uJalIJjfjroTDWaUigA",
+      "handle": "Shri Gajanan Seva"
+    },
+    {
+      "id": "facebook",
+      "label": "Facebook",
+      "url": "https://www.facebook.com/ShriGajananSevaBA",
+      "handle": "ShriGajananSevaBA"
+    },
+    {
+      "id": "instagram",
+      "label": "Instagram",
+      "url": "https://www.instagram.com/shrigajananseva",
+      "handle": "@shrigajananseva"
+    },
+    {
+      "id": "whatsapp-channel",
+      "label": "WhatsApp Channel",
+      "url": null,
+      "handle": null,
+      "description": {
+        "en": "Announcements only. One-way broadcast, no group chatter."
+      }
+    },
+    {
+      "id": "whatsapp-group",
+      "label": "WhatsApp Community",
+      "url": null,
+      "handle": null,
+      "description": {
+        "en": "Conversation and seva coordination among devotees."
+      }
+    }
+  ],
+
+  "zoom": {
+    "joinUrl": null,
+    "meetingId": null,
+    "passcode": null,
+    "note": {
+      "en": "The same Zoom link is used for daily seva every day. Email info@shrigajananseva.org to receive it.",
+      "mr": "दैनंदिन सेवेसाठी दररोज तोच Zoom दुवा वापरला जातो."
+    }
+  },
+
+  "youtubePlaylistId": null
+}

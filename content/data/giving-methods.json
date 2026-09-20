@@ -1,0 +1,53 @@
+[
+  {
+    "_editing": "Zero-fee and offline giving channels. `handle` null hides the detail line and shows 'contact us for details' instead — safer than publishing a wrong account. QR images go in public/giving/ and are referenced as /giving/<file>.png.",
+    "id": "zelle",
+    "title": { "en": "Zelle", "mr": "Zelle" },
+    "feeNote": { "en": "No processing fee — the full amount reaches the seva." },
+    "handle": null,
+    "handleLabel": { "en": "Send to" },
+    "qrImage": null,
+    "instructions": {
+      "en": "Send from your bank's app using the details above. Add the fund name in the memo so the treasurer can allocate it correctly.",
+      "mr": "आपल्या बँकेच्या ॲपमधून पाठवा. निधीचे नाव memo मध्ये लिहा."
+    },
+    "recommended": true
+  },
+  {
+    "id": "venmo",
+    "title": { "en": "Venmo", "mr": "Venmo" },
+    "feeNote": { "en": "Venmo charges no fee for personal transfers." },
+    "handle": null,
+    "handleLabel": { "en": "Send to" },
+    "qrImage": null,
+    "instructions": {
+      "en": "Add the fund name in the note. Please send as a payment to a friend, not a purchase.",
+      "mr": "निधीचे नाव note मध्ये लिहा."
+    }
+  },
+  {
+    "id": "check",
+    "title": { "en": "Check", "mr": "धनादेश" },
+    "feeNote": { "en": "No processing fee. Best channel for large gifts." },
+    "handle": "Shri Gajanan Seva",
+    "handleLabel": { "en": "Make payable to" },
+    "qrImage": null,
+    "instructions": {
+      "en": "Make the check payable to Shri Gajanan Seva and mail it to the mandir, or hand it to a trustee on a darshan day. Write the fund name on the memo line. For any additional information email info@shrigajananseva.org.",
+      "mr": "धनादेश 'Shri Gajanan Seva' या नावाने काढावा."
+    },
+    "recommended": true
+  },
+  {
+    "id": "stock",
+    "title": { "en": "Stock or donor-advised fund", "mr": "समभाग / DAF" },
+    "feeNote": { "en": "Often the most tax-efficient way to make a large gift." },
+    "handle": null,
+    "handleLabel": { "en": "Brokerage details" },
+    "qrImage": null,
+    "instructions": {
+      "en": "Appreciated stock and DAF grants are accepted. Email charity@shrigajananseva.org and the treasurer will send transfer instructions.",
+      "mr": "अधिक माहितीसाठी charity@shrigajananseva.org वर संपर्क साधा."
+    }
+  }
+]

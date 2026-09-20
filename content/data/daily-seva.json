@@ -1,0 +1,101 @@
+{
+  "_editing": "The daily seva timetable. `time` is 24-hour local mandir time (America/Los_Angeles) — the site converts it to each visitor's own timezone automatically. `mode` is one of: in-person, online, both.",
+
+  "schedule": [
+    {
+      "slug": "bhupali-aarti",
+      "time": "06:00",
+      "durationMinutes": 20,
+      "title": { "en": "Bhupali Aarti", "mr": "भूपाळी आरती" },
+      "description": {
+        "en": "The waking song. Bhupali is sung at first light to wake Maharaj, and with him the day.",
+        "mr": "पहाटेच्या प्रहरी महाराजांना जागविणारी भूपाळी."
+      },
+      "mode": "both"
+    },
+    {
+      "slug": "shrungar-seva",
+      "time": "07:00",
+      "durationMinutes": 45,
+      "title": { "en": "Shrungar Seva", "mr": "शृंगार सेवा" },
+      "description": {
+        "en": "Abhishek and adornment of the murti. Devotees may offer this seva by arrangement — speak to a trustee.",
+        "mr": "अभिषेक व मूर्तीचा शृंगार."
+      },
+      "mode": "in-person"
+    },
+    {
+      "slug": "ram-raksha",
+      "time": "08:00",
+      "durationMinutes": 30,
+      "title": { "en": "Ram Raksha & Maruti Stotra", "mr": "रामरक्षा व मारुती स्तोत्र" },
+      "description": {
+        "en": "Recited together on Zoom every morning, followed by nam jaap. Join from anywhere — this is the easiest way to begin.",
+        "mr": "दररोज सकाळी Zoom वर सामूहिक पठण, त्यानंतर नामजप."
+      },
+      "mode": "online",
+      "highlight": true
+    },
+    {
+      "slug": "madhyan-aarti",
+      "time": "12:00",
+      "durationMinutes": 20,
+      "title": { "en": "Madhyan Aarti", "mr": "माध्यान्ह आरती" },
+      "description": {
+        "en": "Midday aarti, followed by naivedya and prasad.",
+        "mr": "दुपारची आरती, नैवेद्य व प्रसाद."
+      },
+      "mode": "both"
+    },
+    {
+      "slug": "nam-jaap",
+      "time": "18:00",
+      "durationMinutes": 30,
+      "title": { "en": "Collective Nam Jaap", "mr": "सामूहिक नामजप" },
+      "description": {
+        "en": "Gan Gan Ganat Bote, chanted together. No prior knowledge needed — follow along and let the rhythm carry you.",
+        "mr": "गण गण गणात बोते — सामूहिक नामजप."
+      },
+      "mode": "both"
+    },
+    {
+      "slug": "dhoop-aarti",
+      "time": "19:00",
+      "durationMinutes": 20,
+      "title": { "en": "Dhoop Aarti", "mr": "धूप आरती" },
+      "description": {
+        "en": "Evening aarti with incense.",
+        "mr": "सायंकाळची धूप आरती."
+      },
+      "mode": "both"
+    },
+    {
+      "slug": "shejarati",
+      "time": "21:00",
+      "durationMinutes": 20,
+      "title": { "en": "Shejarati", "mr": "शेजारती" },
+      "description": {
+        "en": "The last aarti of the day, sung as Maharaj is laid to rest.",
+        "mr": "दिवसाची शेवटची आरती."
+      },
+      "mode": "both"
+    }
+  ],
+
+  "namJaap": {
+    "mantra": "गण गण गणात बोते",
+    "transliteration": "Gan Gan Ganat Bote",
+    "guidance": {
+      "en": "This is the nam Maharaj himself repeated, and the one he gave to those who asked him for a practice. There is no prescribed number, no prescribed time and no prescribed posture. Say it while you walk, while you cook, while you wait. When the mind wanders, begin again without reproach — that returning is itself the practice.",
+      "mr": "हाच नाम महाराजांनी स्वतः घेतला व भक्तांना दिला. ठराविक संख्या, वेळ वा आसन नाही. चालताना, स्वयंपाक करताना, वाट पाहताना — कधीही घ्या."
+    }
+  },
+
+  "sankalp": {
+    "title": { "en": "Dashakapurti Sadhana Sankalp Seva" },
+    "description": {
+      "en": "A one-year commitment taken by devotees, offered from wherever they are. Virtual sevas may be offered from anywhere, at any time of day. Speak to a trustee to take the sankalp.",
+      "mr": "भक्तांनी घेतलेला एक वर्षाचा संकल्प. ही सेवा कोठूनही, कोणत्याही वेळी करता येते."
+    }
+  }
+}

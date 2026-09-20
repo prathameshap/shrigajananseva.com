@@ -1,0 +1,55 @@
+{
+  "_editing": "Trustees and seva team leads. This page is currently a placeholder — the site shows an honest 'being published' notice until at least one trustee is listed here. Add entries in the order they should appear. `photo` may be null.",
+
+  "trustees": [],
+
+  "governanceNote": {
+    "en": "Shri Gajanan Seva is governed by a volunteer board of trustees. The board meets quarterly and is responsible for finances, programme direction and safeguarding. Trustee names, roles and the governance policy are being prepared for publication.",
+    "mr": "श्री गजानन सेवा स्वयंसेवी विश्वस्त मंडळामार्फत चालविली जाते."
+  },
+
+  "sevaTeams": [
+    {
+      "slug": "upasana",
+      "title": { "en": "Upasana team", "mr": "उपासना गट" },
+      "description": {
+        "en": "Leads the daily and monthly upasana, maintains the seva timetable and trains new devotees in the order of the aartis."
+      }
+    },
+    {
+      "slug": "annadan",
+      "title": { "en": "Annadan team", "mr": "अन्नदान गट" },
+      "description": {
+        "en": "Plans, cooks and serves mahaprasad at every upasana and utsav, and runs the kitchen during seva drives."
+      }
+    },
+    {
+      "slug": "outreach",
+      "title": { "en": "Community outreach", "mr": "समाजसेवा गट" },
+      "description": {
+        "en": "Coordinates the food, blanket, clothing, school supply, toy and hygiene kit drives with partner organisations."
+      }
+    },
+    {
+      "slug": "utsav",
+      "title": { "en": "Utsav team", "mr": "उत्सव गट" },
+      "description": {
+        "en": "Decoration, palkhi, cultural programme, sound and stage for the three major utsav of the year."
+      }
+    },
+    {
+      "slug": "youth",
+      "title": { "en": "Youth seva team", "mr": "युवा सेवा गट" },
+      "description": {
+        "en": "Runs the high school service-hours programme — logistics, crowd management, food service coordination, supply chain and administrative seva."
+      }
+    },
+    {
+      "slug": "media",
+      "title": { "en": "Media and communications", "mr": "माध्यम गट" },
+      "description": {
+        "en": "Newsletter, website, WhatsApp channel, photography and the YouTube recordings."
+      }
+    }
+  ]
+}

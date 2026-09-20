@@ -1,0 +1,117 @@
+[
+  {
+    "_editing": "Funds shown on /donate. `impact` lines are what a devotee sees next to a suggested amount — keep them concrete and truthful. Set `active: false` to retire a fund without deleting its history.",
+    "slug": "general",
+    "active": true,
+    "title": { "en": "Where it is needed most", "mr": "सर्वाधिक गरज असेल तिथे" },
+    "description": {
+      "en": "Unrestricted giving. Covers rent, utilities, upkeep of the mandir and whichever seva is most pressing that month. This is the most useful gift you can make.",
+      "mr": "मंदिराचा नियमित खर्च व त्या महिन्यातील सर्वाधिक आवश्यक सेवेसाठी."
+    },
+    "suggested": [
+      { "amount": 51, "impact": { "en": "Covers a day of mandir utilities" } },
+      { "amount": 108, "impact": { "en": "A week of upkeep and supplies" } },
+      { "amount": 251, "impact": { "en": "A month of sustaining support" } },
+      { "amount": 501, "impact": { "en": "Underwrites a monthly upasana in full" } }
+    ]
+  },
+  {
+    "slug": "annadan",
+    "active": true,
+    "title": { "en": "Annadan — mahaprasad", "mr": "अन्नदान — महाप्रसाद" },
+    "description": {
+      "en": "Mahaprasad served at every upasana and utsav, and langar-style meals at seva drives. No one who comes to the mandir leaves hungry.",
+      "mr": "प्रत्येक उपासना व उत्सवात दिला जाणारा महाप्रसाद."
+    },
+    "suggested": [
+      { "amount": 51, "impact": { "en": "Provides mahaprasad for 20 devotees" } },
+      { "amount": 108, "impact": { "en": "Provides mahaprasad for 45 devotees" } },
+      { "amount": 251, "impact": { "en": "Sponsors mahaprasad for a monthly upasana" } },
+      { "amount": 1008, "impact": { "en": "Sponsors annadan for an entire utsav day" } }
+    ]
+  },
+  {
+    "slug": "food-drive",
+    "active": true,
+    "title": { "en": "Food drive", "mr": "अन्नदान उपक्रम" },
+    "description": {
+      "en": "Bulk purchase and distribution through partner Bay Area food banks, concentrated around the annual drive but running year-round.",
+      "mr": "स्थानिक फूड बँकांमार्फत अन्नवाटप."
+    },
+    "suggested": [
+      { "amount": 51, "impact": { "en": "Feeds a family of four for a week" } },
+      { "amount": 151, "impact": { "en": "Fills three grocery boxes" } },
+      { "amount": 501, "impact": { "en": "A pallet of staples for the food bank" } }
+    ]
+  },
+  {
+    "slug": "blanket-drive",
+    "active": true,
+    "title": { "en": "Winter blanket drive", "mr": "हिवाळी घोंगडी उपक्रम" },
+    "description": {
+      "en": "New blankets, warm clothing, socks and caps for unhoused neighbours through partner shelters in San Jose.",
+      "mr": "निवाराहीन बांधवांसाठी नवीन घोंगड्या व उबदार कपडे."
+    },
+    "suggested": [
+      { "amount": 35, "impact": { "en": "One complete winter kit" } },
+      { "amount": 108, "impact": { "en": "Three winter kits" } },
+      { "amount": 351, "impact": { "en": "Ten winter kits" } }
+    ]
+  },
+  {
+    "slug": "school-supplies",
+    "active": true,
+    "title": { "en": "School supplies", "mr": "शालेय साहित्य" },
+    "description": {
+      "en": "Backpacks and stationery for students in under-resourced districts at the start of each school year.",
+      "mr": "गरजू विद्यार्थ्यांसाठी दप्तरे व लेखनसाहित्य."
+    },
+    "suggested": [
+      { "amount": 41, "impact": { "en": "A fully stocked backpack for one student" } },
+      { "amount": 151, "impact": { "en": "Supplies a classroom shelf" } },
+      { "amount": 401, "impact": { "en": "Ten students equipped for the year" } }
+    ]
+  },
+  {
+    "slug": "toy-drive",
+    "active": true,
+    "title": { "en": "Children's toy drive", "mr": "बाल खेळणी उपक्रम" },
+    "description": {
+      "en": "New toys for children in shelters and low-income families in Santa Clara County each December.",
+      "mr": "गरजू कुटुंबांतील मुलांसाठी नवीन खेळणी."
+    },
+    "suggested": [
+      { "amount": 25, "impact": { "en": "A gift for one child" } },
+      { "amount": 108, "impact": { "en": "Gifts for four children" } },
+      { "amount": 501, "impact": { "en": "Gifts for twenty children" } }
+    ]
+  },
+  {
+    "slug": "utsav",
+    "active": true,
+    "title": { "en": "Utsav sponsorship", "mr": "उत्सव प्रायोजकत्व" },
+    "description": {
+      "en": "Pragat Din, Guru Pournima and Rishi Panchami — decoration, palkhi, cultural programme and mahaprasad for several hundred devotees.",
+      "mr": "प्रगट दिन, गुरुपौर्णिमा व ऋषिपंचमी उत्सवासाठी."
+    },
+    "suggested": [
+      { "amount": 108, "impact": { "en": "Floral decoration for the sanctum" } },
+      { "amount": 501, "impact": { "en": "Sponsors one session of the utsav" } },
+      { "amount": 1108, "impact": { "en": "Principal sponsor for a utsav day" } }
+    ]
+  },
+  {
+    "slug": "hygiene-kits",
+    "active": true,
+    "title": { "en": "Hygiene kits", "mr": "स्वच्छता संच" },
+    "description": {
+      "en": "Soap, toothpaste, sanitary supplies and towels assembled into kits for shelter partners.",
+      "mr": "निवारा केंद्रांसाठी स्वच्छता संच."
+    },
+    "suggested": [
+      { "amount": 18, "impact": { "en": "One hygiene kit" } },
+      { "amount": 108, "impact": { "en": "Six hygiene kits" } },
+      { "amount": 351, "impact": { "en": "Twenty hygiene kits" } }
+    ]
+  }
+]

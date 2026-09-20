@@ -1,0 +1,186 @@
+{
+  "_note": "Partial Marathi translation. Any key left out here falls back to English automatically — it is safe to translate a few strings at a time. Devotee-facing religious terms have been kept in their familiar Marathi forms. Longer paragraphs are deliberately left untranslated pending trustee review.",
+
+  "meta": {
+    "siteName": "श्री गजानन सेवा",
+    "tagline": "बे एरिया, कॅलिफोर्निया"
+  },
+
+  "nav": {
+    "home": "मुख्यपृष्ठ",
+    "about": "आमच्याविषयी",
+    "visit": "भेट द्या",
+    "dailySeva": "दैनंदिन सेवा",
+    "occasions": "उत्सव",
+    "library": "ग्रंथसंग्रह",
+    "getInvolved": "सहभागी व्हा",
+    "donate": "देणगी",
+    "connect": "संपर्कात रहा",
+    "portal": "माझे खाते",
+    "menu": "मेनू",
+    "closeMenu": "मेनू बंद करा",
+    "openMenu": "मेनू उघडा",
+    "skipToContent": "मुख्य मजकुराकडे जा"
+  },
+
+  "navGroups": {
+    "aboutSgs": "श्री गजानन सेवा, बे एरिया",
+    "maharaj": "श्री गजानन महाराज, शेगाव",
+    "trustees": "विश्वस्त मंडळ",
+    "transparency": "पारदर्शकता",
+    "upasana": "दैनंदिन उपासना",
+    "bhupali": "भूपाळी आरती",
+    "shejarati": "शेजारती",
+    "namJaap": "नामजप",
+    "texts": "ग्रंथ व पुस्तिका",
+    "audio": "ध्वनिमुद्रण",
+    "videos": "व्हिडिओ",
+    "newsletterArchive": "वृत्तपत्र संग्रह",
+    "volunteer": "स्वयंसेवा",
+    "contact": "संपर्क",
+    "newsletter": "वृत्तपत्र"
+  },
+
+  "common": {
+    "readMore": "अधिक वाचा",
+    "learnMore": "अधिक जाणून घ्या",
+    "viewAll": "सर्व पहा",
+    "back": "मागे",
+    "download": "डाउनलोड",
+    "downloadPdf": "PDF डाउनलोड करा",
+    "listen": "ऐका",
+    "watch": "पहा",
+    "loading": "लोड होत आहे…",
+    "submit": "पाठवा",
+    "cancel": "रद्द करा",
+    "save": "जतन करा",
+    "edit": "संपादित करा",
+    "today": "आज",
+    "language": "भाषा",
+    "theme": "रंगसंगती"
+  },
+
+  "home": {
+    "heroEyebrow": "श्री गजानन सेवा · बे एरिया, कॅलिफोर्निया",
+    "heroTitle": "गण गण गणात बोते",
+    "heroPrimaryCta": "भेटीचे नियोजन करा",
+    "heroSecondaryCta": "दैनंदिन सेवेत सहभागी व्हा",
+    "nextOccasion": "पुढील उत्सव",
+    "liveNow": "आता सुरू आहे",
+    "joinOnZoom": "Zoom वर सहभागी व्हा",
+    "todaySchedule": "आजचा कार्यक्रम",
+    "upcomingTitle": "आगामी उत्सव",
+    "donateTitle": "सेवेस हातभार लावा",
+    "connectTitle": "संपर्कात रहा"
+  },
+
+  "visit": {
+    "title": "मंदिरास भेट द्या",
+    "hours": "दर्शन वेळ",
+    "address": "पत्ता",
+    "getDirections": "मार्ग दाखवा",
+    "phone": "दूरध्वनी",
+    "email": "ईमेल",
+    "openToday": "आज उघडे",
+    "closedToday": "आज बंद",
+    "weeklySchedule": "साप्ताहिक सेवा",
+    "parking": "वाहनतळ"
+  },
+
+  "dailySeva": {
+    "title": "दैनंदिन सेवा",
+    "scheduleTitle": "दैनंदिन वेळापत्रक",
+    "inPerson": "प्रत्यक्ष",
+    "online": "ऑनलाइन",
+    "joinZoom": "Zoom वर सहभागी व्हा",
+    "jaapTitle": "नामजप"
+  },
+
+  "occasions": {
+    "title": "उत्सव",
+    "upcoming": "आगामी",
+    "past": "मागील",
+    "schedule": "कार्यक्रम",
+    "significance": "महत्त्व",
+    "whatToBring": "काय आणावे",
+    "addToCalendar": "कॅलेंडरमध्ये जोडा",
+    "rsvp": "नोंदणी करा"
+  },
+
+  "library": {
+    "title": "ग्रंथसंग्रह",
+    "typeText": "ग्रंथ",
+    "typeAudio": "ध्वनिमुद्रण",
+    "typeVideo": "व्हिडिओ",
+    "typeNewsletter": "वृत्तपत्रे",
+    "readOnline": "ऑनलाइन वाचा"
+  },
+
+  "getInvolved": {
+    "title": "सहभागी व्हा"
+  },
+
+  "donate": {
+    "title": "देणगी",
+    "chooseFund": "निधी निवडा",
+    "chooseAmount": "रक्कम निवडा",
+    "otherAmount": "इतर रक्कम",
+    "oneTime": "एकदाच",
+    "monthly": "दरमहा",
+    "otherWays": "देणगीचे इतर मार्ग"
+  },
+
+  "connect": {
+    "title": "संपर्कात रहा",
+    "join": "सहभागी व्हा",
+    "subscribe": "नोंदणी करा",
+    "follow": "फॉलो करा",
+    "emailLabel": "ईमेल पत्ता",
+    "nameLabel": "नाव",
+    "messageLabel": "संदेश",
+    "subscribeCta": "नोंदणी करा"
+  },
+
+  "portal": {
+    "title": "माझे खाते",
+    "signIn": "साइन इन",
+    "signOut": "साइन आउट",
+    "dashboard": "डॅशबोर्ड",
+    "household": "माझे कुटुंब",
+    "myTickets": "माझी तिकिटे",
+    "giving": "माझ्या देणग्या",
+    "preferences": "पसंती",
+    "privacy": "गोपनीयता"
+  },
+
+  "legal": {
+    "privacy": "गोपनीयता धोरण",
+    "terms": "वापराच्या अटी",
+    "accessibility": "सुलभता विधान",
+    "privacyChoices": "आपले गोपनीयता पर्याय"
+  },
+
+  "footer": {
+    "explore": "पहा",
+    "participate": "सहभाग",
+    "resources": "साधने",
+    "legalHeading": "कायदेशीर",
+    "contactHeading": "संपर्क"
+  },
+
+  "errors": {
+    "notFoundTitle": "हे पृष्ठ सापडले नाही",
+    "goHome": "मुख्यपृष्ठावर जा",
+    "tryAgain": "पुन्हा प्रयत्न करा"
+  },
+
+  "days": {
+    "sunday": "रविवार",
+    "monday": "सोमवार",
+    "tuesday": "मंगळवार",
+    "wednesday": "बुधवार",
+    "thursday": "गुरुवार",
+    "friday": "शुक्रवार",
+    "saturday": "शनिवार"
+  }
+}
