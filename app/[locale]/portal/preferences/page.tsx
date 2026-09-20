@@ -72,7 +72,7 @@ export default async function PreferencesPage({
               key={code}
               className={
                 code === session.preferredLocale
-                  ? "rounded-full bg-kumkum-700 px-5 py-2 font-semibold text-sandal-50"
+                  ? "rounded-full bg-saffron-600 px-5 py-2 font-semibold text-sandal-50"
                   : "rounded-full border border-hairline px-5 py-2 font-semibold text-muted"
               }
             >

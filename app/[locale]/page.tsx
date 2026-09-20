@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 
@@ -47,24 +48,43 @@ export default async function HomePage({ params }: { params: Promise<{ locale: s
   return (
     <>
       {/* ---------------------------------------------------------- hero */}
-      <section className="festive-wash relative overflow-hidden border-b border-hairline">
+      {/*
+        A full-bleed utsav photograph behind a dark scrim, with Maharaj's
+        portrait alongside. The previous cream-on-cream hero carried no imagery
+        at all, which is what made the page read as flat.
+      */}
+      <section className="relative isolate overflow-hidden bg-night-900 text-sandal-100">
+        <Image
+          src="/images/utsav-shrine.jpg"
+          alt=""
+          fill
+          priority
+          sizes="100vw"
+          className="-z-10 object-cover object-center opacity-40"
+        />
+        {/* Scrim: keeps text contrast well clear of AA over a busy photograph. */}
+        <div
+          className="absolute inset-0 -z-10 bg-gradient-to-br from-night-900 via-night-900/95 to-night-900/70"
+          aria-hidden="true"
+        />
+
         <Container width="wide">
-          <div className="grid gap-12 py-16 sm:py-20 lg:grid-cols-12 lg:gap-10 lg:py-24">
+          <div className="grid items-center gap-12 py-16 sm:py-20 lg:grid-cols-12 lg:gap-12 lg:py-24">
             <div className="lg:col-span-7">
-              <p className="mb-4 text-sm font-semibold tracking-[0.18em] text-accent uppercase">
+              <p className="mb-4 text-sm font-semibold tracking-[0.18em] text-marigold-300 uppercase">
                 {dict.home.heroEyebrow}
               </p>
 
-              <h1 className="font-deva text-5xl leading-tight sm:text-6xl lg:text-7xl">
+              <h1 className="font-deva text-5xl leading-tight text-sandal-50 sm:text-6xl lg:text-7xl">
                 {dailySeva.namJaap.mantra}
               </h1>
-              <p className="mt-3 font-display text-2xl text-accent italic">
+              <p className="mt-3 font-display text-2xl text-marigold-300 italic">
                 {dailySeva.namJaap.transliteration}
               </p>
 
               <GoldRule className="mt-7 max-w-40" />
 
-              <p className="mt-7 max-w-xl text-xl text-body">{dict.home.heroSubtitle}</p>
+              <p className="mt-7 max-w-xl text-xl text-sandal-200">{dict.home.heroSubtitle}</p>
 
               <div className="mt-9 flex flex-wrap gap-3">
                 <ButtonLink href={localePath(locale, "/visit")} size="lg">
@@ -75,15 +95,41 @@ export default async function HomePage({ params }: { params: Promise<{ locale: s
                   href={localePath(locale, "/daily-seva")}
                   size="lg"
                   variant="secondary"
+                  className="border-sandal-400/40 bg-transparent text-sandal-50 hover:border-marigold-300 hover:bg-night-700 hover:text-sandal-50"
                 >
                   {dict.home.heroSecondaryCta}
                 </ButtonLink>
               </div>
             </div>
 
-            {/* Next occasion card */}
+            {/* Maharaj */}
             <div className="lg:col-span-5">
-              {next ? (
+              <figure className="relative mx-auto max-w-sm">
+                <div className="overflow-hidden rounded-card border-4 border-gold-400 shadow-lift">
+                  <Image
+                    src="/images/shri-gajanan-maharaj.jpg"
+                    alt="Shri Gajanan Maharaj of Shegaon"
+                    width={701}
+                    height={1000}
+                    priority
+                    sizes="(max-width: 1024px) 24rem, 24rem"
+                    className="h-auto w-full"
+                  />
+                </div>
+                <figcaption className="mt-4 text-center font-display text-lg text-marigold-300 italic">
+                  Shri Gajanan Maharaj, Shegaon
+                </figcaption>
+              </figure>
+            </div>
+          </div>
+        </Container>
+      </section>
+
+      {/* ------------------------------------------------ next occasion */}
+      <Section tone="canvas" className="py-12 sm:py-14">
+        <div className="grid gap-6 lg:grid-cols-12">
+          <div className="lg:col-span-5">
+            {next ? (
                 <Card className="h-full p-7 shadow-lift">
                   <Torana className="mb-5 -mt-1" />
                   <p className="text-sm font-bold tracking-[0.16em] text-accent uppercase">
@@ -126,14 +172,11 @@ export default async function HomePage({ params }: { params: Promise<{ locale: s
                   </div>
                 </Card>
               ) : null}
-            </div>
           </div>
-        </Container>
-      </section>
 
-      {/* ------------------------------------------- today / live now */}
-      <Section tone="canvas" className="py-12 sm:py-14">
-        <TodayPanel
+          {/* Today / live now, beside the next occasion rather than below it */}
+          <div className="lg:col-span-7">
+            <TodayPanel
           locale={locale}
           mandirTimezone={site.timezone}
           zoomUrl={site.zoom.joinUrl}
@@ -157,9 +200,11 @@ export default async function HomePage({ params }: { params: Promise<{ locale: s
             inPerson: dict.dailySeva.inPerson,
             timezoneNote: dict.common.timezoneNote,
             viewFullSchedule: dict.dailySeva.scheduleTitle,
-            zoomUnavailable: "Zoom link available on request",
-          }}
-        />
+              zoomUnavailable: "Zoom link available on request",
+              }}
+            />
+          </div>
+        </div>
       </Section>
 
       {/* ------------------------------------------------ upcoming */}
@@ -207,7 +252,7 @@ export default async function HomePage({ params }: { params: Promise<{ locale: s
               {visit.firstVisit.steps.slice(0, 4).map((step, index) => (
                 <li key={step.title.en}>
                   <Card className="flex gap-5 p-5">
-                    <span className="grid h-10 w-10 shrink-0 place-items-center rounded-full bg-kumkum-700 font-display text-lg text-sandal-50">
+                    <span className="grid h-10 w-10 shrink-0 place-items-center rounded-full bg-saffron-600 font-display text-lg text-sandal-50">
                       {index + 1}
                     </span>
                     <span>
@@ -241,7 +286,7 @@ export default async function HomePage({ params }: { params: Promise<{ locale: s
             <ButtonLink
               href={localePath(locale, "/library/audio")}
               variant="secondary"
-              className="border-sandal-400/40 bg-transparent text-sandal-100 hover:bg-kumkum-900"
+              className="border-sandal-400/40 bg-transparent text-sandal-100 hover:bg-night-700"
             >
               {dict.navGroups.audio}
             </ButtonLink>

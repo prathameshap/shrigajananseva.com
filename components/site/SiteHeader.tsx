@@ -1,5 +1,6 @@
 "use client";
 
+import Image from "next/image";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useEffect, useRef, useState } from "react";
@@ -145,14 +146,19 @@ export function SiteHeader({
             className="group flex items-center gap-3"
             aria-label={labels.siteName}
           >
-            <span className="grid h-11 w-11 shrink-0 place-items-center rounded-full bg-kumkum-700 text-sandal-50 shadow-soft">
-              <Icon.Lotus className="h-6 w-6" />
-            </span>
+            <Image
+              src="/images/logo.png"
+              alt=""
+              width={127}
+              height={105}
+              priority
+              className="h-12 w-auto shrink-0"
+            />
             <span className="leading-tight">
               <span className="block font-display text-xl text-heading sm:text-[1.35rem]">
                 {labels.siteName}
               </span>
-              <span className="block text-xs tracking-[0.12em] text-muted uppercase">
+              <span className="block text-xs tracking-[0.12em] text-saffron-700 uppercase">
                 {labels.tagline}
               </span>
             </span>
@@ -230,7 +236,7 @@ export function SiteHeader({
             </Link>
             <Link
               href={`/${locale}/donate`}
-              className="inline-flex items-center gap-2 rounded-full bg-kumkum-700 px-5 py-2.5 font-semibold text-sandal-50 shadow-soft hover:bg-kumkum-800"
+              className="inline-flex items-center gap-2 rounded-full bg-saffron-600 px-5 py-2.5 font-semibold text-sandal-50 shadow-soft hover:bg-saffron-700"
             >
               <Icon.Heart className="h-4 w-4" />
               {labels.donate}

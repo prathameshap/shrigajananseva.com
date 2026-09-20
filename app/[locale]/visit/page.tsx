@@ -177,7 +177,7 @@ export default async function VisitPage({ params }: LocaleParams) {
           {visit.firstVisit.steps.map((step, index) => (
             <li key={step.title.en}>
               <Card className="h-full p-6">
-                <span className="grid h-10 w-10 place-items-center rounded-full bg-kumkum-700 font-display text-lg text-sandal-50">
+                <span className="grid h-10 w-10 place-items-center rounded-full bg-saffron-600 font-display text-lg text-sandal-50">
                   {index + 1}
                 </span>
                 <h3 className="mt-4 text-lg">{t(step.title, locale)}</h3>

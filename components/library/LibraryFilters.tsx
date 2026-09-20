@@ -64,7 +64,7 @@ export function LibraryFilters({
               className={cx(
                 "rounded-full px-4 py-2 text-sm font-semibold transition-colors",
                 type === value
-                  ? "bg-kumkum-700 text-sandal-50"
+                  ? "bg-saffron-600 text-sandal-50"
                   : "bg-surface text-muted hover:text-heading",
               )}
             >
@@ -91,7 +91,7 @@ export function LibraryFilters({
               className={cx(
                 "rounded-full px-4 py-2 text-sm font-semibold transition-colors",
                 language === value
-                  ? "bg-kumkum-700 text-sandal-50"
+                  ? "bg-saffron-600 text-sandal-50"
                   : "bg-surface text-muted hover:text-heading",
               )}
             >

@@ -55,7 +55,7 @@ export function Section({
   const tones = {
     canvas: "bg-canvas",
     raised: "bg-surface-raised",
-    brand: "bg-kumkum-800 text-sandal-100",
+    brand: "bg-night-900 text-sandal-100",
     wash: "festive-wash",
   };
   return (
@@ -104,21 +104,34 @@ export function SectionHeader({
 type ButtonVariant = "primary" | "secondary" | "ghost" | "onbrand";
 type ButtonSize = "sm" | "md" | "lg";
 
+/**
+ * Alignment rules, all three of which were wrong before:
+ *
+ * `min-h-*` per size — buttons in a row now share an exact height whether or
+ *   not they contain an icon, and whatever icon size a caller passes. Height
+ *   still grows if a label wraps, so `w-full` buttons in narrow cards are fine.
+ * `leading-snug` — the global 1.7 body line-height made a button's text box
+ *   taller than its icon, so icon and text sat on different centres.
+ * `[&>svg]:shrink-0` — icons were being squeezed when a long label competed
+ *   for width, which pulled the label off-centre.
+ *
+ * The min-heights double as comfortable touch targets (44px at `md`).
+ */
 const buttonBase =
-  "inline-flex items-center justify-center gap-2 rounded-full font-semibold transition-colors duration-150 disabled:cursor-not-allowed disabled:opacity-55";
+  "inline-flex items-center justify-center gap-2 rounded-full text-center leading-snug font-semibold transition-colors duration-150 [&>svg]:shrink-0 disabled:cursor-not-allowed disabled:opacity-55";
 
 const buttonVariants: Record<ButtonVariant, string> = {
-  primary: "bg-kumkum-700 text-sandal-50 hover:bg-kumkum-800 active:bg-kumkum-900",
+  primary: "bg-saffron-600 text-sandal-50 hover:bg-saffron-700 active:bg-saffron-800",
   secondary:
-    "border border-hairline bg-surface text-heading hover:border-gold-400 hover:bg-surface-raised",
+    "border border-hairline bg-surface text-heading hover:border-saffron-400 hover:bg-surface-raised",
   ghost: "text-accent hover:bg-accent-soft",
   onbrand: "bg-marigold-400 text-ink-900 hover:bg-marigold-300",
 };
 
 const buttonSizes: Record<ButtonSize, string> = {
-  sm: "px-4 py-2 text-sm",
-  md: "px-5 py-2.5",
-  lg: "px-7 py-3.5 text-lg",
+  sm: "min-h-9 px-4 py-2 text-sm",
+  md: "min-h-11 px-5 py-2.5",
+  lg: "min-h-13 px-7 py-3 text-lg",
 };
 
 export function buttonClass(variant: ButtonVariant = "primary", size: ButtonSize = "md") {
@@ -147,11 +160,14 @@ export function ButtonLink({
   size?: ButtonSize;
   external?: boolean;
 }) {
+  // `external` controls target/rel only. It used to append an external-link
+  // icon too, which gave buttons that already led with an icon two of them —
+  // one each side of the label, which read as a misalignment. Callers that
+  // want the glyph now pass <Icon.External /> themselves.
   const props = external ? { target: "_blank", rel: "noopener noreferrer" } : {};
   return (
     <Link href={href} className={cx(buttonClass(variant, size), className)} {...props} {...rest}>
       {children}
-      {external ? <Icon.External className="h-4 w-4" /> : null}
     </Link>
   );
 }
@@ -205,7 +221,7 @@ export function Badge({
     brand: "bg-brand-soft text-brand border-kumkum-200",
     success: "bg-tulsi-50 text-tulsi-700 border-tulsi-100",
     warning: "bg-marigold-100 text-marigold-800 border-marigold-200",
-    live: "bg-kumkum-700 text-sandal-50 border-kumkum-700",
+    live: "bg-saffron-600 text-sandal-50 border-kumkum-700",
   };
   return (
     <span

@@ -59,7 +59,7 @@ export default async function PortalLayout({
           <aside className="lg:w-64 lg:shrink-0">
             <div className="lg:sticky lg:top-32">
               <div className="mb-6 flex items-center gap-3">
-                <span className="grid h-11 w-11 shrink-0 place-items-center rounded-full bg-kumkum-700 font-display text-lg text-sandal-50">
+                <span className="grid h-11 w-11 shrink-0 place-items-center rounded-full bg-saffron-600 font-display text-lg text-sandal-50">
                   {initials(session.name)}
                 </span>
                 <span className="min-w-0">

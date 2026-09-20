@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Image from "next/image";
 import { MarkdownPage, markdownMetadata } from "@/components/site/MarkdownPage";
 import { LibraryCard } from "@/components/shared/LibraryCard";
 import { ButtonLink, Card } from "@/components/ui";
@@ -28,6 +29,19 @@ export default async function MaharajPage({ params }: LocaleParams) {
       )}
       aside={
         <div className="flex flex-col gap-5 lg:sticky lg:top-32">
+          <figure>
+            <div className="overflow-hidden rounded-card border-4 border-gold-400 shadow-lift">
+              <Image
+                src="/images/shri-gajanan-maharaj.jpg"
+                alt="Shri Gajanan Maharaj of Shegaon, seated in padmasana beneath a tree"
+                width={701}
+                height={1000}
+                sizes="(max-width: 1024px) 100vw, 22rem"
+                className="h-auto w-full"
+              />
+            </div>
+          </figure>
+
           {grantha ? <LibraryCard item={grantha} locale={locale} /> : null}
 
           <Card className="bg-surface-raised p-6">

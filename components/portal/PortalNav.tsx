@@ -27,7 +27,7 @@ export function PortalNav({ items }: { items: { href: string; label: string }[] 
                 className={cx(
                   "block rounded-full px-4 py-2.5 font-medium whitespace-nowrap transition-colors lg:rounded-xl",
                   active
-                    ? "bg-kumkum-700 text-sandal-50"
+                    ? "bg-saffron-600 text-sandal-50"
                     : "text-body hover:bg-surface hover:text-brand",
                 )}
               >

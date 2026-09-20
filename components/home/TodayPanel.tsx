@@ -91,7 +91,7 @@ export function TodayPanel({
   return (
     <div className="flex flex-col gap-5">
       {settled && broadcasting ? (
-        <Card className="border-kumkum-700 bg-kumkum-800 p-6 text-sandal-100 shadow-lift">
+        <Card className="border-night-700 bg-night-800 p-6 text-sandal-100 shadow-lift">
           <div className="flex flex-col gap-4 sm:flex-row sm:items-center sm:justify-between">
             <div className="flex items-start gap-4">
               <span className="mt-1.5">

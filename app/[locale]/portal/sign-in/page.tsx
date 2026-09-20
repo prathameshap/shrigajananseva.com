@@ -37,7 +37,7 @@ export default async function SignInPage({
     <Container width="narrow">
       <div className="py-16 sm:py-24">
         <Card className="p-7 sm:p-10">
-          <span className="grid h-12 w-12 place-items-center rounded-full bg-kumkum-700 text-sandal-50">
+          <span className="grid h-12 w-12 place-items-center rounded-full bg-saffron-600 text-sandal-50">
             <Icon.Lotus className="h-6 w-6" />
           </span>
 

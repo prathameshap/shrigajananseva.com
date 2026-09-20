@@ -85,7 +85,7 @@ export function OccasionFilters({
               className={cx(
                 "rounded-full px-4 py-1.5 text-sm font-semibold transition-colors",
                 when === value
-                  ? "bg-kumkum-700 text-sandal-50"
+                  ? "bg-saffron-600 text-sandal-50"
                   : "text-muted hover:text-heading",
               )}
             >

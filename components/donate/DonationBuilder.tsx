@@ -116,7 +116,7 @@ export function DonationBuilder({
               className={cx(
                 "cursor-pointer rounded-xl border p-4 transition-colors",
                 item.slug === fundSlug
-                  ? "border-kumkum-600 bg-brand-soft"
+                  ? "border-saffron-500 bg-brand-soft"
                   : "border-hairline hover:border-gold-400 hover:bg-surface-raised",
               )}
             >
@@ -150,7 +150,7 @@ export function DonationBuilder({
               className={cx(
                 "rounded-full border px-5 py-2.5 font-semibold transition-colors",
                 frequency === option.value
-                  ? "border-kumkum-700 bg-kumkum-700 text-sandal-50"
+                  ? "border-saffron-600 bg-saffron-600 text-sandal-50"
                   : "border-hairline text-body hover:border-gold-400 hover:bg-surface-raised",
               )}
             >
@@ -176,7 +176,7 @@ export function DonationBuilder({
               className={cx(
                 "rounded-xl border p-4 text-left transition-colors",
                 amount === option.amount
-                  ? "border-kumkum-600 bg-brand-soft"
+                  ? "border-saffron-500 bg-brand-soft"
                   : "border-hairline hover:border-gold-400 hover:bg-surface-raised",
               )}
             >

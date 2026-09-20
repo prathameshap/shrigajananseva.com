@@ -205,7 +205,7 @@ export default async function DailySevaPage({ params }: LocaleParams) {
               <ButtonLink
                 href={localePath(locale, "/library/audio")}
                 variant="secondary"
-                className="border-sandal-400/40 bg-transparent text-sandal-100 hover:bg-kumkum-900"
+                className="border-sandal-400/40 bg-transparent text-sandal-100 hover:bg-night-700"
               >
                 <Icon.Audio className="h-4 w-4" />
                 {dict.navGroups.audio}

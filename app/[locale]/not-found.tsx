@@ -27,7 +27,7 @@ export default function NotFound() {
     <div className="festive-wash">
       <Container width="narrow">
         <div className="py-20 sm:py-28">
-          <span className="grid h-16 w-16 place-items-center rounded-full bg-kumkum-700 text-sandal-50">
+          <span className="grid h-16 w-16 place-items-center rounded-full bg-saffron-600 text-sandal-50">
             <Icon.Lotus className="h-8 w-8" />
           </span>
 

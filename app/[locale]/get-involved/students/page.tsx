@@ -122,7 +122,7 @@ export default async function StudentsPage({ params }: LocaleParams) {
           {programme.letterProcess.map((step, index) => (
             <li key={step.en}>
               <Card className="h-full p-6">
-                <span className="grid h-10 w-10 place-items-center rounded-full bg-kumkum-700 font-display text-lg text-sandal-50">
+                <span className="grid h-10 w-10 place-items-center rounded-full bg-saffron-600 font-display text-lg text-sandal-50">
                   {index + 1}
                 </span>
                 <p className="mt-4 text-body">{t(step, locale)}</p>

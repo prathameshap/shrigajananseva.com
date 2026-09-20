@@ -3,44 +3,62 @@
 /* ==========================================================================
    Shri Gajanan Seva — design tokens
    --------------------------------------------------------------------------
-   A festive palette drawn from utsav materials: sandalwood and turmeric
-   creams, marigold saffron, kumkum maroon, temple gold, tulsi green.
-   Text colours are chosen to clear WCAG 2.2 AA (4.5:1) on their own
-   surface, since much of the congregation reads this at 150–200% zoom.
+   Taken from the organisation's own materials rather than invented:
+
+     saffron   #dc4d04  the orange block in the site's header banner —
+                        this is the brand colour
+     kumkum             the deep red of the logo ring and the utsav garlands
+     marigold           the yellow petal carpet laid for Pragat Din
+     gold               the torana above the murti
+     night              the deep backdrop the shrine is photographed against
+     sandal             warm cream ground
+
+   Text colours clear WCAG 2.2 AA (4.5:1) on their own surface — much of the
+   congregation reads this at 150–200% zoom.
    ========================================================================== */
 
 @theme {
-  /* --- raw palette ------------------------------------------------------ */
-  --color-sandal-50: #fffcf7;
-  --color-sandal-100: #fdf6ea;
-  --color-sandal-200: #f8ecd9;
-  --color-sandal-300: #efdabc;
-  --color-sandal-400: #e3c296;
+  /* --- saffron: the brand ----------------------------------------------- */
+  --color-saffron-50: #fff4ec;
+  --color-saffron-100: #ffe4d1;
+  --color-saffron-200: #ffc4a0;
+  --color-saffron-300: #ff9c63;
+  --color-saffron-400: #fb7a2f;
+  --color-saffron-500: #dc4d04; /* exact brand orange */
+  --color-saffron-600: #bd4103; /* button fill — white text clears 5:1 */
+  --color-saffron-700: #963303; /* body-safe on cream */
+  --color-saffron-800: #762903;
 
-  --color-marigold-50: #fff8ed;
-  --color-marigold-100: #ffedd2;
-  --color-marigold-200: #fed7a6;
-  --color-marigold-300: #fcbb6d;
-  --color-marigold-400: #f79a2e;
-  --color-marigold-500: #ea7f0d;
-  --color-marigold-600: #c26104;
-  --color-marigold-700: #96490a;
-  --color-marigold-800: #7a3b10;
+  --color-sandal-50: #fffaf2;
+  --color-sandal-100: #fff3e2;
+  --color-sandal-200: #ffe7cc;
+  --color-sandal-300: #f7d4ab;
+  --color-sandal-400: #e8bb85;
 
-  --color-kumkum-50: #fdf3f4;
-  --color-kumkum-100: #fbe4e7;
-  --color-kumkum-200: #f6ccd2;
-  --color-kumkum-400: #ce5568;
-  --color-kumkum-500: #b03348;
-  --color-kumkum-600: #91243a;
-  --color-kumkum-700: #751d31;
-  --color-kumkum-800: #5c172a;
-  --color-kumkum-900: #3f1420;
+  --color-marigold-50: #fffaeb;
+  --color-marigold-100: #fff2cc;
+  --color-marigold-200: #ffe29a;
+  --color-marigold-300: #ffd15c;
+  --color-marigold-400: #fbbf24;
+  --color-marigold-500: #f2a005;
+  --color-marigold-600: #cc8103;
+  --color-marigold-700: #a36503;
+  --color-marigold-800: #7d4d05;
 
-  --color-gold-300: #e4ca7a;
-  --color-gold-400: #d4af37;
-  --color-gold-500: #b8942a;
-  --color-gold-600: #94751f;
+  --color-kumkum-50: #fef2f3;
+  --color-kumkum-100: #fde0e2;
+  --color-kumkum-200: #fbc5c9;
+  --color-kumkum-400: #e04250;
+  --color-kumkum-500: #c81e2d;
+  --color-kumkum-600: #a81726;
+  --color-kumkum-700: #8c1420;
+  --color-kumkum-800: #6d0f19;
+  --color-kumkum-900: #4a0a11;
+
+  --color-gold-300: #f0d98a;
+  --color-gold-400: #d9af3c;
+  --color-gold-500: #b8902a;
+  --color-gold-600: #96731e;
 
   --color-tulsi-50: #eefaf5;
   --color-tulsi-100: #d5f2e6;
@@ -48,12 +66,17 @@
   --color-tulsi-600: #176b52;
   --color-tulsi-700: #125441;
 
-  --color-ink-400: #8a7466;
-  --color-ink-500: #6b5648;
-  --color-ink-600: #554236;
-  --color-ink-700: #4a372c;
-  --color-ink-800: #38271e;
-  --color-ink-900: #2a1a13;
+  /* Deep indigo-night, for full-bleed contrast bands. */
+  --color-night-700: #262b45;
+  --color-night-800: #1a1e33;
+  --color-night-900: #121524;
+
+  --color-ink-400: #947c68;
+  --color-ink-500: #75604d;
+  --color-ink-600: #5c4a3b;
+  --color-ink-700: #4a3a2e;
+  --color-ink-800: #392c22;
+  --color-ink-900: #2a1f18;
 
   /* --- semantic tokens (theme-aware, see :root blocks below) ------------ */
   --color-canvas: var(--sgs-canvas);
@@ -90,70 +113,70 @@
 
 /* --- light (default) ----------------------------------------------------- */
 :root {
-  --sgs-canvas: #fffcf7;
+  --sgs-canvas: #fffaf2;
   --sgs-surface: #ffffff;
-  --sgs-surface-raised: #fdf6ea;
-  --sgs-hairline: #ecdcc4;
-  --sgs-body: #4a372c;
-  --sgs-muted: #6b5648;
-  --sgs-heading: #5c172a;
-  --sgs-brand: #751d31;
-  --sgs-brand-soft: #fbe4e7;
-  --sgs-accent: #96490a;
-  --sgs-accent-soft: #ffedd2;
-  --sgs-onbrand: #fffcf7;
+  --sgs-surface-raised: #fff3e2;
+  --sgs-hairline: #f0dcc0;
+  --sgs-body: #4a3a2e;
+  --sgs-muted: #6d5947;
+  --sgs-heading: #8c1420;
+  --sgs-brand: #bd4103;
+  --sgs-brand-soft: #ffe4d1;
+  --sgs-accent: #963303;
+  --sgs-accent-soft: #fff4ec;
+  --sgs-onbrand: #fffaf2;
   color-scheme: light;
 }
 
 /* --- dark ---------------------------------------------------------------- */
 @media (prefers-color-scheme: dark) {
   :root {
-    --sgs-canvas: #1a120e;
-    --sgs-surface: #241913;
-    --sgs-surface-raised: #2e211a;
-    --sgs-hairline: #4a3528;
-    --sgs-body: #ecdcc9;
-    --sgs-muted: #c4ad99;
-    --sgs-heading: #f3d9c4;
-    --sgs-brand: #e8a9b3;
-    --sgs-brand-soft: #3f1420;
-    --sgs-accent: #fcbb6d;
-    --sgs-accent-soft: #3a2411;
-    --sgs-onbrand: #1a120e;
+    --sgs-canvas: #17120d;
+    --sgs-surface: #221a13;
+    --sgs-surface-raised: #2e231a;
+    --sgs-hairline: #4d3a28;
+    --sgs-body: #f0dfcb;
+    --sgs-muted: #c8ae92;
+    --sgs-heading: #ffd15c;
+    --sgs-brand: #ff9c63;
+    --sgs-brand-soft: #4a1c08;
+    --sgs-accent: #ffb383;
+    --sgs-accent-soft: #3a1a08;
+    --sgs-onbrand: #17120d;
     color-scheme: dark;
   }
 }
 
 /* Explicit toggle always wins over the media query, in both directions. */
 :root[data-theme="light"] {
-  --sgs-canvas: #fffcf7;
+  --sgs-canvas: #fffaf2;
   --sgs-surface: #ffffff;
-  --sgs-surface-raised: #fdf6ea;
-  --sgs-hairline: #ecdcc4;
-  --sgs-body: #4a372c;
-  --sgs-muted: #6b5648;
-  --sgs-heading: #5c172a;
-  --sgs-brand: #751d31;
-  --sgs-brand-soft: #fbe4e7;
-  --sgs-accent: #96490a;
-  --sgs-accent-soft: #ffedd2;
-  --sgs-onbrand: #fffcf7;
+  --sgs-surface-raised: #fff3e2;
+  --sgs-hairline: #f0dcc0;
+  --sgs-body: #4a3a2e;
+  --sgs-muted: #6d5947;
+  --sgs-heading: #8c1420;
+  --sgs-brand: #bd4103;
+  --sgs-brand-soft: #ffe4d1;
+  --sgs-accent: #963303;
+  --sgs-accent-soft: #fff4ec;
+  --sgs-onbrand: #fffaf2;
   color-scheme: light;
 }
 
 :root[data-theme="dark"] {
-  --sgs-canvas: #1a120e;
-  --sgs-surface: #241913;
-  --sgs-surface-raised: #2e211a;
-  --sgs-hairline: #4a3528;
-  --sgs-body: #ecdcc9;
-  --sgs-muted: #c4ad99;
-  --sgs-heading: #f3d9c4;
-  --sgs-brand: #e8a9b3;
-  --sgs-brand-soft: #3f1420;
-  --sgs-accent: #fcbb6d;
-  --sgs-accent-soft: #3a2411;
-  --sgs-onbrand: #1a120e;
+  --sgs-canvas: #17120d;
+  --sgs-surface: #221a13;
+  --sgs-surface-raised: #2e231a;
+  --sgs-hairline: #4d3a28;
+  --sgs-body: #f0dfcb;
+  --sgs-muted: #c8ae92;
+  --sgs-heading: #ffd15c;
+  --sgs-brand: #ff9c63;
+  --sgs-brand-soft: #4a1c08;
+  --sgs-accent: #ffb383;
+  --sgs-accent-soft: #3a1a08;
+  --sgs-onbrand: #17120d;
   color-scheme: dark;
 }
 

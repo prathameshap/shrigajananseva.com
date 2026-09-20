@@ -174,7 +174,7 @@ export default async function RsvpPage({ params }: Params) {
             <button
               type="submit"
               disabled
-              className="inline-flex cursor-not-allowed items-center gap-2 rounded-full bg-kumkum-700 px-7 py-3.5 text-lg font-semibold text-sandal-50 opacity-55"
+              className="inline-flex cursor-not-allowed items-center gap-2 rounded-full bg-saffron-600 px-7 py-3.5 text-lg font-semibold text-sandal-50 opacity-55"
             >
               {isWaitlist ? "Join the waitlist" : dict.occasions.rsvp}
             </button>

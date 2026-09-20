@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 import { Icon, socialIcon } from "@/components/icons";
 import { Container, GoldRule } from "@/components/ui";
@@ -19,9 +20,13 @@ export function SiteFooter({ locale }: { locale: Locale }) {
           {/* Identity + newsletter */}
           <div className="lg:col-span-4">
             <div className="flex items-center gap-3">
-              <span className="grid h-11 w-11 place-items-center rounded-full bg-kumkum-700 text-sandal-50">
-                <Icon.Lotus className="h-6 w-6" />
-              </span>
+              <Image
+                src="/images/logo.png"
+                alt=""
+                width={127}
+                height={105}
+                className="h-12 w-auto shrink-0"
+              />
               <span className="leading-tight">
                 <span className="block font-display text-xl text-heading">
                   {t(site.displayName, locale)}
