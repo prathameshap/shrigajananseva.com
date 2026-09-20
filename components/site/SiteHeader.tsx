@@ -141,9 +141,16 @@ export function SiteHeader({
       {/* Main bar */}
       <Container width="wide">
         <div className="flex h-18 items-center justify-between gap-4 py-3">
+          {/*
+            min-w-0 is load-bearing. A flex item defaults to min-width:auto and
+            so refuses to shrink below its content, which pushed the wordmark
+            out of the header. English showed it and Marathi did not because
+            `uppercase` widens Latin text but does nothing to Devanagari, which
+            is caseless.
+          */}
           <Link
             href={`/${locale}`}
-            className="group flex items-center gap-3"
+            className="group flex min-w-0 items-center gap-2.5 sm:gap-3"
             aria-label={labels.siteName}
           >
             <Image
@@ -152,13 +159,13 @@ export function SiteHeader({
               width={127}
               height={105}
               priority
-              className="h-12 w-auto shrink-0"
+              className="h-11 w-auto shrink-0"
             />
-            <span className="leading-tight">
-              <span className="block font-display text-xl text-heading sm:text-[1.35rem]">
+            <span className="min-w-0 leading-tight">
+              <span className="block truncate font-display text-lg text-heading sm:text-xl lg:text-[1.35rem]">
                 {labels.siteName}
               </span>
-              <span className="block text-xs tracking-[0.12em] text-saffron-700 uppercase">
+              <span className="block truncate text-[0.7rem] tracking-[0.1em] text-saffron-700 uppercase sm:text-xs">
                 {labels.tagline}
               </span>
             </span>
@@ -167,7 +174,8 @@ export function SiteHeader({
           <nav
             ref={navRef}
             aria-label="Primary"
-            className="hidden items-center gap-0.5 lg:flex"
+            // Tighter padding at lg where the row is most crowded, relaxing at xl.
+            className="hidden min-w-0 shrink items-center gap-0.5 lg:flex [&_a]:px-2.5 [&_button]:px-2.5 xl:[&_a]:px-3.5 xl:[&_button]:px-3.5"
           >
             {nav.map((item) => {
               const active = isActive(item.href);
@@ -227,7 +235,7 @@ export function SiteHeader({
             })}
           </nav>
 
-          <div className="flex items-center gap-2">
+          <div className="flex shrink-0 items-center gap-2">
             <Link
               href={`/${locale}/portal`}
               className="hidden rounded-full border border-hairline px-4 py-2 font-medium text-heading hover:border-gold-400 hover:bg-surface-raised lg:inline-flex"
