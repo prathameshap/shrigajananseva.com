@@ -76,6 +76,35 @@ necessary and undo this.
 
 ---
 
+## The pre-launch password gate
+
+The whole site sits behind one shared password while the content is being
+verified. HTTP Basic auth, enforced in `middleware.ts`, covering every route,
+asset and API handler — there is no path around it.
+
+| `SITE_PASSWORD` | `SITE_PUBLIC` | Behaviour |
+|---|---|---|
+| set | unset | Password required. **This is the pre-launch state.** |
+| unset | unset | Production: refuses to serve (503). Dev: open. |
+| either | `true` | Fully public. **This is launch.** |
+
+**Set `SITE_PASSWORD` in Vercel before the first deploy.** Production fails
+closed without it, deliberately: forgetting the variable must never silently
+publish the site.
+
+Username defaults to `seva`; override with `SITE_USER`. Use an ASCII-only
+password — a non-ASCII character breaks the `WWW-Authenticate` header and
+locks everyone out, including you.
+
+This is a "keep the public out until launch" gate, not a secrets boundary. It
+is one shared password held by the trustees; per-devotee authentication is the
+portal's separate concern.
+
+To launch: set `SITE_PUBLIC=true`, redeploy, confirm the site is reachable,
+then delete `SITE_PASSWORD`.
+
+---
+
 ## Deploying
 
 Vercel, connected to this repository. `npm run build`, no adapter needed —
@@ -83,11 +112,13 @@ middleware, API routes and `next/font` all run natively.
 
 Before pointing DNS at it:
 
-1. Set `url` in `content/data/site.json` to the production origin.
-2. Confirm the 301s resolve — the legacy URLs in `next.config.ts` are what
+1. **Set `SITE_PASSWORD`** — the build will not serve without it.
+2. Set `url` in `content/data/site.json` to the production origin.
+3. Confirm the 301s resolve — the legacy URLs in `next.config.ts` are what
    currently rank for "Gajanan Maharaj Bay Area" and similar queries.
-3. Enable Analytics and Speed Insights in the Vercel dashboard.
-4. Submit `/sitemap.xml` in Google Search Console.
+4. Enable Analytics and Speed Insights in the Vercel dashboard.
+5. Submit `/sitemap.xml` in Google Search Console — **after** launch, not
+   while the gate is up.
 
 ---
 
