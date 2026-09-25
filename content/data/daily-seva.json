@@ -1,122 +1,9 @@
 {
-<<<<<<< HEAD
-  "_note": "Slots are listed in chronological order of `time`. Keep them that way — lib/schedule.ts filters this list by weekday and renders whatever order it finds. `days` uses 0 = Sunday … 6 = Saturday, the same convention as site.json hours.",
-=======
   "_editing": "The daily seva timetable. `time` is 24-hour local mandir time (America/Los_Angeles) — the site converts it to each visitor's own timezone automatically. `mode` is one of: in-person, online, both.",
->>>>>>> e67c5ca9bc25bf3af85c8980399123cded4b906f
 
   "schedule": [
     {
       "slug": "bhupali-aarti",
-<<<<<<< HEAD
-      "time": "06:50",
-      "durationMinutes": 25,
-      "days": [4],
-      "mode": "in-person",
-      "highlight": true,
-      "title": { "en": "Bhupali Aarti", "mr": "भूपाळी आरती" },
-      "description": {
-        "en": "The waking aarti, sung before first light while the centre is still dark. Fifteen or twenty people, no microphone, and the only seva of the week that most devotees never see. The doors open at 6.45am.",
-        "mr": "पहाटेची आरती, उजाडण्यापूर्वी केंद्र अंधारात असतानाच म्हटली जाते. पंधरा-वीस माणसे, माइक नाही, आणि आठवड्यातली अशी एकच सेवा जी बहुतेक भक्तांनी कधी पाहिलेली नसते. दरवाजे ६.४५ ला उघडतात."
-      }
-    },
-    {
-      "slug": "shrungar-seva",
-      "time": "07:15",
-      "durationMinutes": 60,
-      "days": [4],
-      "mode": "in-person",
-      "title": { "en": "Shrungar Seva", "mr": "शृंगार सेवा" },
-      "description": {
-        "en": "Bathing and dressing the murti, and building the day's flower arrangement. This is hands-on seva and volunteers are always welcome — arrive a few minutes early and someone will show you what to do.",
-        "mr": "मूर्तीचे स्नान व वस्त्रधारण, आणि दिवसाची फुलांची आरास. ही प्रत्यक्ष हाताने करायची सेवा आहे आणि स्वयंसेवकांचे नेहमी स्वागत — काही मिनिटे आधी या, कोणीतरी काय करायचे ते दाखवेल."
-      }
-    },
-    {
-      "slug": "morning-aarti",
-      "time": "08:30",
-      "durationMinutes": 30,
-      "days": [4],
-      "mode": "in-person",
-      "title": { "en": "Morning Aarti", "mr": "सकाळची आरती" },
-      "description": {
-        "en": "The shrungar is complete and the murti is revealed. The busiest aarti of the morning, and the one most people come for before work.",
-        "mr": "शृंगार पूर्ण होतो आणि मूर्तीचे दर्शन होते. सकाळची सर्वात गजबजलेली आरती, आणि कामावर जाण्यापूर्वी बहुतेक लोक यासाठीच येतात."
-      }
-    },
-    {
-      "slug": "afternoon-aarti",
-      "time": "12:10",
-      "durationMinutes": 20,
-      "days": [0, 4, 6],
-      "mode": "in-person",
-      "title": { "en": "Afternoon Aarti", "mr": "दुपारची आरती" },
-      "description": {
-        "en": "Madhyan aarti, kept every day the centre is open. Short, and usually quiet enough that you can sit afterwards for as long as you like.",
-        "mr": "माध्यान्ह आरती, केंद्र उघडे असलेल्या प्रत्येक दिवशी. छोटी, आणि बहुधा इतकी शांत की नंतर तुम्हाला हवे तितके बसता येते."
-      }
-    },
-    {
-      "slug": "weekend-evening-aarti",
-      "time": "17:45",
-      "durationMinutes": 30,
-      "days": [0, 6],
-      "mode": "in-person",
-      "title": { "en": "Evening Aarti (weekend)", "mr": "सायंकाळची आरती (शनिवार-रविवार)" },
-      "description": {
-        "en": "The last seva of a Saturday or Sunday. The centre closes at 6pm, so this is also the last chance for darshan on a weekend.",
-        "mr": "शनिवार किंवा रविवारची शेवटची सेवा. केंद्र ६ वाजता बंद होते, म्हणून सप्ताहांतातील दर्शनाची ही शेवटची संधी."
-      }
-    },
-    {
-      "slug": "ram-raksha-upasana",
-      "time": "19:00",
-      "durationMinutes": 25,
-      "days": [0, 1, 2, 3, 4, 5, 6],
-      "mode": "online",
-      "highlight": true,
-      "title": { "en": "Online Upasana", "mr": "ऑनलाइन उपासना" },
-      "description": {
-        "en": "Shri Ram Raksha Stotra and Maruti Stotra, every single day of the year, on Zoom. Twenty-five minutes. Devotees join from San Jose, Fremont, Pune and London — you do not need to switch your camera on and you do not need to know the words.",
-        "mr": "श्री रामरक्षा स्तोत्र व मारुती स्तोत्र, वर्षातील प्रत्येक दिवशी, झूमवर. पंचवीस मिनिटे. सॅन होजे, फ्रीमॉंट, पुणे आणि लंडनहून भक्त सहभागी होतात — कॅमेरा चालू करायची गरज नाही आणि शब्द माहीत असायची गरज नाही."
-      }
-    },
-    {
-      "slug": "evening-aarti",
-      "time": "19:30",
-      "durationMinutes": 30,
-      "days": [4],
-      "mode": "both",
-      "title": { "en": "Evening Aarti", "mr": "सायंकाळची आरती" },
-      "description": {
-        "en": "Thursday's main evening aarti, and the one the largest number of families attend together. Broadcast on Zoom for anyone who cannot get there.",
-        "mr": "गुरुवारची मुख्य सायंकाळची आरती, आणि सर्वाधिक कुटुंबे एकत्र येणारी. जे येऊ शकत नाहीत त्यांच्यासाठी झूमवर प्रसारण."
-      }
-    },
-    {
-      "slug": "mahaprasad",
-      "time": "20:00",
-      "durationMinutes": 45,
-      "days": [4],
-      "mode": "in-person",
-      "title": { "en": "Mahaprasad", "mr": "महाप्रसाद" },
-      "description": {
-        "en": "A full meal, cooked in the centre's kitchen by volunteers and served to everybody present. Free, vegetarian, no onion or garlic, and nobody is expected to have contributed anything. Please eat what you take.",
-        "mr": "स्वयंसेवकांनी केंद्राच्या स्वयंपाकघरात शिजवलेले पूर्ण जेवण, उपस्थित सर्वांना वाढले जाते. विनामूल्य, शाकाहारी, कांदा-लसूण नाही, आणि कोणी काही दिले असावे अशी अपेक्षा नाही. घेतलेले अन्न संपवा."
-      }
-    },
-    {
-      "slug": "shejarati",
-      "time": "20:45",
-      "durationMinutes": 15,
-      "days": [4],
-      "mode": "in-person",
-      "title": { "en": "Shejarati", "mr": "शेजारती" },
-      "description": {
-        "en": "The final aarti, sung as Maharaj is put to rest for the night. Fifteen minutes, lamps low, and then the centre closes at 9pm.",
-        "mr": "शेवटची आरती, महाराजांना रात्रीच्या विश्रांतीसाठी निजवताना म्हटली जाते. पंधरा मिनिटे, दिवे मंद, आणि नंतर ९ वाजता केंद्र बंद होते."
-      }
-=======
       "time": "06:00",
       "durationMinutes": 20,
       "title": { "en": "Bhupali Aarti", "mr": "भूपाळी आरती" },
@@ -192,7 +79,6 @@
         "mr": "दिवसाची शेवटची आरती."
       },
       "mode": "both"
->>>>>>> e67c5ca9bc25bf3af85c8980399123cded4b906f
     }
   ],
 
@@ -200,31 +86,16 @@
     "mantra": "गण गण गणात बोते",
     "transliteration": "Gan Gan Ganat Bote",
     "guidance": {
-<<<<<<< HEAD
-      "en": "This is the whole practice. Shri Gajanan Maharaj repeated these six syllables constantly and gave nothing else as a method — no initiation to seek, no qualification to earn, no fee, and no right time of day. Say it aloud while you cook or silently on the train. If you lose count, you have not lost anything; begin again from where you are.",
-      "mr": "हीच संपूर्ण साधना. श्री गजानन महाराज हे सहा अक्षरे अखंड म्हणत होते आणि याशिवाय कोणतीही पद्धत सांगितली नाही — मागायची दीक्षा नाही, मिळवायची पात्रता नाही, शुल्क नाही, आणि दिवसाची ठरलेली वेळ नाही. स्वयंपाक करताना मोठ्याने म्हणा किंवा प्रवासात मनात. मोजणी चुकली तर काही गमावले नाही; जिथे आहात तिथून पुन्हा सुरू करा."
-=======
       "en": "This is the nam Maharaj himself repeated, and the one he gave to those who asked him for a practice. There is no prescribed number, no prescribed time and no prescribed posture. Say it while you walk, while you cook, while you wait. When the mind wanders, begin again without reproach — that returning is itself the practice.",
       "mr": "हाच नाम महाराजांनी स्वतः घेतला व भक्तांना दिला. ठराविक संख्या, वेळ वा आसन नाही. चालताना, स्वयंपाक करताना, वाट पाहताना — कधीही घ्या."
->>>>>>> e67c5ca9bc25bf3af85c8980399123cded4b906f
     }
   },
 
   "sankalp": {
-<<<<<<< HEAD
-    "title": {
-      "en": "Taking a sankalp",
-      "mr": "संकल्प घेणे"
-    },
-    "description": {
-      "en": "A sankalp is a resolve you make to yourself — a fixed number of jaap, or a fixed number of days, decided in advance and then simply kept. Devotees commonly take 108 repetitions daily, or an unbroken 21 days. The centre does not register sankalps and nobody will check on you. Tell us only if you would like the sangha to hold it alongside you.",
-      "mr": "संकल्प म्हणजे स्वतःशी केलेला निश्चय — ठराविक जपसंख्या, किंवा ठराविक दिवस, आधीच ठरवून नंतर फक्त पाळायचा. भक्त सामान्यतः रोज १०८ जप, किंवा अखंड २१ दिवस असा संकल्प घेतात. केंद्र संकल्पांची नोंद ठेवत नाही आणि कोणी विचारणा करणार नाही. संघाने तुमच्यासोबत हा संकल्प धरावा असे वाटले तरच आम्हाला सांगा."
-=======
     "title": { "en": "Dashakapurti Sadhana Sankalp Seva" },
     "description": {
       "en": "A one-year commitment taken by devotees, offered from wherever they are. Virtual sevas may be offered from anywhere, at any time of day. Speak to a trustee to take the sankalp.",
       "mr": "भक्तांनी घेतलेला एक वर्षाचा संकल्प. ही सेवा कोठूनही, कोणत्याही वेळी करता येते."
->>>>>>> e67c5ca9bc25bf3af85c8980399123cded4b906f
     }
   }
 }

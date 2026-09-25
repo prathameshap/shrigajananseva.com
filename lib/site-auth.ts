@@ -90,41 +90,15 @@ export function gateResponse(reason: "unconfigured" | "unauthorized"): Response 
 <title>${unconfigured ? "Configuration required" : "Shri Gajanan Seva"}</title>
 <style>
   :root { color-scheme: light dark; }
-<<<<<<< HEAD
-  /* Hand-written rather than imported: middleware runs before the stylesheet
-     exists. Kept in step with the tokens in app/globals.css. */
-  body {
-    margin: 0; min-height: 100vh; display: grid; place-items: center;
-    background: #fffcf6; color: #3a3036; padding: 2rem;
-=======
   body {
     margin: 0; min-height: 100vh; display: grid; place-items: center;
     background: #fffcf7; color: #4a372c; padding: 2rem;
->>>>>>> e67c5ca9bc25bf3af85c8980399123cded4b906f
     font: 17px/1.7 ui-sans-serif, system-ui, sans-serif;
   }
   .card {
     max-width: 30rem; text-align: center;
     border: 1px solid #ecdcc4; border-radius: 1rem;
     background: #fff; padding: 2.5rem 2rem;
-<<<<<<< HEAD
-    box-shadow: 0 1px 2px rgb(29 22 64 / .04), 0 8px 24px -12px rgb(29 22 64 / .14);
-  }
-  h1 { font: 600 1.5rem/1.3 Georgia, serif; color: #8a1938; margin: 0 0 .75rem; }
-  p { margin: 0 0 1rem; }
-  p:last-child { margin-bottom: 0; }
-  code { background: #eff9f8; padding: .15rem .4rem; border-radius: .25rem; font-size: .9em; }
-  .mark {
-    width: 3rem; height: 3rem; margin: 0 auto 1.25rem; border-radius: 50%;
-    background: #8a1938; color: #fffcf6; display: grid; place-items: center;
-    font: 600 1.25rem/1 Georgia, serif;
-  }
-  @media (prefers-color-scheme: dark) {
-    body { background: #14101f; color: #e6e0ee; }
-    .card { background: #1e1830; border-color: #342c4a; }
-    h1 { color: #f0c98a; }
-    code { background: #241d38; }
-=======
     box-shadow: 0 8px 24px -12px rgb(42 26 19 / .18);
   }
   h1 { font: 600 1.5rem/1.3 Georgia, serif; color: #5c172a; margin: 0 0 .75rem; }
@@ -141,7 +115,6 @@ export function gateResponse(reason: "unconfigured" | "unauthorized"): Response 
     .card { background: #241913; border-color: #4a3528; }
     h1 { color: #f3d9c4; }
     code { background: #2e211a; }
->>>>>>> e67c5ca9bc25bf3af85c8980399123cded4b906f
   }
 </style>
 </head>

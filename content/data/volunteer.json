@@ -1,124 +1,13 @@
 {
-<<<<<<< HEAD
-  "intro": {
-    "en": "There is no paid staff. Every aarti that happens, every meal that is cooked and every blanket that reaches a shelter happens because somebody turned up. You do not need to know the rituals, speak Marathi, or commit to anything ongoing — an hour once a month is genuinely useful, and nobody keeps a register.",
-    "mr": "पगारी कर्मचारी नाहीत. होणारी प्रत्येक आरती, शिजवले जाणारे प्रत्येक जेवण आणि निवारागृहापर्यंत पोहोचणारे प्रत्येक ब्लँकेट कोणीतरी आल्यामुळेच घडते. विधी माहीत असण्याची, मराठी बोलण्याची, किंवा दीर्घकाळ बांधून घेण्याची गरज नाही — महिन्यातून एक तासही खरोखर उपयोगी आहे, आणि कोणी हजेरी ठेवत नाही."
-=======
   "_editing": "Volunteer programme. `opportunities` drives the Get Involved list; set `open: false` to keep one listed but closed. The student programme copy sits in content/pages/student-service-hours.en.md.",
 
   "intro": {
     "en": "The mandir has no paid staff. Every aarti sung, every meal cooked, every blanket packed is volunteer seva. There is a place for every skill and for every amount of time you can give — including none at all, which is also fine.",
     "mr": "मंदिरात कोणीही पगारी कर्मचारी नाही. प्रत्येक सेवा स्वयंसेवकांमार्फत होते."
->>>>>>> e67c5ca9bc25bf3af85c8980399123cded4b906f
   },
 
   "opportunities": [
     {
-<<<<<<< HEAD
-      "slug": "thursday-kitchen",
-      "team": "annapurna",
-      "open": true,
-      "minAge": 14,
-      "title": { "en": "Thursday Mahaprasad kitchen", "mr": "गुरुवारचे महाप्रसाद स्वयंपाकघर" },
-      "commitment": {
-        "en": "One Thursday a month, 4.30pm to 9pm. Shorter shifts are fine.",
-        "mr": "महिन्यातील एक गुरुवार, ४.३० ते ९. कमी वेळ दिला तरी चालतो."
-      },
-      "description": {
-        "en": "Chopping, cooking, serving and clearing up for anywhere between sixty and a hundred and twenty people. Two experienced volunteers run each shift, so you are never left guessing. If you would rather wash up than cook, say so — that job is always short of hands.",
-        "mr": "साठ ते एकशेवीस जणांसाठी कापणे, शिजवणे, वाढणे व आवराआवर. प्रत्येक पाळीला दोन अनुभवी स्वयंसेवक असतात, म्हणून तुम्हाला अंदाज बांधावा लागत नाही. स्वयंपाकापेक्षा भांडी घासायला आवडत असेल तर सांगा — त्या कामाला नेहमी हात कमी पडतात."
-      }
-    },
-    {
-      "slug": "shrungar-seva",
-      "team": "shrungar",
-      "open": true,
-      "minAge": 12,
-      "title": { "en": "Shrungar Seva", "mr": "शृंगार सेवा" },
-      "commitment": {
-        "en": "Thursday mornings, 7.15am to 8.30am, as often as you can.",
-        "mr": "गुरुवारी सकाळी ७.१५ ते ८.३०, जितक्या वेळा शक्य होईल."
-      },
-      "description": {
-        "en": "Abhishek, dressing the murti, and the day's flower arrangement. Quiet, unhurried work in a nearly empty hall. Wear something you do not mind getting wet.",
-        "mr": "अभिषेक, मूर्तीचे वस्त्रधारण, आणि दिवसाची फुलांची आरास. जवळपास रिकाम्या सभागृहात शांत, निवांत काम. ओले होऊ शकतील असे कपडे घाला."
-      }
-    },
-    {
-      "slug": "drive-sorting",
-      "team": "samaj-seva",
-      "open": true,
-      "minAge": 10,
-      "title": { "en": "Community drive sorting and packing", "mr": "समाजसेवा उपक्रम वर्गीकरण व पॅकिंग" },
-      "commitment": {
-        "en": "Four to six Saturdays a year, whichever ones suit you.",
-        "mr": "वर्षातील चार ते सहा शनिवार, तुम्हाला जमतील ते."
-      },
-      "description": {
-        "en": "Date-checking groceries, sorting blankets by size, packing hygiene kits. The most family-friendly seva at the centre — children as young as ten work alongside a parent, and this is where most student service hours are earned.",
-        "mr": "सामानाच्या मुदती तपासणे, आकारानुसार ब्लँकेटचे वर्गीकरण, स्वच्छता संच भरणे. केंद्रातील सर्वात कुटुंबस्नेही सेवा — दहा वर्षांची मुलेही पालकांसोबत काम करतात, आणि विद्यार्थ्यांचे बहुतांश सेवा-तास येथेच मिळतात."
-      }
-    },
-    {
-      "slug": "drive-driver",
-      "team": "samaj-seva",
-      "open": true,
-      "minAge": 21,
-      "title": { "en": "Delivery driver", "mr": "वितरण चालक" },
-      "commitment": {
-        "en": "Four afternoons a year, three to four hours each.",
-        "mr": "वर्षातील चार दुपार, प्रत्येकी तीन-चार तास."
-      },
-      "description": {
-        "en": "Driving sorted goods to shelters and food banks around San Jose. You need a van, a pickup or a large estate car, a valid licence and your own insurance. Two people go on every run.",
-        "mr": "वर्गीकरण केलेले सामान सॅन होजेभोवतीच्या निवारागृहे व अन्नपेढ्यांपर्यंत पोहोचवणे. व्हॅन, पिकअप किंवा मोठी गाडी, वैध परवाना व स्वतःचा विमा आवश्यक. प्रत्येक फेरीला दोन जण जातात."
-      }
-    },
-    {
-      "slug": "swagat-desk",
-      "team": "swagat",
-      "open": true,
-      "minAge": 16,
-      "title": { "en": "Welcome desk and parking", "mr": "स्वागत कक्ष व वाहनतळ" },
-      "commitment": {
-        "en": "Utsav days, and busy Thursday evenings. Two-hour shifts.",
-        "mr": "उत्सवाचे दिवस, आणि गजबजलेल्या गुरुवार संध्याकाळी. दोन तासांच्या पाळ्या."
-      },
-      "description": {
-        "en": "Greeting people at the door, showing them the shoe rack, answering 'what happens next', and keeping the car park from gridlocking on a Pragat Din morning. You do not need to know anything about the rituals — the point of this role is to be the person a newcomer is not afraid to ask.",
-        "mr": "दारात लोकांचे स्वागत, चपलांचे रॅक दाखवणे, 'पुढे काय होणार' याचे उत्तर देणे, आणि प्रगट दिनाच्या सकाळी वाहनतळ अडकू न देणे. विधींबद्दल काही माहीत असण्याची गरज नाही — नवागताला विचारायला भीती वाटणार नाही अशी व्यक्ती असणे हेच या भूमिकेचे सार."
-      }
-    },
-    {
-      "slug": "media-recording",
-      "team": "prachar",
-      "open": true,
-      "minAge": 16,
-      "title": { "en": "Recording and uploading aarti", "mr": "आरतीचे ध्वनिचित्रीकरण व अपलोड" },
-      "commitment": {
-        "en": "Remote, plus one Thursday a month at the centre.",
-        "mr": "दूरस्थ, आणि महिन्यातील एक गुरुवार केंद्रात."
-      },
-      "description": {
-        "en": "Filming aarti on a phone or a small camera, trimming it, and uploading to YouTube with a decent title. Also drafting the monthly newsletter. Useful if you have any editing habit at all.",
-        "mr": "फोन किंवा छोट्या कॅमेऱ्यावर आरतीचे चित्रीकरण, कापणी, आणि योग्य शीर्षकासह यूट्यूबवर अपलोड. मासिक वार्तापत्राचा मसुदाही. संपादनाची थोडीही सवय असेल तर उपयोगी."
-      }
-    },
-    {
-      "slug": "upasana-host",
-      "team": "upasana",
-      "open": false,
-      "minAge": 18,
-      "title": { "en": "Online upasana host", "mr": "ऑनलाइन उपासना यजमान" },
-      "commitment": {
-        "en": "One evening a week, 6.55pm to 7.30pm, every week.",
-        "mr": "आठवड्यातील एक संध्याकाळ, ६.५५ ते ७.३०, दर आठवड्याला."
-      },
-      "description": {
-        "en": "Opening the Zoom room, leading Ram Raksha and Maruti Stotra, and closing it. The rota is currently full, but hosts move away and we keep a waiting list — write to us and you will be first asked.",
-        "mr": "झूम खोली उघडणे, रामरक्षा व मारुती स्तोत्र म्हणणे, आणि बंद करणे. पाळीपत्रक सध्या भरलेले आहे, पण यजमान स्थलांतरित होतात आणि आम्ही प्रतीक्षा यादी ठेवतो — आम्हाला लिहा, प्रथम तुम्हालाच विचारले जाईल."
-      }
-=======
       "slug": "mahaprasad-service",
       "title": { "en": "Mahaprasad service", "mr": "महाप्रसाद सेवा" },
       "team": "annadan",
@@ -194,85 +83,10 @@
       },
       "open": true,
       "minAge": 12
->>>>>>> e67c5ca9bc25bf3af85c8980399123cded4b906f
     }
   ],
 
   "studentProgramme": {
-<<<<<<< HEAD
-    "title": {
-      "en": "Student service hours",
-      "mr": "विद्यार्थी सेवा-तास"
-    },
-    "summary": {
-      "en": "High school students can earn verified community service hours at the centre. Most schools in the Bay Area accept them, and we have been signing these letters for several years. The work is genuine — you will be sorting groceries, packing hygiene kits or washing up after Mahaprasad, not filing paperwork.",
-      "mr": "हायस्कूलचे विद्यार्थी केंद्रात प्रमाणित समाजसेवा तास मिळवू शकतात. बे एरियातील बहुतेक शाळा ते स्वीकारतात, आणि आम्ही अनेक वर्षे ही पत्रे देत आलो आहोत. काम खरे असते — तुम्ही सामानाचे वर्गीकरण करणार, स्वच्छता संच भरणार किंवा महाप्रसादानंतर भांडी घासणार, कागदपत्रे भरणार नाही."
-    },
-    "activities": [
-      {
-        "en": "Sorting and date-checking groceries at the food drive",
-        "mr": "अन्नदान उपक्रमात सामानाचे वर्गीकरण व मुदत तपासणी"
-      },
-      {
-        "en": "Packing hygiene kits and school supply bundles",
-        "mr": "स्वच्छता संच व शालेय साहित्याचे संच भरणे"
-      },
-      {
-        "en": "Serving and clearing up at Thursday Mahaprasad",
-        "mr": "गुरुवारच्या महाप्रसादात वाढणे व आवराआवर"
-      },
-      {
-        "en": "Setting out and stacking mats before the monthly upasana",
-        "mr": "मासिक उपासनेपूर्वी सतरंज्या मांडणे व आवरणे"
-      },
-      {
-        "en": "Helping at the welcome desk on an utsav day",
-        "mr": "उत्सवाच्या दिवशी स्वागत कक्षात मदत"
-      },
-      {
-        "en": "Filming and editing aarti recordings, which can be done from home",
-        "mr": "आरतीचे चित्रीकरण व संपादन, जे घरूनही करता येते"
-      }
-    ],
-    "requirements": [
-      {
-        "en": "You must be at least fourteen for kitchen work, or ten for drive sorting when a parent is present.",
-        "mr": "स्वयंपाकघराच्या कामासाठी किमान चौदा वर्षे, किंवा पालक उपस्थित असल्यास उपक्रम वर्गीकरणासाठी दहा वर्षे."
-      },
-      {
-        "en": "Sign in and sign out with the volunteer on duty. Hours we cannot see, we cannot certify.",
-        "mr": "कर्तव्यावर असलेल्या स्वयंसेवकाकडे येताना व जाताना नोंद करा. आम्हाला दिसलेले नाहीत ते तास आम्ही प्रमाणित करू शकत नाही."
-      },
-      {
-        "en": "Turn up when you said you would. A drive delivery is scheduled around the number of people expected.",
-        "mr": "ठरवल्याप्रमाणे या. उपक्रमाचे वितरण अपेक्षित माणसांच्या संख्येवर ठरवले जाते."
-      },
-      {
-        "en": "Closed-toe shoes for kitchen and sorting work, and tied-back hair in the kitchen.",
-        "mr": "स्वयंपाकघर व वर्गीकरणाच्या कामासाठी बंद बूट, आणि स्वयंपाकघरात केस बांधलेले."
-      }
-    ],
-    "guardianConsentNote": {
-      "en": "Students under eighteen need a parent or guardian to complete a consent form before the first shift. It takes two minutes at the welcome desk, or ask us and we will email it. We keep the form only as long as the student volunteers with us, and we do not use the contact details on it for anything else — not the newsletter, not fundraising.",
-      "mr": "अठरा वर्षांखालील विद्यार्थ्यांसाठी पहिल्या पाळीपूर्वी पालकांनी संमतीपत्र भरणे आवश्यक. स्वागत कक्षात दोन मिनिटे लागतात, किंवा आम्हाला सांगा, आम्ही ईमेलने पाठवू. विद्यार्थी आमच्याकडे स्वयंसेवा करत असेपर्यंतच आम्ही ते पत्र ठेवतो, आणि त्यावरील संपर्क तपशील इतर कशासाठीही वापरत नाही — वार्तापत्रासाठी नाही, निधिसंकलनासाठी नाही."
-    },
-    "letterProcess": [
-      {
-        "en": "Sign in and out on every shift, with the volunteer on duty initialling the sheet.",
-        "mr": "प्रत्येक पाळीला येताना व जाताना नोंद करा, कर्तव्यावरील स्वयंसेवकाची सही घ्या."
-      },
-      {
-        "en": "When you need the letter, email us with your full name, your school, the dates you worked and the exact wording or form your school requires.",
-        "mr": "पत्र हवे असेल तेव्हा तुमचे पूर्ण नाव, शाळा, काम केलेल्या तारखा आणि शाळेला हवा असलेला नेमका मजकूर किंवा नमुना ईमेल करा."
-      },
-      {
-        "en": "We check the figure against the sign-in sheets. If they disagree we will ask you about it before writing anything.",
-        "mr": "आम्ही ती संख्या नोंदवहीशी पडताळतो. फरक असल्यास काहीही लिहिण्यापूर्वी आम्ही तुम्हाला विचारतो."
-      },
-      {
-        "en": "A signed letter on the organisation's letterhead, with the EIN and a trustee's signature, arrives by email within five working days. Ask earlier than your deadline — every student asks in the same fortnight of May.",
-        "mr": "संस्थेच्या लेटरहेडवर, ईआयएन व विश्वस्ताच्या सहीसह स्वाक्षरित पत्र पाच कामकाजी दिवसांत ईमेलने येते. मुदतीच्या आधी मागा — मे महिन्याच्या त्याच पंधरवड्यात सर्व विद्यार्थी मागतात."
-=======
     "title": { "en": "Student service hours", "mr": "विद्यार्थी सेवा तास" },
     "summary": {
       "en": "High school students earn verified community service hours through seva at the mandir — accepted for graduation requirements and college applications.",
@@ -308,7 +122,6 @@
       },
       {
         "en": "The letter is issued on Shri Gajanan Seva letterhead with a verification code your school can check with us."
->>>>>>> e67c5ca9bc25bf3af85c8980399123cded4b906f
       }
     ]
   }

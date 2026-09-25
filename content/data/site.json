@@ -1,21 +1,9 @@
 {
-<<<<<<< HEAD
-  "legalName": "Shri Gajanan Seva",
-  "displayName": {
-    "en": "Shri Gajanan Seva",
-    "mr": "श्री गजानन सेवा"
-  },
-  "tagline": {
-    "en": "Bay Area, California",
-    "mr": "बे एरिया, कॅलिफोर्निया"
-  },
-=======
   "_editing": "Organisation-wide facts. Anything set to null is not yet published — the site hides that block rather than showing a blank. Fill it in and it appears. See docs/CONTENT-EDITING.md.",
 
   "legalName": "Shri Gajanan Seva",
   "displayName": { "en": "Shri Gajanan Seva", "mr": "श्री गजानन सेवा" },
   "tagline": { "en": "Bay Area, CA", "mr": "बे एरिया, कॅलिफोर्निया" },
->>>>>>> e67c5ca9bc25bf3af85c8980399123cded4b906f
   "url": "https://shrigajananseva.org",
 
   "nonprofit": {
@@ -32,13 +20,8 @@
     "phone": "(408) 785-1450",
     "phoneE164": "+14087851450",
     "email": "info@shrigajananseva.org",
-<<<<<<< HEAD
-    "charityEmail": "info@shrigajananseva.org",
-    "newsletterEmail": "info@shrigajananseva.org",
-=======
     "charityEmail": "charity@shrigajananseva.org",
     "newsletterEmail": "newsletter@shrigajananseva.org",
->>>>>>> e67c5ca9bc25bf3af85c8980399123cded4b906f
     "privacyEmail": "info@shrigajananseva.org"
   },
 
@@ -48,38 +31,14 @@
     "region": "CA",
     "postalCode": "95131",
     "country": "US",
-<<<<<<< HEAD
-    "mapQuery": "Shri Gajanan Seva, 2350 Paragon Dr, San Jose, CA 95131",
-    "latitude": 37.3861,
-    "longitude": -121.9147
-=======
     "mapQuery": "2350 Paragon Dr, San Jose, CA 95131",
     "latitude": 37.3841,
     "longitude": -121.9045
->>>>>>> e67c5ca9bc25bf3af85c8980399123cded4b906f
   },
 
   "timezone": "America/Los_Angeles",
 
   "hours": [
-<<<<<<< HEAD
-    {
-      "day": 4,
-      "opens": "06:45",
-      "closes": "21:00",
-      "note": {
-        "en": "The long day. Bhupali Aarti at 6.50am through to Shejarati at 8.45pm.",
-        "mr": "मोठा दिवस. सकाळी ६.५० भूपाळी आरतीपासून रात्री ८.४५ शेजारतीपर्यंत."
-      }
-    },
-    { "day": 6, "opens": "10:00", "closes": "18:00" },
-    { "day": 0, "opens": "10:00", "closes": "18:00" }
-  ],
-
-  "hoursNote": {
-    "en": "Thursday is the main day of the week — the centre is open from before dawn until night. Saturday and Sunday are quieter, with darshan through the day and evening aarti at 5.45pm. On all other days the online upasana still runs at 7pm.",
-    "mr": "गुरुवार हा आठवड्याचा मुख्य दिवस — केंद्र पहाटेपूर्वीपासून रात्रीपर्यंत उघडे असते. शनिवार व रविवार शांत असतात, दिवसभर दर्शन आणि सायंकाळी ५.४५ आरती. इतर सर्व दिवशी सायंकाळी ७ वाजता ऑनलाइन उपासना सुरू असते."
-=======
     { "day": 4, "opens": "07:00", "closes": "21:00", "note": { "en": "Darshan and seva" } },
     { "day": 6, "opens": "10:00", "closes": "18:00", "note": { "en": "Darshan and seva" } },
     { "day": 0, "opens": "10:00", "closes": "18:00", "note": { "en": "Darshan and seva" } }
@@ -87,21 +46,10 @@
   "hoursNote": {
     "en": "The mandir is open every Thursday, Saturday and Sunday for darshan and seva. Daily seva continues online on all other days.",
     "mr": "मंदिर दर गुरुवार, शनिवार व रविवारी दर्शन व सेवेसाठी उघडे असते."
->>>>>>> e67c5ca9bc25bf3af85c8980399123cded4b906f
   },
 
   "social": [
     {
-<<<<<<< HEAD
-      "id": "whatsapp-group",
-      "label": "WhatsApp community",
-      "url": null,
-      "handle": null,
-      "description": {
-        "en": "The devotee group. Utsav planning, seva requests, and the day-to-day of the centre.",
-        "mr": "भक्तांचा गट. उत्सवाचे नियोजन, सेवेच्या विनंत्या आणि केंद्राचे दैनंदिन कामकाज."
-      }
-=======
       "id": "youtube",
       "label": "YouTube",
       "url": "https://www.youtube.com/channel/UCwI-uJalIJjfjroTDWaUigA",
@@ -118,7 +66,6 @@
       "label": "Instagram",
       "url": "https://www.instagram.com/shrigajananseva",
       "handle": "@shrigajananseva"
->>>>>>> e67c5ca9bc25bf3af85c8980399123cded4b906f
     },
     {
       "id": "whatsapp-channel",
@@ -126,40 +73,6 @@
       "url": null,
       "handle": null,
       "description": {
-<<<<<<< HEAD
-        "en": "Announcements only, one way. The quietest way to keep up.",
-        "mr": "केवळ सूचना, एकतर्फी. माहिती ठेवण्याचा सर्वात शांत मार्ग."
-      }
-    },
-    {
-      "id": "youtube",
-      "label": "YouTube",
-      "url": "https://www.youtube.com/@shrigajananseva",
-      "handle": "@shrigajananseva",
-      "description": {
-        "en": "Aarti, utsav recordings and pravachan.",
-        "mr": "आरती, उत्सवाचे चित्रीकरण आणि प्रवचन."
-      }
-    },
-    {
-      "id": "facebook",
-      "label": "Facebook",
-      "url": "https://www.facebook.com/shrigajananseva",
-      "handle": "shrigajananseva",
-      "description": {
-        "en": "Photographs from utsav and community drives.",
-        "mr": "उत्सव व समाजसेवा उपक्रमांची छायाचित्रे."
-      }
-    },
-    {
-      "id": "instagram",
-      "label": "Instagram",
-      "url": "https://www.instagram.com/shrigajananseva",
-      "handle": "shrigajananseva",
-      "description": {
-        "en": "The shrungar each Thursday.",
-        "mr": "दर गुरुवारचा शृंगार."
-=======
         "en": "Announcements only. One-way broadcast, no group chatter."
       }
     },
@@ -170,7 +83,6 @@
       "handle": null,
       "description": {
         "en": "Conversation and seva coordination among devotees."
->>>>>>> e67c5ca9bc25bf3af85c8980399123cded4b906f
       }
     }
   ],
@@ -180,13 +92,8 @@
     "meetingId": null,
     "passcode": null,
     "note": {
-<<<<<<< HEAD
-      "en": "The daily 7pm upasana — Shri Ram Raksha and Maruti Stotra — runs on Zoom every day of the year. The link is shared in the WhatsApp community; email us and we will send it to you directly.",
-      "mr": "दररोज सायंकाळी ७ वाजताची उपासना — श्री रामरक्षा व मारुती स्तोत्र — वर्षभर झूमवर चालते. दुवा व्हॉट्सअॅप गटात दिला जातो; आम्हाला ईमेल करा, आम्ही तो थेट पाठवू."
-=======
       "en": "The same Zoom link is used for daily seva every day. Email info@shrigajananseva.org to receive it.",
       "mr": "दैनंदिन सेवेसाठी दररोज तोच Zoom दुवा वापरला जातो."
->>>>>>> e67c5ca9bc25bf3af85c8980399123cded4b906f
     }
   },
 

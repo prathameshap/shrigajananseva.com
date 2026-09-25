@@ -55,6 +55,7 @@ export function SiteHeader({
   const [drawerOpen, setDrawerOpen] = useState(false);
   const [openMenu, setOpenMenu] = useState<string | null>(null);
   const navRef = useRef<HTMLElement>(null);
+  const headerRef = useRef<HTMLElement>(null);
 
   // Close everything on navigation — otherwise the drawer stays open over the
   // page the visitor just asked for.
@@ -89,11 +90,37 @@ export function SiteHeader({
     };
   }, [drawerOpen]);
 
+  /**
+   * Publish the header's real height so the drawer sits directly beneath it.
+   *
+   * The old 4.5rem fallback only matched mobile by coincidence: the utility
+   * bar is `hidden lg:block`, so the header is two different heights.
+   */
+  useEffect(() => {
+    const header = headerRef.current;
+    if (!header) return;
+
+    const publish = () =>
+      document.documentElement.style.setProperty(
+        "--header-h",
+        `${header.getBoundingClientRect().height}px`,
+      );
+
+    publish();
+    const observer = new ResizeObserver(publish);
+    observer.observe(header);
+    return () => observer.disconnect();
+  }, []);
+
   const isActive = (href: string) =>
     pathname === href || (href !== `/${locale}` && pathname.startsWith(`${href}/`));
 
   return (
-    <header className="sticky top-0 z-50 border-b border-hairline bg-canvas/95 backdrop-blur supports-[backdrop-filter]:bg-canvas/80">
+    <>
+    <header
+      ref={headerRef}
+      className="sticky top-0 z-50 border-b border-hairline bg-canvas/95 backdrop-blur supports-[backdrop-filter]:bg-canvas/80"
+    >
       <a href="#main" className="skip-link">
         {labels.skipToContent}
       </a>
@@ -265,8 +292,18 @@ export function SiteHeader({
           </div>
         </div>
       </Container>
+      </header>
 
-      {/* Mobile drawer */}
+      {/*
+        The drawer sits outside the <header>. That placement is load-bearing.
+
+        The header carries `backdrop-blur`. A computed `backdrop-filter` other
+        than `none` makes an element the containing block for its fixed-position
+        descendants, so while this markup lived inside the header, `top` and
+        `bottom` resolved against the header's own box instead of the viewport
+        — giving the panel a height of about 1px. The button toggled, but
+        nothing appeared.
+      */}
       {drawerOpen ? (
         <div
           id="mobile-nav"
@@ -325,6 +362,6 @@ export function SiteHeader({
           </Container>
         </div>
       ) : null}
-    </header>
+    </>
   );
 }

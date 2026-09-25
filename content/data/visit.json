@@ -1,45 +1,4 @@
 {
-<<<<<<< HEAD
-  "firstVisit": {
-    "intro": {
-      "en": "Nothing is asked of you and nothing is expected. There is no entry fee, no register to sign, no dress code enforced and no ritual you have to take part in. You can walk in, sit at the back for ten minutes and leave without speaking to anyone — that is a completely normal visit and several people do it every week.",
-      "mr": "तुमच्याकडून काहीही मागितले जात नाही आणि काही अपेक्षा नाही. प्रवेश शुल्क नाही, नोंदवही नाही, कपड्यांचा सक्तीचा नियम नाही आणि सहभागी व्हावेच लागेल असा कोणताही विधी नाही. तुम्ही आत येऊन मागे दहा मिनिटे बसून कोणाशी न बोलता जाऊ शकता — ही पूर्णपणे सामान्य भेट आहे आणि दर आठवड्याला अनेक जण असेच करतात."
-    },
-    "steps": [
-      {
-        "title": { "en": "Park, then leave your shoes at the door", "mr": "गाडी लावा, दारात चपला ठेवा" },
-        "body": {
-          "en": "There is a rack immediately inside the entrance. Socks are fine and most people keep them on. On a busy utsav morning the rack overflows — put your shoes in a bag and carry them in rather than hunting for them later.",
-          "mr": "प्रवेशद्वाराच्या आत लगेच रॅक आहे. मोजे चालतात आणि बहुतेक लोक ते ठेवतात. गजबजलेल्या उत्सवाच्या सकाळी रॅक भरून जातो — नंतर शोधण्यापेक्षा चपला पिशवीत घालून आत घेऊन या."
-        }
-      },
-      {
-        "title": { "en": "Take darshan whenever you like", "mr": "हवे तेव्हा दर्शन घ्या" },
-        "body": {
-          "en": "Walk up to the murti, stand or bow for as long as feels right, and step aside. There is no queue to join and no order of precedence. If an aarti is in progress, wait at the side until it finishes rather than crossing in front.",
-          "mr": "मूर्तीपुढे जा, योग्य वाटेल तितका वेळ उभे राहा किंवा नमस्कार करा, आणि बाजूला व्हा. रांग नाही आणि क्रम नाही. आरती सुरू असेल तर समोरून जाण्याऐवजी संपेपर्यंत बाजूला थांबा."
-        }
-      },
-      {
-        "title": { "en": "Sit as long as you want", "mr": "हवे तितके बसा" },
-        "body": {
-          "en": "The hall is carpeted and people sit on the floor; chairs are stacked along the back wall and you are welcome to take one. Nobody will move you on, and nobody will come and talk to you unless you look like you want them to.",
-          "mr": "सभागृहात गालिचा आहे आणि लोक जमिनीवर बसतात; मागच्या भिंतीशी खुर्च्या रचलेल्या आहेत, हवी असेल तर घ्या. कोणी तुम्हाला उठवणार नाही, आणि तुम्हाला हवे असल्यासारखे दिसल्याशिवाय कोणी बोलायला येणार नाही."
-        }
-      },
-      {
-        "title": { "en": "Take prasad, and finish it", "mr": "प्रसाद घ्या, आणि संपवा" },
-        "body": {
-          "en": "Prasad is handed out after every aarti, and a full Mahaprasad meal is served on Thursday evenings at 8pm. Everyone eats — devotee, visitor, passer-by. Take only what you will finish; not wasting food is the one thing this sangha is genuinely strict about.",
-          "mr": "प्रत्येक आरतीनंतर प्रसाद वाटला जातो, आणि गुरुवारी रात्री ८ वाजता पूर्ण महाप्रसाद जेवण असते. सर्व जेवतात — भक्त, पाहुणे, वाटसरू. जेवढे संपवाल तेवढेच घ्या; अन्न वाया न घालवणे ही एकच गोष्ट या संघात खरोखर कडक आहे."
-        }
-      },
-      {
-        "title": { "en": "Leave whenever you need to", "mr": "हवे तेव्हा निघा" },
-        "body": {
-          "en": "No announcement, no goodbye. If you enjoyed it, the online upasana runs at 7pm every day of the year and you can join that from home before you ever come back.",
-          "mr": "घोषणा नको, निरोप नको. आवडले असेल तर वर्षातील प्रत्येक दिवशी सायंकाळी ७ वाजता ऑनलाइन उपासना चालते आणि पुन्हा येण्यापूर्वीच तुम्ही घरूनच सहभागी होऊ शकता."
-=======
   "_editing": "Everything on the Visit page except hours and address, which come from site.json. The first-visit guide is written for someone who has never been inside a mandir — keep that reader in mind when editing.",
 
   "firstVisit": {
@@ -76,37 +35,10 @@
         "title": { "en": "Receive prasad", "mr": "प्रसाद घ्या" },
         "body": {
           "en": "Offered with the right hand and received with both. It is food that has been offered first — eating it is part of the visit, not an obligation."
->>>>>>> e67c5ca9bc25bf3af85c8980399123cded4b906f
         }
       }
     ],
     "etiquette": [
-<<<<<<< HEAD
-      {
-        "en": "Dress however you are comfortable. Shoulders and knees covered is customary and appreciated, but nobody will say anything if they are not.",
-        "mr": "तुम्हाला आरामदायी वाटेल ते घाला. खांदे व गुडघे झाकलेले असणे ही रीत आहे आणि आवडते, पण नसल्यास कोणी काही बोलणार नाही."
-      },
-      {
-        "en": "Photographs of the murti and the shrungar are welcome. Photographs of other people are not, unless you have asked them.",
-        "mr": "मूर्ती व शृंगाराची छायाचित्रे घ्यायला हरकत नाही. इतर माणसांची छायाचित्रे विचारल्याशिवाय घेऊ नका."
-      },
-      {
-        "en": "Please do not bring food to offer. The kitchen cooks everything served here, for reasons of allergy and hygiene.",
-        "mr": "अर्पण करण्यासाठी अन्न आणू नका. अॅलर्जी व स्वच्छतेच्या कारणास्तव येथे वाढले जाणारे सर्व स्वयंपाकघरातच शिजते."
-      },
-      {
-        "en": "Phones on silent during aarti. Nobody minds a child making noise.",
-        "mr": "आरतीच्या वेळी फोन सायलेंटवर. मुलाच्या आवाजाची कोणाला हरकत नाही."
-      },
-      {
-        "en": "Children are entirely welcome, including during aarti. They do not need to sit still.",
-        "mr": "मुलांचे संपूर्ण स्वागत, आरतीच्या वेळीही. त्यांनी स्थिर बसायची गरज नाही."
-      }
-    ],
-    "offering": {
-      "en": "Flowers and fruit are the usual offering and can be handed to a volunteer at the shrungar. Money is never expected — there is a donation box beside the murti if you want one, and a QR code on the noticeboard, but a first visit is not the time and nobody is watching.",
-      "mr": "फुले व फळे हे नेहमीचे अर्पण आणि शृंगाराच्या वेळी स्वयंसेवकाकडे देता येते. पैशांची अपेक्षा कधीच नसते — हवी असल्यास मूर्तीशेजारी दानपेटी आहे, आणि सूचनाफलकावर क्यूआर कोड, पण पहिल्या भेटीची ती वेळ नाही आणि कोणी पाहत नाही."
-=======
       { "en": "Dress is informal. Modest clothing covering shoulders and knees is appreciated." },
       { "en": "Photography is fine in the hall, but please not during aarti." },
       { "en": "Please silence phones inside the sanctum." },
@@ -116,35 +48,11 @@
     "offering": {
       "en": "If you would like to make an offering, flowers, fruit, a coconut or dry sweets are all traditional. Please do not bring anything containing meat, eggs, onion or garlic into the sanctum.",
       "mr": "फुले, फळे, नारळ किंवा सुका खाऊ अर्पण करता येतो."
->>>>>>> e67c5ca9bc25bf3af85c8980399123cded4b906f
     }
   },
 
   "parking": {
     "summary": {
-<<<<<<< HEAD
-      "en": "Free parking in the building's own lot, directly outside the entrance. On an ordinary Thursday or weekend afternoon you will find a space without trying.",
-      "mr": "इमारतीच्या स्वतःच्या वाहनतळात विनामूल्य पार्किंग, प्रवेशद्वाराच्या बाहेरच. सामान्य गुरुवारी किंवा सप्ताहांताच्या दुपारी प्रयत्न न करता जागा मिळेल."
-    },
-    "notes": [
-      {
-        "en": "Paragon Drive is a business park, so the lot is at its emptiest exactly when the centre is busiest — evenings and weekends.",
-        "mr": "पॅरागॉन ड्राइव्ह हे व्यावसायिक संकुल आहे, म्हणून केंद्र सर्वात गजबजलेले असते तेव्हाच वाहनतळ सर्वात मोकळा असतो — संध्याकाळी व सप्ताहांती."
-      },
-      {
-        "en": "Two accessible bays are marked immediately beside the entrance. Please leave them for those who need them even when the lot is full.",
-        "mr": "प्रवेशद्वाराशेजारी लगेच दोन सुलभ जागा आखलेल्या आहेत. वाहनतळ भरलेला असतानाही ज्यांना आवश्यक आहे त्यांच्यासाठी त्या सोडा."
-      },
-      {
-        "en": "Do not park in the bays marked for neighbouring units. They are towed, and it has happened to devotees.",
-        "mr": "शेजारच्या युनिट्ससाठी आखलेल्या जागांवर गाडी लावू नका. तेथून गाड्या उचलल्या जातात, आणि भक्तांच्या बाबतीत हे घडले आहे."
-      }
-    ],
-    "overflowNote": {
-      "en": "On Pragat Din and Guru Pournima the lot fills by mid-morning. Volunteers in orange vests direct overflow parking to the adjacent lot from 7am, and there is a drop-off point at the door for anyone who cannot walk the distance.",
-      "mr": "प्रगट दिन व गुरुपौर्णिमेला वाहनतळ सकाळी मध्यापर्यंत भरतो. सकाळी ७ पासून नारिंगी जाकिटातील स्वयंसेवक शेजारच्या वाहनतळाकडे मार्गदर्शन करतात, आणि जे चालू शकत नाहीत त्यांच्यासाठी दारात उतरण्याची सोय आहे."
-    }
-=======
       "en": "Free parking is available in the lot at 2350 Paragon Dr. On ordinary darshan days there is ample space.",
       "mr": "२३५० Paragon Dr येथे मोफत वाहनतळ उपलब्ध आहे."
     },
@@ -155,130 +63,10 @@
       { "en": "Please do not park in neighbouring business lots — we share this block." }
     ],
     "overflowNote": null
->>>>>>> e67c5ca9bc25bf3af85c8980399123cded4b906f
   },
 
   "accessibility": {
     "summary": {
-<<<<<<< HEAD
-      "en": "The centre is on the ground floor with level access from the car park to the hall — no steps anywhere on that route. If something here does not work for you, tell us and we will arrange it rather than explain why it cannot be done.",
-      "mr": "केंद्र तळमजल्यावर आहे आणि वाहनतळापासून सभागृहापर्यंत समपातळी प्रवेश — त्या मार्गावर कुठेही पायऱ्या नाहीत. येथील काही तुम्हाला जमत नसेल तर सांगा; ते का शक्य नाही हे समजावण्याऐवजी आम्ही व्यवस्था करू."
-    },
-    "features": [
-      {
-        "available": true,
-        "en": "Step-free entrance and a level route from the accessible parking bays to the hall",
-        "mr": "पायरीविरहित प्रवेशद्वार आणि सुलभ पार्किंगपासून सभागृहापर्यंत समपातळी मार्ग"
-      },
-      {
-        "available": true,
-        "en": "Chairs available for anyone who cannot sit on the floor — ask any volunteer",
-        "mr": "जमिनीवर बसू न शकणाऱ्यांसाठी खुर्च्या — कोणत्याही स्वयंसेवकाला सांगा"
-      },
-      {
-        "available": true,
-        "en": "Accessible toilet on the same floor",
-        "mr": "त्याच मजल्यावर सुलभ स्वच्छतागृह"
-      },
-      {
-        "available": true,
-        "en": "Wheelchair space kept clear at the front of the hall during aarti",
-        "mr": "आरतीच्या वेळी सभागृहाच्या पुढील भागात व्हीलचेअरसाठी जागा मोकळी ठेवली जाते"
-      },
-      {
-        "available": true,
-        "en": "Every aarti and the daily upasana available on Zoom, for anyone who cannot travel",
-        "mr": "प्रवास करू न शकणाऱ्यांसाठी प्रत्येक आरती व दैनंदिन उपासना झूमवर उपलब्ध"
-      },
-      {
-        "available": false,
-        "en": "Hearing loop in the hall",
-        "mr": "सभागृहात श्रवणयंत्र लूप"
-      },
-      {
-        "available": false,
-        "en": "Large-print copies of the upasana booklet at the centre",
-        "mr": "केंद्रात उपासना पुस्तिकेच्या मोठ्या अक्षरातील प्रती"
-      }
-    ],
-    "contactNote": {
-      "en": "Call or email a day ahead if you would like a chair kept, help from the car park, or the wheelchair space reserved for a particular aarti. A volunteer will meet you at the door. Nobody needs to explain why they are asking.",
-      "mr": "खुर्ची राखून ठेवायची असेल, वाहनतळापासून मदत हवी असेल, किंवा विशिष्ट आरतीसाठी व्हीलचेअरची जागा राखीव हवी असेल तर एक दिवस आधी फोन करा किंवा ईमेल करा. स्वयंसेवक दारात भेटेल. का विचारत आहात हे कोणालाही सांगायची गरज नाही."
-    }
-  },
-
-  "impact": null,
-
-  "faq": [
-    {
-      "q": {
-        "en": "Do I need to be Hindu, or Marathi, to come?",
-        "mr": "येण्यासाठी हिंदू किंवा मराठी असणे आवश्यक आहे का?"
-      },
-      "a": {
-        "en": "No. The centre is open to anybody who wants to walk in, and that is not a polite formula — visitors of every background come, including people who describe themselves as having no religion at all. Aarti is in Marathi, but nobody will test you on it and the prasad does not check.",
-        "mr": "नाही. आत यायची इच्छा असलेल्या कोणासाठीही केंद्र उघडे आहे, आणि हे केवळ सौजन्याचे वाक्य नाही — सर्व पार्श्वभूमीचे पाहुणे येतात, स्वतःला कोणत्याही धर्माचे न मानणारेही. आरती मराठीत असते, पण कोणी तुमची परीक्षा घेणार नाही आणि प्रसाद विचारणा करत नाही."
-      }
-    },
-    {
-      "q": {
-        "en": "Is there a charge, or a membership?",
-        "mr": "शुल्क आहे का, किंवा सदस्यत्व?"
-      },
-      "a": {
-        "en": "Neither. Nothing at the centre has ever been charged for, including the Thursday Mahaprasad. Donations are voluntary, and there is no list of members and no tier of anything.",
-        "mr": "दोन्ही नाहीत. केंद्रात कधीही कशाचेही शुल्क घेतले गेले नाही, गुरुवारच्या महाप्रसादाचेही नाही. देणग्या ऐच्छिक आहेत, सदस्यांची यादी नाही आणि कोणत्याही प्रकारचे स्तर नाहीत."
-      }
-    },
-    {
-      "q": {
-        "en": "What time should I come if it is my first visit?",
-        "mr": "पहिली भेट असेल तर किती वाजता यावे?"
-      },
-      "a": {
-        "en": "A Saturday or Sunday afternoon between 2pm and 5pm. It is quiet, there is no aarti in progress to interrupt, and you can look around and sit without any sense of having walked in on something. If you would rather see the place full, come for the Thursday 7.30pm aarti and stay for Mahaprasad at 8pm.",
-        "mr": "शनिवार किंवा रविवार दुपारी २ ते ५ दरम्यान. शांत असते, व्यत्यय येईल अशी आरती सुरू नसते, आणि तुम्ही काही मध्येच आलो असे न वाटता फिरून बसू शकता. गजबजलेले पाहायचे असेल तर गुरुवारी ७.३० च्या आरतीला या आणि ८ वाजताच्या महाप्रसादापर्यंत थांबा."
-      }
-    },
-    {
-      "q": {
-        "en": "Can I bring young children?",
-        "mr": "लहान मुले आणू शकतो का?"
-      },
-      "a": {
-        "en": "Yes, including during aarti, and they do not need to be quiet or still. Several families treat the Thursday Mahaprasad as the children's dinner. There is floor space at the back where a toddler can be a toddler.",
-        "mr": "हो, आरतीच्या वेळीही, आणि त्यांनी शांत किंवा स्थिर बसायची गरज नाही. अनेक कुटुंबे गुरुवारचा महाप्रसाद मुलांचे जेवण म्हणूनच धरतात. मागे मोकळी जागा आहे जिथे लहान मूल लहान मूल राहू शकते."
-      }
-    },
-    {
-      "q": {
-        "en": "Is the food safe for allergies? What about onion and garlic?",
-        "mr": "अॅलर्जी असणाऱ्यांसाठी अन्न सुरक्षित आहे का? कांदा-लसणाचे काय?"
-      },
-      "a": {
-        "en": "Mahaprasad is always vegetarian and always without onion or garlic. It is cooked in a kitchen that handles milk, ghee, wheat and peanuts, so we cannot promise it is free of any of those. Ask the volunteer serving — they know what went into that day's dish and will tell you straight.",
-        "mr": "महाप्रसाद नेहमी शाकाहारी आणि नेहमी कांदा-लसणाशिवाय. तो दूध, तूप, गहू व शेंगदाणे वापरल्या जाणाऱ्या स्वयंपाकघरात शिजतो, म्हणून त्यांपासून मुक्त असल्याचे आम्ही वचन देऊ शकत नाही. वाढणाऱ्या स्वयंसेवकाला विचारा — त्या दिवशीच्या पदार्थात काय गेले हे त्यांना माहीत असते आणि ते स्पष्ट सांगतील."
-      }
-    },
-    {
-      "q": {
-        "en": "Can I attend from outside the Bay Area?",
-        "mr": "बे एरियाबाहेरून सहभागी होऊ शकतो का?"
-      },
-      "a": {
-        "en": "Yes. The 7pm upasana runs on Zoom every day of the year and devotees join from India, the UK and Australia. The Thursday evening aarti is broadcast too, and every utsav is joinable online. Write to us for the link.",
-        "mr": "हो. सायंकाळी ७ वाजताची उपासना वर्षातील प्रत्येक दिवशी झूमवर चालते आणि भारत, यूके व ऑस्ट्रेलियातून भक्त सहभागी होतात. गुरुवारची सायंकाळची आरतीही प्रसारित होते, आणि प्रत्येक उत्सवात ऑनलाइन सहभाग शक्य आहे. दुव्यासाठी आम्हाला लिहा."
-      }
-    },
-    {
-      "q": {
-        "en": "How do I ask for an aarti or abhishek in my family's name?",
-        "mr": "कुटुंबाच्या नावे आरती किंवा अभिषेक कसा सांगावा?"
-      },
-      "a": {
-        "en": "Email or call and say which Thursday you would like. There is no fee and no fixed donation. The sankalp is read out before the aarti with the names you give us, and the slot is first come, first served — utsav days are usually taken a year ahead.",
-        "mr": "ईमेल करा किंवा फोन करा आणि कोणता गुरुवार हवा ते सांगा. शुल्क नाही आणि ठरलेली देणगी नाही. तुम्ही दिलेल्या नावांसह आरतीपूर्वी संकल्प वाचला जातो, आणि जागा प्रथम येणाऱ्यास प्राधान्य — उत्सवाचे दिवस बहुधा वर्षभर आधी ठरलेले असतात."
-=======
       "en": "The mandir is on a single level with step-free access from the parking lot to the sanctum.",
       "mr": "मंदिरात पायऱ्यांविना प्रवेश उपलब्ध आहे."
     },
@@ -343,7 +131,6 @@
       "q": { "en": "Is the mandir open on days other than Thursday, Saturday and Sunday?" },
       "a": {
         "en": "Not for general darshan. Daily seva continues online on Zoom every day of the year."
->>>>>>> e67c5ca9bc25bf3af85c8980399123cded4b906f
       }
     }
   ]

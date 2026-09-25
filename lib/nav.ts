@@ -102,20 +102,6 @@ export const footerNav: { headingKey: string; items: NavItem[] }[] = [
   },
 ];
 
-<<<<<<< HEAD
-/**
- * The devotee portal's navigation, defined but deliberately not rendered.
- *
- * The portal needs passwordless sign-in, households and a giving history, all of
- * which sit on the Postgres schema and row-level security built in sprints 1 and
- * 2 — none of which exists in this repository, which is the public site. Linking
- * to these paths now would put seven 404s in the header.
- *
- * Wire this into HeaderShell once /portal exists, and delete the exemption in
- * scripts/check-links.mjs at the same time.
- */
-=======
->>>>>>> e67c5ca9bc25bf3af85c8980399123cded4b906f
 export const portalNav: NavItem[] = [
   { href: "/portal", labelKey: "portal.dashboard" },
   { href: "/portal/household", labelKey: "portal.household" },

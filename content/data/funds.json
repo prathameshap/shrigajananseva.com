@@ -1,87 +1,5 @@
 [
   {
-<<<<<<< HEAD
-    "slug": "annadan",
-    "active": true,
-    "title": { "en": "Annadan — Mahaprasad", "mr": "अन्नदान — महाप्रसाद" },
-    "description": {
-      "en": "Groceries for the Thursday Mahaprasad and for prasad at every upasana. A free meal is served to whoever is present, every week, without exception.",
-      "mr": "गुरुवारच्या महाप्रसादासाठी व प्रत्येक उपासनेच्या प्रसादासाठी सामान. उपस्थित असेल त्याला दर आठवड्याला विनामूल्य जेवण, अपवाद नाही."
-    },
-    "suggested": [
-      {
-        "amount": 51,
-        "impact": {
-          "en": "Feeds about twenty-five people at a Thursday Mahaprasad",
-          "mr": "गुरुवारच्या महाप्रसादात सुमारे पंचवीस जणांचे जेवण"
-        }
-      },
-      {
-        "amount": 151,
-        "impact": {
-          "en": "Sponsors one full Thursday Mahaprasad",
-          "mr": "एका संपूर्ण गुरुवारच्या महाप्रसादाचे प्रायोजकत्व"
-        }
-      },
-      {
-        "amount": 501,
-        "impact": {
-          "en": "Covers a month of Thursday meals",
-          "mr": "गुरुवारच्या जेवणाचा एक महिना"
-        }
-      }
-    ]
-  },
-
-  {
-    "slug": "centre",
-    "active": true,
-    "title": { "en": "Keeping the centre open", "mr": "केंद्र चालू ठेवणे" },
-    "description": {
-      "en": "Rent, utilities, insurance and upkeep for 2350 Paragon Drive. The least glamorous fund and the one that decides whether the doors open at all.",
-      "mr": "२३५० पॅरागॉन ड्राइव्हचे भाडे, वीज-पाणी, विमा व देखभाल. सर्वात कमी आकर्षक निधी, आणि दरवाजे उघडणार की नाही हे ठरवणारा."
-    },
-    "suggested": [
-      {
-        "amount": 101,
-        "impact": { "en": "One day of rent and utilities", "mr": "एक दिवसाचे भाडे व वीज-पाणी" }
-      },
-      {
-        "amount": 251,
-        "impact": { "en": "A week of keeping the doors open", "mr": "आठवडाभर दरवाजे उघडे ठेवणे" }
-      },
-      {
-        "amount": 1001,
-        "impact": { "en": "A month of rent", "mr": "एक महिन्याचे भाडे" }
-      }
-    ]
-  },
-
-  {
-    "slug": "utsav",
-    "active": true,
-    "title": { "en": "Utsav", "mr": "उत्सव" },
-    "description": {
-      "en": "Pragat Din, Guru Pournima and Rishi Panchami: flowers, shrungar, the sound system, and Mahaprasad for two hundred or more.",
-      "mr": "प्रगट दिन, गुरुपौर्णिमा व ऋषिपंचमी: फुले, शृंगार, ध्वनियंत्रणा, आणि दोनशेहून अधिक जणांचा महाप्रसाद."
-    },
-    "suggested": [
-      {
-        "amount": 151,
-        "impact": { "en": "Flowers and shrungar for one utsav day", "mr": "एका उत्सव दिवसाची फुले व शृंगार" }
-      },
-      {
-        "amount": 351,
-        "impact": { "en": "Mahaprasad for fifty at Pragat Din", "mr": "प्रगट दिनी पन्नास जणांचा महाप्रसाद" }
-      },
-      {
-        "amount": 1101,
-        "impact": { "en": "Sponsors a full utsav day", "mr": "संपूर्ण उत्सव दिवसाचे प्रायोजकत्व" }
-      }
-    ]
-  },
-
-=======
     "_editing": "Funds shown on /donate. `impact` lines are what a devotee sees next to a suggested amount — keep them concrete and truthful. Set `active: false` to retire a fund without deleting its history.",
     "slug": "general",
     "active": true,
@@ -112,49 +30,11 @@
       { "amount": 1008, "impact": { "en": "Sponsors annadan for an entire utsav day" } }
     ]
   },
->>>>>>> e67c5ca9bc25bf3af85c8980399123cded4b906f
   {
     "slug": "food-drive",
     "active": true,
     "title": { "en": "Food drive", "mr": "अन्नदान उपक्रम" },
     "description": {
-<<<<<<< HEAD
-      "en": "Groceries bought in bulk to top up what devotees bring in, so the delivery to the food bank is a full pallet rather than a few boxes.",
-      "mr": "भक्त आणतात त्यात भर घालण्यासाठी घाऊक खरेदी, जेणेकरून अन्नपेढीला जाणारी पाठवणी काही खोक्यांऐवजी पूर्ण पॅलेट असेल."
-    },
-    "suggested": [
-      {
-        "amount": 51,
-        "impact": { "en": "A week of groceries for one household", "mr": "एका कुटुंबाचे आठवड्याचे सामान" }
-      },
-      {
-        "amount": 251,
-        "impact": { "en": "Rice and lentils in bulk for the December delivery", "mr": "डिसेंबरच्या पाठवणीसाठी घाऊक तांदूळ व डाळी" }
-      }
-    ]
-  },
-
-  {
-    "slug": "blanket-drive",
-    "active": true,
-    "title": { "en": "Winter blankets", "mr": "हिवाळी ब्लँकेट" },
-    "description": {
-      "en": "New blankets, thermals and socks for shelters across Santa Clara County. Only new goods — a shelter cannot accept used bedding.",
-      "mr": "सांता क्लारा काउंटीतील निवारागृहांसाठी नवीन ब्लँकेट, थर्मल कपडे व मोजे. केवळ नवीन वस्तू — निवारागृह वापरलेले अंथरूण स्वीकारू शकत नाही."
-    },
-    "suggested": [
-      {
-        "amount": 41,
-        "impact": { "en": "Two new blankets", "mr": "दोन नवीन ब्लँकेट" }
-      },
-      {
-        "amount": 201,
-        "impact": { "en": "Ten blankets with thermals and socks", "mr": "थर्मल व मोज्यांसह दहा ब्लँकेट" }
-      }
-    ]
-  },
-
-=======
       "en": "Bulk purchase and distribution through partner Bay Area food banks, concentrated around the annual drive but running year-round.",
       "mr": "स्थानिक फूड बँकांमार्फत अन्नवाटप."
     },
@@ -178,29 +58,11 @@
       { "amount": 351, "impact": { "en": "Ten winter kits" } }
     ]
   },
->>>>>>> e67c5ca9bc25bf3af85c8980399123cded4b906f
   {
     "slug": "school-supplies",
     "active": true,
     "title": { "en": "School supplies", "mr": "शालेय साहित्य" },
     "description": {
-<<<<<<< HEAD
-      "en": "Backpacks, notebooks, pens and calculators for San Jose families, distributed in the weeks before the school year starts.",
-      "mr": "सॅन होजेतील कुटुंबांसाठी दप्तरे, वह्या, पेन व कॅल्क्युलेटर, शाळा सुरू होण्यापूर्वीच्या आठवड्यांत वाटप."
-    },
-    "suggested": [
-      {
-        "amount": 31,
-        "impact": { "en": "One child's full set for the year", "mr": "एका मुलाचा वर्षभराचा संपूर्ण संच" }
-      },
-      {
-        "amount": 151,
-        "impact": { "en": "Five children, fully equipped", "mr": "पाच मुले, पूर्ण साहित्यासह" }
-      }
-    ]
-  },
-
-=======
       "en": "Backpacks and stationery for students in under-resourced districts at the start of each school year.",
       "mr": "गरजू विद्यार्थ्यांसाठी दप्तरे व लेखनसाहित्य."
     },
@@ -238,26 +100,11 @@
       { "amount": 1108, "impact": { "en": "Principal sponsor for a utsav day" } }
     ]
   },
->>>>>>> e67c5ca9bc25bf3af85c8980399123cded4b906f
   {
     "slug": "hygiene-kits",
     "active": true,
     "title": { "en": "Hygiene kits", "mr": "स्वच्छता संच" },
     "description": {
-<<<<<<< HEAD
-      "en": "Soap, toothpaste, sanitary products and a towel, packed at the centre and handed out through shelters and street outreach.",
-      "mr": "साबण, टूथपेस्ट, सॅनिटरी वस्तू व टॉवेल, केंद्रात भरून निवारागृहे व रस्त्यावरील मदतकार्यातून वाटप."
-    },
-    "suggested": [
-      {
-        "amount": 21,
-        "impact": { "en": "Two complete kits", "mr": "दोन पूर्ण संच" }
-      },
-      {
-        "amount": 101,
-        "impact": { "en": "Ten complete kits", "mr": "दहा पूर्ण संच" }
-      }
-=======
       "en": "Soap, toothpaste, sanitary supplies and towels assembled into kits for shelter partners.",
       "mr": "निवारा केंद्रांसाठी स्वच्छता संच."
     },
@@ -265,7 +112,6 @@
       { "amount": 18, "impact": { "en": "One hygiene kit" } },
       { "amount": 108, "impact": { "en": "Six hygiene kits" } },
       { "amount": 351, "impact": { "en": "Twenty hygiene kits" } }
->>>>>>> e67c5ca9bc25bf3af85c8980399123cded4b906f
     ]
   }
 ]

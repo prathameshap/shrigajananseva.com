@@ -130,11 +130,6 @@ export type SevaSlot = {
   slug: string;
   time: string;
   durationMinutes: number;
-<<<<<<< HEAD
-  /** Weekdays this slot runs on, 0 = Sunday … 6 = Saturday. */
-  days: number[];
-=======
->>>>>>> e67c5ca9bc25bf3af85c8980399123cded4b906f
   title: LocalizedText;
   description: LocalizedText;
   mode: SevaMode;
@@ -170,13 +165,6 @@ export const dailySeva = dailySevaJson as unknown as {
   sankalp: { title: LocalizedText; description: LocalizedText };
 };
 
-<<<<<<< HEAD
-export function getSevaSlot(slug: string): SevaSlot | undefined {
-  return dailySeva.schedule.find((slot) => slot.slug === slug);
-}
-
-=======
->>>>>>> e67c5ca9bc25bf3af85c8980399123cded4b906f
 export const people = peopleJson as unknown as {
   trustees: {
     name: string;
