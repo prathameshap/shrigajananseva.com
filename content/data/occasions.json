@@ -1,0 +1,461 @@
+[
+  {
+    "slug": "pragat-din-2026",
+    "type": "utsav",
+    "title": { "en": "Pragat Din Utsav 2026", "mr": "प्रगट दिन उत्सव २०२६" },
+    "summary": {
+      "en": "The day Shri Gajanan Maharaj first appeared at Shegaon, kept from before dawn until night with shrungar, abhishek and Mahaprasad.",
+      "mr": "श्री गजानन महाराज शेगावी प्रथम प्रगट झाले तो दिवस, पहाटेपूर्वीपासून रात्रीपर्यंत शृंगार, अभिषेक व महाप्रसादासह."
+    },
+    "start": "2026-02-14T05:10:00-08:00",
+    "end": "2026-02-14T21:00:00-08:00",
+    "dateConfirmed": true,
+    "locationName": "Shri Gajanan Seva Centre",
+    "capacity": 220,
+    "rsvpCount": 218,
+    "rsvpOpen": false,
+    "onlineJoin": true,
+    "fundSlug": "utsav",
+    "schedule": [
+      { "time": "05:10", "label": { "en": "Kakad Aarti", "mr": "काकड आरती" } },
+      { "time": "06:00", "label": { "en": "Abhishek and shrungar", "mr": "अभिषेक व शृंगार" } },
+      { "time": "08:30", "label": { "en": "Morning Aarti", "mr": "सकाळची आरती" } },
+      { "time": "10:00", "label": { "en": "Pothi vachan", "mr": "पोथी वाचन" } },
+      { "time": "12:10", "label": { "en": "Afternoon Aarti and Mahaprasad", "mr": "दुपारची आरती व महाप्रसाद" } },
+      { "time": "16:00", "label": { "en": "Bhajan and kirtan", "mr": "भजन व कीर्तन" } },
+      { "time": "19:30", "label": { "en": "Evening Aarti", "mr": "सायंकाळची आरती" } },
+      { "time": "20:00", "label": { "en": "Mahaprasad", "mr": "महाप्रसाद" } },
+      { "time": "20:45", "label": { "en": "Shejarati", "mr": "शेजारती" } }
+    ],
+    "significance": {
+      "en": "Maharaj was first seen at Shegaon on Magh Shukla Saptami, sitting by a heap of discarded leaf-plates and eating the grains left on them. That is the beginning of everything the sangha does, and it is why no food is wasted at this centre.",
+      "mr": "माघ शुद्ध सप्तमीला महाराज शेगावी प्रथम दिसले, टाकून दिलेल्या पत्रावळींच्या ढिगाऱ्याजवळ बसून त्यांवर उरलेले दाणे खात होते. संघ जे काही करतो त्याची ही सुरुवात आहे, आणि म्हणूनच या केंद्रात अन्न वाया जात नाही."
+    },
+    "whatToBring": [
+      { "en": "Nothing at all is required.", "mr": "काहीही आणण्याची गरज नाही." }
+    ],
+    "volunteerNeeds": []
+  },
+
+  {
+    "slug": "school-supplies-drive-2026",
+    "type": "seva-drive",
+    "title": { "en": "School Supplies Drive 2026", "mr": "शालेय साहित्य संकलन २०२६" },
+    "summary": {
+      "en": "Backpacks, notebooks and stationery collected at the centre and given to San Jose families before the school year began.",
+      "mr": "शाळा सुरू होण्यापूर्वी केंद्रात दप्तरे, वह्या व लेखनसामग्री गोळा करून सॅन होजेतील कुटुंबांना दिली."
+    },
+    "start": "2026-08-08T10:00:00-07:00",
+    "end": "2026-08-08T18:00:00-07:00",
+    "dateConfirmed": true,
+    "locationName": "Shri Gajanan Seva Centre",
+    "capacity": null,
+    "rsvpCount": 0,
+    "rsvpOpen": false,
+    "onlineJoin": false,
+    "fundSlug": "school-supplies",
+    "schedule": [],
+    "significance": {
+      "en": "'Help each other' was not a teaching Maharaj gave in words so much as one he demonstrated. The drives are the plainest form of it we have.",
+      "mr": "'एकमेकांना मदत करा' हे महाराजांनी शब्दांत सांगितलेले शिक्षण नव्हते, तर कृतीतून दाखवलेले होते. हे उपक्रम त्याचे सर्वात साधे रूप आहे."
+    },
+    "whatToBring": [],
+    "volunteerNeeds": []
+  },
+
+  {
+    "slug": "guru-pournima-2026",
+    "type": "utsav",
+    "title": { "en": "Shri Guru Pournima Utsav 2026", "mr": "श्री गुरुपौर्णिमा उत्सव २०२६" },
+    "summary": {
+      "en": "Guru Pournima, kept with paduka pujan, Gajanan Vijay pothi vachan and Mahaprasad at midday.",
+      "mr": "गुरुपौर्णिमा, पादुका पूजन, गजानन विजय पोथी वाचन व दुपारी महाप्रसादासह."
+    },
+    "start": "2026-08-01T07:00:00-07:00",
+    "end": "2026-08-01T14:00:00-07:00",
+    "dateConfirmed": true,
+    "locationName": "Shri Gajanan Seva Centre",
+    "capacity": 180,
+    "rsvpCount": 174,
+    "rsvpOpen": false,
+    "onlineJoin": true,
+    "fundSlug": "utsav",
+    "schedule": [
+      { "time": "07:00", "label": { "en": "Abhishek and shrungar", "mr": "अभिषेक व शृंगार" } },
+      { "time": "09:00", "label": { "en": "Paduka pujan", "mr": "पादुका पूजन" } },
+      { "time": "10:30", "label": { "en": "Gajanan Vijay pothi vachan", "mr": "गजानन विजय पोथी वाचन" } },
+      { "time": "12:10", "label": { "en": "Aarti", "mr": "आरती" } },
+      { "time": "12:30", "label": { "en": "Mahaprasad", "mr": "महाप्रसाद" } }
+    ],
+    "significance": {
+      "en": "The day a disciple thanks the guru. In this tradition the guru is not a person you must find — the nam itself is the guru, and Pournima is when the sangha says so out loud together.",
+      "mr": "शिष्याने गुरूचे आभार मानण्याचा दिवस. या परंपरेत गुरू हा शोधायचा माणूस नाही — नाम हेच गुरू आहे, आणि पौर्णिमेला संघ हे एकत्र मोठ्याने सांगतो."
+    },
+    "whatToBring": [],
+    "volunteerNeeds": []
+  },
+
+  {
+    "slug": "rishi-panchami-2026",
+    "type": "utsav",
+    "title": { "en": "Rishi Panchami — Punyatithi 2026", "mr": "ऋषिपंचमी — पुण्यतिथी २०२६" },
+    "summary": {
+      "en": "The punyatithi of Shri Gajanan Maharaj, observed with abhishek, pothi vachan and Mahaprasad.",
+      "mr": "श्री गजानन महाराजांची पुण्यतिथी, अभिषेक, पोथी वाचन व महाप्रसादाने पाळली जाते."
+    },
+    "start": "2026-09-15T07:00:00-07:00",
+    "end": "2026-09-15T12:00:00-07:00",
+    "dateConfirmed": true,
+    "locationName": "Shri Gajanan Seva Centre",
+    "capacity": 160,
+    "rsvpCount": 151,
+    "rsvpOpen": false,
+    "onlineJoin": true,
+    "fundSlug": "utsav",
+    "schedule": [
+      { "time": "07:00", "label": { "en": "Abhishek and shrungar", "mr": "अभिषेक व शृंगार" } },
+      { "time": "08:30", "label": { "en": "Morning Aarti", "mr": "सकाळची आरती" } },
+      { "time": "09:30", "label": { "en": "Pothi vachan — final adhyay", "mr": "पोथी वाचन — शेवटचा अध्याय" } },
+      { "time": "11:15", "label": { "en": "Aarti", "mr": "आरती" } },
+      { "time": "11:30", "label": { "en": "Mahaprasad", "mr": "महाप्रसाद" } }
+    ],
+    "significance": {
+      "en": "Maharaj took samadhi on Rishi Panchami in 1910, having told the devotees around him that he was not going anywhere. The day is kept as a punyatithi rather than a mourning — the reading ends, the aarti is sung, and everyone eats together.",
+      "mr": "१९१० साली ऋषिपंचमीला महाराजांनी समाधी घेतली, आपण कुठेही जात नाही असे भोवतीच्या भक्तांना सांगून. हा दिवस शोक म्हणून नव्हे तर पुण्यतिथी म्हणून पाळला जातो — वाचन संपते, आरती होते, आणि सर्व एकत्र जेवतात."
+    },
+    "whatToBring": [],
+    "volunteerNeeds": []
+  },
+
+  {
+    "slug": "monthly-upasana-2026-10",
+    "type": "upasana",
+    "title": { "en": "Monthly Upasana — October", "mr": "मासिक उपासना — ऑक्टोबर" },
+    "summary": {
+      "en": "The monthly collective upasana: two hours of naamasmaran, then aarti and prasad. Come for either half or both.",
+      "mr": "मासिक सामूहिक उपासना: दोन तास नामस्मरण, नंतर आरती व प्रसाद. कोणत्याही एका भागासाठी किंवा दोन्हीसाठी या."
+    },
+    "start": "2026-10-17T16:00:00-07:00",
+    "end": "2026-10-17T20:00:00-07:00",
+    "dateConfirmed": true,
+    "recurrence": {
+      "en": "Once a month, usually the third Saturday. The exact date is announced on WhatsApp two weeks ahead.",
+      "mr": "महिन्यातून एकदा, सामान्यतः तिसऱ्या शनिवारी. नेमकी तारीख दोन आठवडे आधी व्हॉट्सअॅपवर कळवली जाते."
+    },
+    "locationName": "Shri Gajanan Seva Centre",
+    "capacity": 90,
+    "rsvpCount": 41,
+    "rsvpOpen": true,
+    "onlineJoin": true,
+    "fundSlug": "annadan",
+    "schedule": [
+      { "time": "16:00", "label": { "en": "Naamasmaran — collective jaap", "mr": "नामस्मरण — सामूहिक जप" } },
+      { "time": "18:00", "label": { "en": "Aarti", "mr": "आरती" } },
+      { "time": "18:30", "label": { "en": "Prasad", "mr": "प्रसाद" } }
+    ],
+    "significance": {
+      "en": "Jaap done alone is the practice; jaap done in a room with fifty other people is something else again. That is the only reason this exists as a separate occasion.",
+      "mr": "एकट्याने केलेला जप ही साधना आहे; पन्नास लोकांसोबत एका खोलीत केलेला जप ही वेगळीच गोष्ट आहे. हा स्वतंत्र कार्यक्रम असण्याचे एवढेच कारण."
+    },
+    "whatToBring": [
+      {
+        "en": "A shawl or light blanket if you feel the cold — the hall is air-conditioned and two hours is a long sit.",
+        "mr": "थंडी वाजत असेल तर शाल किंवा पातळ पांघरूण — सभागृह वातानुकूलित आहे आणि दोन तास बसणे मोठे असते."
+      },
+      {
+        "en": "Your own mala if you use one. Spares are kept at the centre.",
+        "mr": "तुमची माळ वापरत असल्यास सोबत आणा. केंद्रात अतिरिक्त माळा ठेवलेल्या आहेत."
+      }
+    ],
+    "volunteerNeeds": [
+      { "en": "Prasad service and clearing up", "mr": "प्रसाद वाटप व आवराआवर", "slots": 6 },
+      { "en": "Setting out mats before 3.30pm", "mr": "३.३० पूर्वी सतरंज्या मांडणे", "slots": 4 }
+    ]
+  },
+
+  {
+    "slug": "blanket-drive-2026",
+    "type": "seva-drive",
+    "title": { "en": "Winter Blankets Drive 2026", "mr": "हिवाळी ब्लँकेट संकलन २०२६" },
+    "summary": {
+      "en": "New blankets and warm layers collected at the centre and taken to shelters across Santa Clara County before the cold sets in.",
+      "mr": "थंडी सुरू होण्यापूर्वी नवीन ब्लँकेट व उबदार कपडे केंद्रात गोळा करून सांता क्लारा काउंटीतील निवारागृहांना दिले जातात."
+    },
+    "start": "2026-11-14T10:00:00-08:00",
+    "end": "2026-11-14T18:00:00-08:00",
+    "dateConfirmed": true,
+    "dateNote": {
+      "en": "Collection runs at the centre through all of November; the 14th is the sorting and packing day.",
+      "mr": "संकलन नोव्हेंबरभर केंद्रात चालते; १४ तारखेला वर्गीकरण व पॅकिंग."
+    },
+    "locationName": "Shri Gajanan Seva Centre",
+    "capacity": null,
+    "rsvpCount": 0,
+    "rsvpOpen": true,
+    "onlineJoin": false,
+    "fundSlug": "blanket-drive",
+    "schedule": [
+      { "time": "10:00", "label": { "en": "Sorting and quality check", "mr": "वर्गीकरण व तपासणी" } },
+      { "time": "13:00", "label": { "en": "Packing", "mr": "पॅकिंग" } },
+      { "time": "15:00", "label": { "en": "Loading for delivery", "mr": "वितरणासाठी भरणे" } }
+    ],
+    "significance": {
+      "en": "Two winters ago the drive collected 340 blankets. Every one was new, because a blanket handed to someone sleeping outside should not be somebody's cast-off.",
+      "mr": "दोन हिवाळ्यांपूर्वी या उपक्रमात ३४० ब्लँकेट जमा झाली. प्रत्येक नवीन होती, कारण बाहेर झोपणाऱ्याच्या हातात दिलेले ब्लँकेट कोणाचे टाकून दिलेले असू नये."
+    },
+    "whatToBring": [
+      {
+        "en": "New blankets, or new thermal layers, socks and gloves. Please do not bring used bedding — shelters cannot accept it.",
+        "mr": "नवीन ब्लँकेट, किंवा नवीन थर्मल कपडे, मोजे व हातमोजे. वापरलेले अंथरूण-पांघरूण आणू नका — निवारागृहे ते स्वीकारू शकत नाहीत."
+      }
+    ],
+    "volunteerNeeds": [
+      { "en": "Sorting and packing", "mr": "वर्गीकरण व पॅकिंग", "slots": 12 },
+      { "en": "Drivers with a van or large car", "mr": "व्हॅन किंवा मोठी गाडी असलेले चालक", "slots": 4 }
+    ]
+  },
+
+  {
+    "slug": "monthly-upasana-2026-11",
+    "type": "upasana",
+    "title": { "en": "Monthly Upasana — November", "mr": "मासिक उपासना — नोव्हेंबर" },
+    "summary": {
+      "en": "Two hours of collective naamasmaran, then aarti and prasad.",
+      "mr": "दोन तास सामूहिक नामस्मरण, नंतर आरती व प्रसाद."
+    },
+    "start": "2026-11-21T16:00:00-08:00",
+    "end": "2026-11-21T20:00:00-08:00",
+    "dateConfirmed": true,
+    "recurrence": {
+      "en": "Once a month, usually the third Saturday.",
+      "mr": "महिन्यातून एकदा, सामान्यतः तिसऱ्या शनिवारी."
+    },
+    "locationName": "Shri Gajanan Seva Centre",
+    "capacity": 90,
+    "rsvpCount": 12,
+    "rsvpOpen": true,
+    "onlineJoin": true,
+    "fundSlug": "annadan",
+    "schedule": [
+      { "time": "16:00", "label": { "en": "Naamasmaran — collective jaap", "mr": "नामस्मरण — सामूहिक जप" } },
+      { "time": "18:00", "label": { "en": "Aarti", "mr": "आरती" } },
+      { "time": "18:30", "label": { "en": "Prasad", "mr": "प्रसाद" } }
+    ],
+    "significance": {
+      "en": "The same practice every month, deliberately. Nothing is added and nothing is made special.",
+      "mr": "दर महिन्याला तीच साधना, जाणीवपूर्वक. काही जोडले जात नाही आणि काही विशेष केले जात नाही."
+    },
+    "whatToBring": [],
+    "volunteerNeeds": [
+      { "en": "Prasad service and clearing up", "mr": "प्रसाद वाटप व आवराआवर", "slots": 6 }
+    ]
+  },
+
+  {
+    "slug": "food-drive-2026",
+    "type": "seva-drive",
+    "title": { "en": "Food Drive 2026", "mr": "अन्नदान उपक्रम २०२६" },
+    "summary": {
+      "en": "Non-perishable groceries collected for Second Harvest of Silicon Valley, timed for the weeks when food banks run shortest.",
+      "mr": "सेकंड हार्वेस्ट ऑफ सिलिकॉन व्हॅलीसाठी टिकाऊ धान्य-सामान संकलन, अन्नपेढ्यांकडे सर्वात कमी साठा असतो त्या आठवड्यांत."
+    },
+    "start": "2026-12-12T10:00:00-08:00",
+    "end": "2026-12-12T18:00:00-08:00",
+    "dateConfirmed": true,
+    "locationName": "Shri Gajanan Seva Centre",
+    "capacity": null,
+    "rsvpCount": 0,
+    "rsvpOpen": true,
+    "onlineJoin": false,
+    "fundSlug": "food-drive",
+    "schedule": [
+      { "time": "10:00", "label": { "en": "Collection and sorting", "mr": "संकलन व वर्गीकरण" } },
+      { "time": "15:00", "label": { "en": "Loading for delivery", "mr": "वितरणासाठी भरणे" } }
+    ],
+    "significance": {
+      "en": "'Do not waste food' is the teaching most often quoted about Maharaj, and it is the one this drive is built on. Food that would sit in a cupboard goes to a household that has none.",
+      "mr": "'अन्न वाया घालवू नका' हे महाराजांविषयी सर्वाधिक सांगितले जाणारे शिक्षण, आणि याच पायावर हा उपक्रम उभा आहे. कपाटात पडून राहणारे अन्न ते नसलेल्या घरात जाते."
+    },
+    "whatToBring": [
+      {
+        "en": "Sealed, in-date, non-perishable groceries: rice, lentils, pasta, tinned vegetables, cooking oil.",
+        "mr": "सीलबंद, मुदतीत असलेले टिकाऊ सामान: तांदूळ, डाळी, पास्ता, डब्यातील भाज्या, खाद्यतेल."
+      },
+      {
+        "en": "Nothing in glass, and nothing already opened.",
+        "mr": "काचेच्या बरणीत काही नको, आणि उघडलेले काही नको."
+      }
+    ],
+    "volunteerNeeds": [
+      { "en": "Sorting and date-checking", "mr": "वर्गीकरण व मुदत तपासणी", "slots": 10 },
+      { "en": "Drivers", "mr": "चालक", "slots": 3 }
+    ]
+  },
+
+  {
+    "slug": "monthly-upasana-2026-12",
+    "type": "upasana",
+    "title": { "en": "Monthly Upasana — December", "mr": "मासिक उपासना — डिसेंबर" },
+    "summary": {
+      "en": "Two hours of collective naamasmaran, then aarti and prasad.",
+      "mr": "दोन तास सामूहिक नामस्मरण, नंतर आरती व प्रसाद."
+    },
+    "start": "2026-12-19T16:00:00-08:00",
+    "end": "2026-12-19T20:00:00-08:00",
+    "dateConfirmed": true,
+    "recurrence": {
+      "en": "Once a month, usually the third Saturday.",
+      "mr": "महिन्यातून एकदा, सामान्यतः तिसऱ्या शनिवारी."
+    },
+    "locationName": "Shri Gajanan Seva Centre",
+    "capacity": 90,
+    "rsvpCount": 4,
+    "rsvpOpen": true,
+    "onlineJoin": true,
+    "fundSlug": "annadan",
+    "schedule": [
+      { "time": "16:00", "label": { "en": "Naamasmaran — collective jaap", "mr": "नामस्मरण — सामूहिक जप" } },
+      { "time": "18:00", "label": { "en": "Aarti", "mr": "आरती" } },
+      { "time": "18:30", "label": { "en": "Prasad", "mr": "प्रसाद" } }
+    ],
+    "significance": {
+      "en": "The same practice every month, deliberately.",
+      "mr": "दर महिन्याला तीच साधना, जाणीवपूर्वक."
+    },
+    "whatToBring": [],
+    "volunteerNeeds": []
+  },
+
+  {
+    "slug": "pragat-din-2027",
+    "type": "utsav",
+    "title": { "en": "Pragat Din Utsav 2027", "mr": "प्रगट दिन उत्सव २०२७" },
+    "summary": {
+      "en": "The largest day of the year at the centre. Kakad Aarti before dawn, abhishek, pothi vachan, and Mahaprasad served twice.",
+      "mr": "केंद्रातील वर्षातील सर्वात मोठा दिवस. पहाटेपूर्वी काकड आरती, अभिषेक, पोथी वाचन, आणि दोन वेळा महाप्रसाद."
+    },
+    "start": "2027-02-03T05:10:00-08:00",
+    "end": "2027-02-03T21:00:00-08:00",
+    "dateConfirmed": false,
+    "dateNote": {
+      "en": "Magh Shukla Saptami falls in early February 2027. The exact date is fixed once the panchang is settled and will be confirmed here and on WhatsApp.",
+      "mr": "माघ शुद्ध सप्तमी फेब्रुवारी २०२७ च्या सुरुवातीला येते. पंचांग निश्चित झाल्यावर नेमकी तारीख ठरते आणि ती येथे व व्हॉट्सअॅपवर कळवली जाईल."
+    },
+    "locationName": "Shri Gajanan Seva Centre",
+    "capacity": 240,
+    "rsvpCount": 0,
+    "rsvpOpen": false,
+    "rsvpOpensOn": "2026-12-15T09:00:00-08:00",
+    "onlineJoin": true,
+    "fundSlug": "utsav",
+    "schedule": [
+      { "time": "05:10", "label": { "en": "Kakad Aarti", "mr": "काकड आरती" } },
+      { "time": "06:00", "label": { "en": "Abhishek and shrungar", "mr": "अभिषेक व शृंगार" } },
+      { "time": "08:30", "label": { "en": "Morning Aarti", "mr": "सकाळची आरती" } },
+      { "time": "10:00", "label": { "en": "Gajanan Vijay pothi vachan", "mr": "गजानन विजय पोथी वाचन" } },
+      { "time": "12:10", "label": { "en": "Afternoon Aarti", "mr": "दुपारची आरती" } },
+      { "time": "12:30", "label": { "en": "Mahaprasad — first sitting", "mr": "महाप्रसाद — पहिली पंगत" } },
+      { "time": "16:00", "label": { "en": "Bhajan and kirtan", "mr": "भजन व कीर्तन" } },
+      { "time": "19:30", "label": { "en": "Evening Aarti", "mr": "सायंकाळची आरती" } },
+      { "time": "20:00", "label": { "en": "Mahaprasad — second sitting", "mr": "महाप्रसाद — दुसरी पंगत" } },
+      { "time": "20:45", "label": { "en": "Shejarati", "mr": "शेजारती" } }
+    ],
+    "significance": {
+      "en": "On Magh Shukla Saptami, Shaka 1800, a young sanyasi was first seen at Shegaon beside a heap of used leaf-plates, eating the grains of rice left on them and drinking water from a puddle. Asked why, he said the grain had been grown by someone's labour and was not his to waste. Everything the sangha does — the Mahaprasad, the food drive, the rule that you finish what you take — comes from that morning.",
+      "mr": "शके १८०० च्या माघ शुद्ध सप्तमीला शेगावात एक तरुण संन्यासी वापरलेल्या पत्रावळींच्या ढिगाऱ्याजवळ प्रथम दिसला, त्यांवर उरलेले भाताचे दाणे खात आणि डबक्यातले पाणी पीत. का असे विचारल्यावर त्यांनी सांगितले की हे धान्य कोणाच्या श्रमाने पिकले आहे, ते वाया घालवण्याचा अधिकार आपला नाही. संघ जे करतो ते सर्व — महाप्रसाद, अन्नदान उपक्रम, घेतलेले संपवण्याचा नियम — त्या सकाळपासून आले आहे."
+    },
+    "whatToBring": [
+      {
+        "en": "Nothing is required. If you would like to offer something, flowers or fruit are what the centre can use.",
+        "mr": "काही आणण्याची गरज नाही. काही अर्पण करायचे असेल तर फुले किंवा फळे केंद्राला उपयोगी पडतात."
+      },
+      {
+        "en": "Come early if you want to see the Kakad Aarti — the hall holds about sixty at 5am.",
+        "mr": "काकड आरती पाहायची असेल तर लवकर या — पहाटे ५ वाजता सभागृहात सुमारे साठ जण बसतात."
+      }
+    ],
+    "volunteerNeeds": [
+      { "en": "Kitchen — Mahaprasad preparation from 6am", "mr": "स्वयंपाकघर — सकाळी ६ पासून महाप्रसादाची तयारी", "slots": 20 },
+      { "en": "Shrungar and flower arrangement", "mr": "शृंगार व फुलांची आरास", "slots": 8 },
+      { "en": "Parking and welcome", "mr": "वाहनतळ व स्वागत", "slots": 10 },
+      { "en": "Clearing up after each sitting", "mr": "प्रत्येक पंगतीनंतर आवराआवर", "slots": 14 }
+    ]
+  },
+
+  {
+    "slug": "guru-pournima-2027",
+    "type": "utsav",
+    "title": { "en": "Shri Guru Pournima Utsav 2027", "mr": "श्री गुरुपौर्णिमा उत्सव २०२७" },
+    "summary": {
+      "en": "Paduka pujan, pothi vachan and Mahaprasad, finishing by early afternoon.",
+      "mr": "पादुका पूजन, पोथी वाचन व महाप्रसाद, दुपारपर्यंत समाप्ती."
+    },
+    "start": "2027-07-19T07:00:00-07:00",
+    "end": "2027-07-19T14:00:00-07:00",
+    "dateConfirmed": false,
+    "dateNote": {
+      "en": "Ashadh Pournima falls in mid-July 2027. The date will be confirmed once the panchang is settled.",
+      "mr": "आषाढ पौर्णिमा जुलै २०२७ च्या मध्यावर येते. पंचांग निश्चित झाल्यावर तारीख कळवली जाईल."
+    },
+    "locationName": "Shri Gajanan Seva Centre",
+    "capacity": 180,
+    "rsvpCount": 0,
+    "rsvpOpen": false,
+    "onlineJoin": true,
+    "fundSlug": "utsav",
+    "schedule": [
+      { "time": "07:00", "label": { "en": "Abhishek and shrungar", "mr": "अभिषेक व शृंगार" } },
+      { "time": "09:00", "label": { "en": "Paduka pujan", "mr": "पादुका पूजन" } },
+      { "time": "10:30", "label": { "en": "Gajanan Vijay pothi vachan", "mr": "गजानन विजय पोथी वाचन" } },
+      { "time": "12:10", "label": { "en": "Aarti", "mr": "आरती" } },
+      { "time": "12:30", "label": { "en": "Mahaprasad", "mr": "महाप्रसाद" } }
+    ],
+    "significance": {
+      "en": "Guru Pournima is when a disciple says thank you. In this tradition there is no guru to go looking for: the nam is the guru, available to anyone, and Pournima is the day the sangha acknowledges it together.",
+      "mr": "गुरुपौर्णिमा हा शिष्याने आभार मानण्याचा दिवस. या परंपरेत शोधायला जायचा गुरू नाही: नाम हेच गुरू, कोणालाही उपलब्ध, आणि पौर्णिमेला संघ ते एकत्र मान्य करतो."
+    },
+    "whatToBring": [],
+    "volunteerNeeds": [
+      { "en": "Kitchen", "mr": "स्वयंपाकघर", "slots": 12 },
+      { "en": "Shrungar", "mr": "शृंगार", "slots": 6 }
+    ]
+  },
+
+  {
+    "slug": "rishi-panchami-2027",
+    "type": "utsav",
+    "title": { "en": "Rishi Panchami — Punyatithi 2027", "mr": "ऋषिपंचमी — पुण्यतिथी २०२७" },
+    "summary": {
+      "en": "The punyatithi of Shri Gajanan Maharaj. Abhishek, the final adhyay of the pothi, aarti and Mahaprasad.",
+      "mr": "श्री गजानन महाराजांची पुण्यतिथी. अभिषेक, पोथीचा शेवटचा अध्याय, आरती व महाप्रसाद."
+    },
+    "start": "2027-09-05T07:00:00-07:00",
+    "end": "2027-09-05T12:00:00-07:00",
+    "dateConfirmed": false,
+    "dateNote": {
+      "en": "Rishi Panchami falls in early September 2027. The date will be confirmed once the panchang is settled.",
+      "mr": "ऋषिपंचमी सप्टेंबर २०२७ च्या सुरुवातीला येते. पंचांग निश्चित झाल्यावर तारीख कळवली जाईल."
+    },
+    "locationName": "Shri Gajanan Seva Centre",
+    "capacity": 160,
+    "rsvpCount": 0,
+    "rsvpOpen": false,
+    "onlineJoin": true,
+    "fundSlug": "utsav",
+    "schedule": [
+      { "time": "07:00", "label": { "en": "Abhishek and shrungar", "mr": "अभिषेक व शृंगार" } },
+      { "time": "08:30", "label": { "en": "Morning Aarti", "mr": "सकाळची आरती" } },
+      { "time": "09:30", "label": { "en": "Pothi vachan — final adhyay", "mr": "पोथी वाचन — शेवटचा अध्याय" } },
+      { "time": "11:15", "label": { "en": "Aarti", "mr": "आरती" } },
+      { "time": "11:30", "label": { "en": "Mahaprasad", "mr": "महाप्रसाद" } }
+    ],
+    "significance": {
+      "en": "Maharaj took samadhi on Rishi Panchami in 1910. He had spent the preceding days telling the devotees around him plainly that he was not going anywhere, and the day is kept in that spirit — the reading is finished, the aarti is sung, everyone eats together, and nobody mourns.",
+      "mr": "१९१० साली ऋषिपंचमीला महाराजांनी समाधी घेतली. त्याआधीचे दिवस त्यांनी भोवतीच्या भक्तांना स्पष्टपणे सांगण्यात घालवले की आपण कुठेही जात नाही, आणि हा दिवस त्याच भावनेने पाळला जातो — वाचन पूर्ण होते, आरती होते, सर्व एकत्र जेवतात, आणि कोणी शोक करत नाही."
+    },
+    "whatToBring": [],
+    "volunteerNeeds": [
+      { "en": "Kitchen", "mr": "स्वयंपाकघर", "slots": 10 }
+    ]
+  }
+]

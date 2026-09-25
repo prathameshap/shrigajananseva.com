@@ -1,0 +1,52 @@
+{
+  "name": "shrigajananseva",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Shri Gajanan Seva — Bay Area, California. Public website.",
+  "license": "UNLICENSED",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint .",
+    "typecheck": "tsc --noEmit",
+    "check:links": "node scripts/check-links.mjs",
+    "check:contrast": "node scripts/check-contrast.mjs",
+    "smoke": "node scripts/smoke.mjs",
+    "verify": "npm run lint && npm run typecheck && npm run check:contrast && npm run build && npm run check:links"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/prathameshap/shrigajananseva.com.git"
+  },
+  "bugs": {
+    "url": "https://github.com/prathameshap/shrigajananseva.com/issues"
+  },
+  "homepage": "https://shrigajananseva.org",
+  "overrides": {
+    "postcss": "^8.5.28"
+  },
+  "dependencies": {
+    "@vercel/analytics": "^2.0.1",
+    "@vercel/speed-insights": "^2.0.0",
+    "gray-matter": "^4.0.3",
+    "marked": "^18.0.13",
+    "next": "^15.5.4",
+    "qrcode": "^1.5.4",
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0"
+  },
+  "devDependencies": {
+    "@eslint/eslintrc": "^3.3.7",
+    "@tailwindcss/postcss": "^4.1.13",
+    "@types/node": "^24.5.2",
+    "@types/qrcode": "^1.5.6",
+    "@types/react": "^19.2.0",
+    "@types/react-dom": "^19.2.0",
+    "eslint": "^9.39.5",
+    "eslint-config-next": "^15.5.26",
+    "postcss": "^8.5.28",
+    "tailwindcss": "^4.1.13",
+    "typescript": "^5.9.2"
+  }
+}

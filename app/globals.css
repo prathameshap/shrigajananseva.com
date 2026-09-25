@@ -1,0 +1,489 @@
+@import "tailwindcss";
+
+/* ==========================================================================
+   Shri Gajanan Seva — design tokens
+   --------------------------------------------------------------------------
+   Anchored on the organisation's own materials:
+
+     saffron   #dc4d04  the orange block in the site's header banner —
+                        this is the brand colour and is not up for negotiation
+     kumkum             deep rose-crimson of the logo ring and utsav garlands
+     marigold           the yellow petal carpet laid for Pragat Din
+     gold               the torana above the murti
+     sandal             warm cream ground
+
+   Two additions, because warm-on-warm alone reads flat:
+
+     peacock            teal-cyan. Temple doors, peacock feather, tulsi shade.
+                        It is the only cool hue in the system and it does all
+                        the work of making the warm hues look deliberate
+                        rather than muddy. Links, "live now", online-seva
+                        states and every alternating section band use it.
+     indigo/night       deep jewel indigo for full-bleed contrast bands.
+                        Replaces the near-black brown, which turned muddy
+                        against saffron.
+
+   The three page grounds (canvas / surface-raised / surface-tint) are now
+   separated by roughly 6% lightness AND by hue, so consecutive bands read as
+   distinct without needing a border to announce it.
+
+   Every text colour clears WCAG 2.2 AA (4.5:1) on its own surface — much of
+   the congregation reads this at 150–200% zoom.
+   ========================================================================== */
+
+@theme {
+  /* --- saffron: the brand ----------------------------------------------- */
+  --color-saffron-50: #fff5ed;
+  --color-saffron-100: #ffe7d4;
+  --color-saffron-200: #ffc9a3;
+  --color-saffron-300: #ffa469;
+  --color-saffron-400: #fb7f33;
+  --color-saffron-500: #dc4d04; /* exact brand orange */
+  --color-saffron-600: #c04203; /* button fill — cream text clears 5.2:1 */
+  --color-saffron-700: #9b3403;
+  --color-saffron-800: #7a2903;
+
+  /* --- sandal: the warm ground ------------------------------------------ */
+  --color-sandal-50: #fffcf6;
+  --color-sandal-100: #fff6e9;
+  --color-sandal-200: #ffecd6;
+  --color-sandal-300: #f8dab4;
+  --color-sandal-400: #ebc18c;
+  --color-sandal-500: #d9a463;
+
+  /* --- marigold --------------------------------------------------------- */
+  --color-marigold-50: #fffaeb;
+  --color-marigold-100: #fff2cc;
+  --color-marigold-200: #ffe49b;
+  --color-marigold-300: #ffd25f;
+  --color-marigold-400: #fcbb28;
+  --color-marigold-500: #f09d05;
+  --color-marigold-600: #c87a03;
+  --color-marigold-700: #a06004;
+  --color-marigold-800: #7a4906;
+
+  /* --- kumkum: headings, garlands --------------------------------------- */
+  --color-kumkum-50: #fff1f3;
+  --color-kumkum-100: #ffdfe4;
+  --color-kumkum-200: #ffc2cc;
+  --color-kumkum-300: #f792a4;
+  --color-kumkum-400: #e35a76;
+  --color-kumkum-500: #c62e50;
+  --color-kumkum-600: #a81f41;
+  --color-kumkum-700: #8a1938; /* heading ink — 9.1:1 on ivory */
+  --color-kumkum-800: #6d152e;
+  --color-kumkum-900: #4d0e20;
+
+  /* --- peacock: the cool counterpoint ----------------------------------- */
+  --color-peacock-50: #eefbfa;
+  --color-peacock-100: #cdf3f1;
+  --color-peacock-200: #9ce6e5;
+  --color-peacock-300: #5fd0d3;
+  --color-peacock-400: #2bb3ba;
+  --color-peacock-500: #0f9099;
+  --color-peacock-600: #0b737d; /* 5.4:1 on ivory */
+  --color-peacock-700: #0c5c66; /* 7.7:1 on ivory */
+  --color-peacock-800: #104a53;
+  --color-peacock-900: #0c333a;
+
+  /* --- gold leaf: trim only, never text on light ------------------------ */
+  --color-gold-200: #f6e6b4;
+  --color-gold-300: #eed489;
+  --color-gold-400: #d9b551;
+  --color-gold-500: #bd9631;
+  --color-gold-600: #9a7823;
+
+  /* --- tulsi: success / confirmed states -------------------------------- */
+  --color-tulsi-50: #eefaf3;
+  --color-tulsi-100: #d2f2e1;
+  --color-tulsi-500: #1d8a5f;
+  --color-tulsi-600: #166b4a;
+  --color-tulsi-700: #11543a;
+
+  /* --- night: deep jewel indigo for contrast bands ---------------------- */
+  --color-night-600: #382c69;
+  --color-night-700: #2a2152;
+  --color-night-800: #1d1640;
+  --color-night-900: #140f2c;
+  --color-night-950: #0d0a1e;
+
+  /* --- ink: body copy --------------------------------------------------- */
+  --color-ink-400: #8d7a80;
+  --color-ink-500: #6a5c62;
+  --color-ink-600: #524549;
+  --color-ink-700: #3a3036;
+  --color-ink-800: #2b2328;
+  --color-ink-900: #1d181b;
+
+  /* --- semantic tokens (theme-aware, see :root blocks below) ------------ */
+  --color-canvas: var(--sgs-canvas);
+  --color-surface: var(--sgs-surface);
+  --color-surface-raised: var(--sgs-surface-raised);
+  --color-surface-tint: var(--sgs-surface-tint);
+  --color-hairline: var(--sgs-hairline);
+  --color-hairline-strong: var(--sgs-hairline-strong);
+  --color-body: var(--sgs-body);
+  --color-muted: var(--sgs-muted);
+  --color-heading: var(--sgs-heading);
+  --color-brand: var(--sgs-brand);
+  --color-brand-soft: var(--sgs-brand-soft);
+  --color-accent: var(--sgs-accent);
+  --color-accent-soft: var(--sgs-accent-soft);
+  --color-accent-strong: var(--sgs-accent-strong);
+  --color-onbrand: var(--sgs-onbrand);
+
+  /* --- type ------------------------------------------------------------- */
+  --font-display: var(--font-fraunces), "Iowan Old Style", Georgia, serif;
+  --font-sans: var(--font-inter), ui-sans-serif, system-ui, sans-serif;
+  --font-deva: var(--font-noto-deva), "Noto Sans Devanagari", "Mangal", serif;
+
+  /* Elder-friendly scale: 17px base, generous leading. */
+  --text-base: 1.0625rem;
+  --text-base--line-height: 1.7;
+  --text-lg: 1.1875rem;
+  --text-lg--line-height: 1.65;
+  --text-xl: 1.375rem;
+  --text-xl--line-height: 1.5;
+
+  --radius-card: 1rem;
+  --radius-panel: 1.5rem;
+
+  /* Shadows carry a violet cast rather than a brown one, so cards lift off
+     the ivory ground instead of smudging into it. */
+  --shadow-soft: 0 1px 2px rgb(29 22 64 / 0.04), 0 8px 24px -12px rgb(29 22 64 / 0.14);
+  --shadow-lift: 0 2px 4px rgb(29 22 64 / 0.05), 0 18px 40px -20px rgb(29 22 64 / 0.24);
+  --shadow-glow: 0 0 0 1px rgb(217 181 81 / 0.35), 0 24px 60px -28px rgb(20 15 44 / 0.45);
+
+  --animate-shimmer: sgs-shimmer 6s ease-in-out infinite;
+  --animate-rise: sgs-rise 0.6s cubic-bezier(0.22, 1, 0.36, 1) both;
+}
+
+/* --------------------------------------------------------------- light --- */
+:root,
+:root[data-theme="light"] {
+  --sgs-canvas: #fffcf6; /* ivory */
+  --sgs-surface: #ffffff;
+  --sgs-surface-raised: #fdf1e0; /* warm sand — clearly not the canvas */
+  --sgs-surface-tint: #eff9f8; /* cool mint — the refreshing band */
+  --sgs-hairline: #f0dfc6;
+  --sgs-hairline-strong: #e2c9a6;
+  --sgs-body: #3a3036;
+  --sgs-muted: #6a5c62;
+  --sgs-heading: #8a1938;
+  --sgs-brand: #c04203;
+  --sgs-brand-soft: #ffe7d4;
+  --sgs-accent: #0b737d;
+  --sgs-accent-soft: #eefbfa;
+  --sgs-accent-strong: #0c5c66;
+  --sgs-onbrand: #fffcf6;
+  color-scheme: light;
+}
+
+/* ---------------------------------------------------------------- dark --- */
+/* Deep indigo rather than dark brown: brown-on-saffron went muddy, and the
+   indigo keeps the gold trim looking like gold. */
+@media (prefers-color-scheme: dark) {
+  :root {
+    --sgs-canvas: #14101f;
+    --sgs-surface: #1e1830;
+    --sgs-surface-raised: #271f3c;
+    --sgs-surface-tint: #14262c;
+    --sgs-hairline: #3a3058;
+    --sgs-hairline-strong: #4d4070;
+    --sgs-body: #ece4dc;
+    --sgs-muted: #c0b2b8;
+    --sgs-heading: #ffd25f;
+    --sgs-brand: #ffa469;
+    --sgs-brand-soft: #4a1c08;
+    --sgs-accent: #5fd0d3;
+    --sgs-accent-soft: #10323a;
+    --sgs-accent-strong: #9ce6e5;
+    --sgs-onbrand: #14101f;
+    color-scheme: dark;
+  }
+}
+
+/* An explicit toggle always wins over the media query, in both directions. */
+:root[data-theme="dark"] {
+  --sgs-canvas: #14101f;
+  --sgs-surface: #1e1830;
+  --sgs-surface-raised: #271f3c;
+  --sgs-surface-tint: #14262c;
+  --sgs-hairline: #3a3058;
+  --sgs-hairline-strong: #4d4070;
+  --sgs-body: #ece4dc;
+  --sgs-muted: #c0b2b8;
+  --sgs-heading: #ffd25f;
+  --sgs-brand: #ffa469;
+  --sgs-brand-soft: #4a1c08;
+  --sgs-accent: #5fd0d3;
+  --sgs-accent-soft: #10323a;
+  --sgs-accent-strong: #9ce6e5;
+  --sgs-onbrand: #14101f;
+  color-scheme: dark;
+}
+
+/* ==========================================================================
+   Base
+   ========================================================================== */
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    -webkit-text-size-adjust: 100%;
+  }
+
+  body {
+    background-color: var(--sgs-canvas);
+    color: var(--sgs-body);
+    font-family: var(--font-sans);
+    font-size: var(--text-base);
+    line-height: 1.7;
+    text-rendering: optimizeLegibility;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4 {
+    font-family: var(--font-display);
+    color: var(--sgs-heading);
+    font-weight: 600;
+    letter-spacing: -0.015em;
+    text-wrap: balance;
+  }
+
+  p {
+    text-wrap: pretty;
+  }
+
+  :lang(mr),
+  .font-deva {
+    font-family: var(--font-deva);
+    line-height: 1.85;
+    letter-spacing: 0;
+  }
+
+  /* A visible, high-contrast focus ring everywhere — keyboard and screen
+     magnifier users navigate this site heavily. */
+  :focus-visible {
+    outline: 3px solid var(--sgs-accent);
+    outline-offset: 2px;
+    border-radius: 4px;
+  }
+
+  ::selection {
+    background: var(--color-marigold-200);
+    color: var(--color-kumkum-900);
+  }
+
+  hr {
+    border-color: var(--sgs-hairline);
+  }
+}
+
+@keyframes sgs-shimmer {
+  0%,
+  100% {
+    opacity: 0.45;
+    transform: translate3d(0, 0, 0) scale(1);
+  }
+  50% {
+    opacity: 0.75;
+    transform: translate3d(0, -1.5%, 0) scale(1.04);
+  }
+}
+
+@keyframes sgs-rise {
+  from {
+    opacity: 0;
+    transform: translate3d(0, 0.75rem, 0);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
+
+/* ==========================================================================
+   Utilities
+   ========================================================================== */
+
+@utility skip-link {
+  position: absolute;
+  left: 0.5rem;
+  top: -100%;
+  z-index: 100;
+  border-radius: 0.5rem;
+  background: var(--sgs-brand);
+  color: var(--sgs-onbrand);
+  padding: 0.75rem 1.25rem;
+  font-weight: 600;
+  transition: top 0.15s ease;
+
+  &:focus {
+    top: 0.5rem;
+  }
+}
+
+/* Thin gold rule used to separate major bands, echoing temple torana trim. */
+@utility rule-gold {
+  background-image: linear-gradient(
+    to right,
+    transparent,
+    var(--color-gold-400) 20%,
+    var(--color-gold-400) 80%,
+    transparent
+  );
+  height: 1px;
+}
+
+/* Warm radial wash behind hero and section headers. Two warm lobes plus one
+   cool one — the cool lobe is what stops it reading as a beige gradient. */
+@utility festive-wash {
+  background-image:
+    radial-gradient(52rem 26rem at 12% -12%, var(--color-marigold-100) 0%, transparent 62%),
+    radial-gradient(44rem 24rem at 88% -4%, var(--color-saffron-100) 0%, transparent 60%),
+    radial-gradient(40rem 30rem at 60% 108%, var(--color-peacock-50) 0%, transparent 65%);
+}
+
+/* The inverse, for use on the indigo bands. */
+@utility night-wash {
+  background-image:
+    radial-gradient(50rem 26rem at 10% 0%, rgb(217 181 81 / 0.16) 0%, transparent 60%),
+    radial-gradient(44rem 24rem at 92% 10%, rgb(43 179 186 / 0.18) 0%, transparent 62%),
+    radial-gradient(60rem 30rem at 50% 120%, rgb(220 77 4 / 0.16) 0%, transparent 65%);
+}
+
+/* Repeating marigold-petal motif for decorative dividers. */
+@utility torana {
+  background-image: radial-gradient(circle at 50% 0%, var(--color-gold-400) 0 2px, transparent 2px);
+  background-size: 1.5rem 1.5rem;
+  background-repeat: repeat-x;
+  height: 0.75rem;
+  opacity: 0.6;
+}
+
+/* Faint concentric mandala, for large empty areas that would otherwise be a
+   flat colour field. Decorative only. */
+@utility mandala {
+  background-image:
+    repeating-radial-gradient(
+      circle at 50% 50%,
+      transparent 0 3.5rem,
+      color-mix(in oklab, var(--color-gold-400) 22%, transparent) 3.5rem 3.55rem
+    ),
+    radial-gradient(
+      circle at 50% 50%,
+      color-mix(in oklab, var(--color-marigold-300) 18%, transparent) 0%,
+      transparent 70%
+    );
+}
+
+/* Gold foil text, for the one or two numerals per page that carry weight. */
+@utility text-gold-foil {
+  background-image: linear-gradient(
+    100deg,
+    var(--color-gold-600),
+    var(--color-marigold-400) 45%,
+    var(--color-gold-500)
+  );
+  background-clip: text;
+  color: transparent;
+}
+
+@utility prose-sgs {
+  & h2 {
+    font-size: 1.625rem;
+    margin-top: 2.5rem;
+    margin-bottom: 0.75rem;
+  }
+
+  & h3 {
+    font-size: 1.3rem;
+    margin-top: 2rem;
+    margin-bottom: 0.5rem;
+  }
+
+  & p {
+    margin-bottom: 1.15rem;
+  }
+
+  & ul,
+  & ol {
+    margin-bottom: 1.15rem;
+    padding-left: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.4rem;
+  }
+
+  & ul {
+    list-style: disc;
+  }
+
+  & ol {
+    list-style: decimal;
+  }
+
+  & li::marker {
+    color: var(--color-saffron-500);
+  }
+
+  & a {
+    color: var(--sgs-accent);
+    text-decoration: underline;
+    text-underline-offset: 3px;
+  }
+
+  & a:hover {
+    color: var(--sgs-brand);
+  }
+
+  & blockquote {
+    border-left: 3px solid var(--color-gold-400);
+    padding-left: 1.25rem;
+    font-family: var(--font-display);
+    font-size: 1.2rem;
+    font-style: italic;
+    color: var(--sgs-heading);
+    margin: 1.75rem 0;
+  }
+
+  & strong {
+    color: var(--sgs-heading);
+    font-weight: 650;
+  }
+
+  & table {
+    width: 100%;
+    margin-bottom: 1.5rem;
+    border-collapse: collapse;
+    text-align: left;
+  }
+
+  & th,
+  & td {
+    border-bottom: 1px solid var(--sgs-hairline);
+    padding: 0.6rem 0.75rem;
+  }
+
+  & th {
+    color: var(--sgs-heading);
+    font-weight: 650;
+  }
+}

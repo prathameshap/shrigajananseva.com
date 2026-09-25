@@ -1,0 +1,61 @@
+{
+  "_note": "trustees is intentionally empty until the board approves which names and photographs may be published. The /about/trustees page detects the empty array and shows an honest placeholder with a contact address rather than inventing anything.",
+
+  "trustees": [],
+
+  "governanceNote": {
+    "en": "Shri Gajanan Seva is a California non-profit corporation governed by a volunteer board of trustees. No trustee draws a salary, a stipend or an expense allowance, and no trustee or relative of a trustee is paid by the organisation for any service. The board meets quarterly and approves the annual budget, every expenditure above a set threshold, and the use of each restricted fund. Financial records are reviewed annually. Any devotee may ask to see the minutes of a board meeting or the accounts for a particular drive, and we will send them.",
+    "mr": "श्री गजानन सेवा ही कॅलिफोर्नियातील ना-नफा संस्था असून स्वयंसेवक विश्वस्त मंडळाद्वारे चालवली जाते. कोणताही विश्वस्त पगार, मानधन किंवा खर्चभत्ता घेत नाही, आणि कोणत्याही विश्वस्ताला किंवा त्यांच्या नातेवाइकाला संस्थेकडून कोणत्याही सेवेसाठी पैसे दिले जात नाहीत. मंडळ तिमाहीत भेटते आणि वार्षिक अंदाजपत्रक, ठरलेल्या मर्यादेवरील प्रत्येक खर्च, आणि प्रत्येक राखीव निधीचा वापर मंजूर करते. आर्थिक नोंदींची वार्षिक तपासणी होते. कोणताही भक्त मंडळाच्या बैठकीचे इतिवृत्त किंवा विशिष्ट उपक्रमाचा हिशोब मागू शकतो, आणि आम्ही तो पाठवू."
+  },
+
+  "sevaTeams": [
+    {
+      "slug": "shrungar",
+      "title": { "en": "Shrungar", "mr": "शृंगार" },
+      "description": {
+        "en": "Bathing and dressing the murti each Thursday morning, and building the flower arrangement. Starts at 7.15am and takes about an hour. The easiest team to join for a first-time volunteer, because someone is always standing next to you.",
+        "mr": "दर गुरुवारी सकाळी मूर्तीचे स्नान व वस्त्रधारण, आणि फुलांची आरास. ७.१५ ला सुरू होते आणि सुमारे तास लागतो. पहिल्यांदा स्वयंसेवा करणाऱ्यासाठी सर्वात सोपा गट, कारण कोणीतरी नेहमी तुमच्या शेजारी उभे असते."
+      }
+    },
+    {
+      "slug": "annapurna",
+      "title": { "en": "Annapurna — the kitchen", "mr": "अन्नपूर्णा — स्वयंपाकघर" },
+      "description": {
+        "en": "Cooking and serving Mahaprasad every Thursday, and for two hundred or more on utsav days. Shopping, chopping, cooking, serving and washing up are all separate jobs — you do not have to be able to cook to be useful here.",
+        "mr": "दर गुरुवारी महाप्रसाद शिजवणे व वाढणे, आणि उत्सवाच्या दिवशी दोनशेहून अधिक जणांसाठी. खरेदी, कापणे, शिजवणे, वाढणे व भांडी — सर्व वेगवेगळी कामे आहेत; येथे उपयोगी पडण्यासाठी स्वयंपाक येण्याची गरज नाही."
+      }
+    },
+    {
+      "slug": "upasana",
+      "title": { "en": "Upasana", "mr": "उपासना" },
+      "description": {
+        "en": "Leading the aartis and the daily 7pm online upasana, keeping the pothi vachan schedule, and hosting the Zoom room every single day of the year.",
+        "mr": "आरत्या व दररोज सायंकाळी ७ वाजताची ऑनलाइन उपासना चालवणे, पोथी वाचनाचे वेळापत्रक सांभाळणे, आणि वर्षातील प्रत्येक दिवशी झूम खोली चालवणे."
+      }
+    },
+    {
+      "slug": "samaj-seva",
+      "title": { "en": "Samaj Seva — community drives", "mr": "समाज सेवा — समाजसेवा उपक्रम" },
+      "description": {
+        "en": "The food, blanket, clothes, school supplies and hygiene kit drives: collecting, sorting, packing, and driving the delivery to shelters and food banks across Santa Clara County.",
+        "mr": "अन्न, ब्लँकेट, कपडे, शालेय साहित्य व स्वच्छता संच उपक्रम: संकलन, वर्गीकरण, पॅकिंग, आणि सांता क्लारा काउंटीतील निवारागृहे व अन्नपेढ्यांपर्यंत पोहोचवणे."
+      }
+    },
+    {
+      "slug": "swagat",
+      "title": { "en": "Swagat — welcome and parking", "mr": "स्वागत — स्वागत व वाहनतळ" },
+      "description": {
+        "en": "Standing at the door on a busy Thursday or an utsav day, showing people where to leave their shoes, explaining what is about to happen, and keeping the car park moving. Ideal if you are new and do not yet know the rituals.",
+        "mr": "गजबजलेल्या गुरुवारी किंवा उत्सवाच्या दिवशी दारात उभे राहणे, चपला कुठे ठेवायच्या ते सांगणे, पुढे काय होणार ते समजावणे, आणि वाहनतळ मोकळे ठेवणे. तुम्ही नवीन असाल आणि विधी माहीत नसतील तर योग्य."
+      }
+    },
+    {
+      "slug": "prachar",
+      "title": { "en": "Prachar — media and records", "mr": "प्रचार — माध्यम व नोंदी" },
+      "description": {
+        "en": "Filming and uploading aarti, writing the newsletter, running the WhatsApp channel, and keeping this website's content current. Mostly remote work.",
+        "mr": "आरतीचे चित्रीकरण व अपलोड, वार्तापत्र लिहिणे, व्हॉट्सअॅप चॅनेल चालवणे, आणि या संकेतस्थळाचा मजकूर अद्ययावत ठेवणे. बहुतांश काम दूरस्थ."
+      }
+    }
+  ]
+}
