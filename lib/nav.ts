@@ -102,6 +102,7 @@ export const footerNav: { headingKey: string; items: NavItem[] }[] = [
   },
 ];
 
+<<<<<<< HEAD
 /**
  * The devotee portal's navigation, defined but deliberately not rendered.
  *
@@ -113,6 +114,8 @@ export const footerNav: { headingKey: string; items: NavItem[] }[] = [
  * Wire this into HeaderShell once /portal exists, and delete the exemption in
  * scripts/check-links.mjs at the same time.
  */
+=======
+>>>>>>> e67c5ca9bc25bf3af85c8980399123cded4b906f
 export const portalNav: NavItem[] = [
   { href: "/portal", labelKey: "portal.dashboard" },
   { href: "/portal/household", labelKey: "portal.household" },

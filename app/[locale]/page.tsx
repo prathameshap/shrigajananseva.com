@@ -1,23 +1,44 @@
+<<<<<<< HEAD
 import Link from "next/link";
 
 import { Icon } from "@/components/icons";
 import { MandalaField, ShrineNiche, ToranaArch } from "@/components/decor";
+=======
+import Image from "next/image";
+import Link from "next/link";
+import { notFound } from "next/navigation";
+
+import { Icon } from "@/components/icons";
+>>>>>>> e67c5ca9bc25bf3af85c8980399123cded4b906f
 import {
   Badge,
   ButtonLink,
   Card,
   Container,
+<<<<<<< HEAD
   Eyebrow,
   GoldRule,
   NumberedStep,
   Section,
   SectionHeader,
   SpinedCard,
+=======
+  GoldRule,
+  Placeholder,
+  Section,
+  SectionHeader,
+  Stat,
+  Torana,
+>>>>>>> e67c5ca9bc25bf3af85c8980399123cded4b906f
 } from "@/components/ui";
 import { TodayPanel } from "@/components/home/TodayPanel";
 import { ConnectStrip } from "@/components/shared/ConnectStrip";
 import { LibraryCard } from "@/components/shared/LibraryCard";
+<<<<<<< HEAD
 import { Countdown, LocalTime } from "@/components/shared/LocalTime";
+=======
+import { LocalTime, Countdown } from "@/components/shared/LocalTime";
+>>>>>>> e67c5ca9bc25bf3af85c8980399123cded4b906f
 import { OccasionCard } from "@/components/shared/OccasionCard";
 import { NewsletterForm } from "@/components/forms/NewsletterForm";
 
@@ -30,16 +51,26 @@ import {
   upcomingOccasions,
   visit,
 } from "@/lib/content";
+<<<<<<< HEAD
 import { getDictionary, localePath, t } from "@/lib/i18n";
 import { resolveLocale, type LocaleParams } from "@/lib/route";
 
 export default async function HomePage({ params }: LocaleParams) {
   const locale = await resolveLocale(params);
+=======
+import { getDictionary, isLocale, localePath, t, type Locale } from "@/lib/i18n";
+
+export default async function HomePage({ params }: { params: Promise<{ locale: string }> }) {
+  const { locale: raw } = await params;
+  if (!isLocale(raw)) notFound();
+  const locale = raw as Locale;
+>>>>>>> e67c5ca9bc25bf3af85c8980399123cded4b906f
   const dict = getDictionary(locale);
 
   const next = nextOccasion();
   const upcoming = upcomingOccasions(new Date(), 3);
   const featured = featuredLibrary().slice(0, 3);
+<<<<<<< HEAD
 
   return (
     <>
@@ -69,6 +100,46 @@ export default async function HomePage({ params }: LocaleParams) {
 
               <p className="mt-4 font-deva text-2xl text-marigold-300 sm:text-3xl">
                 {dailySeva.namJaap.mantra}
+=======
+  const impact = visit.impact;
+  const hasImpactNumbers = impact?.stats.some((stat) => stat.value != null);
+
+  return (
+    <>
+      {/* ---------------------------------------------------------- hero */}
+      {/*
+        A full-bleed utsav photograph behind a dark scrim, with Maharaj's
+        portrait alongside. The previous cream-on-cream hero carried no imagery
+        at all, which is what made the page read as flat.
+      */}
+      <section className="relative isolate overflow-hidden bg-night-900 text-sandal-100">
+        <Image
+          src="/images/utsav-shrine.jpg"
+          alt=""
+          fill
+          priority
+          sizes="100vw"
+          className="-z-10 object-cover object-center opacity-40"
+        />
+        {/* Scrim: keeps text contrast well clear of AA over a busy photograph. */}
+        <div
+          className="absolute inset-0 -z-10 bg-gradient-to-br from-night-900 via-night-900/95 to-night-900/70"
+          aria-hidden="true"
+        />
+
+        <Container width="wide">
+          <div className="grid items-center gap-12 py-16 sm:py-20 lg:grid-cols-12 lg:gap-12 lg:py-24">
+            <div className="lg:col-span-7">
+              <p className="mb-4 text-sm font-semibold tracking-[0.18em] text-marigold-300 uppercase">
+                {dict.home.heroEyebrow}
+              </p>
+
+              <h1 className="font-deva text-5xl leading-tight text-sandal-50 sm:text-6xl lg:text-7xl">
+                {dailySeva.namJaap.mantra}
+              </h1>
+              <p className="mt-3 font-display text-2xl text-marigold-300 italic">
+                {dailySeva.namJaap.transliteration}
+>>>>>>> e67c5ca9bc25bf3af85c8980399123cded4b906f
               </p>
 
               <GoldRule className="mt-7 max-w-40" />
@@ -77,12 +148,18 @@ export default async function HomePage({ params }: LocaleParams) {
 
               <div className="mt-9 flex flex-wrap gap-3">
                 <ButtonLink href={localePath(locale, "/visit")} size="lg">
+<<<<<<< HEAD
                   <Icon.MapPin className="h-5 w-5" />
                   {dict.home.heroPrimaryCta}
+=======
+                  {dict.home.heroPrimaryCta}
+                  <Icon.ArrowRight className="h-5 w-5" />
+>>>>>>> e67c5ca9bc25bf3af85c8980399123cded4b906f
                 </ButtonLink>
                 <ButtonLink
                   href={localePath(locale, "/daily-seva")}
                   size="lg"
+<<<<<<< HEAD
                   variant="outline"
                 >
                   <Icon.Clock className="h-5 w-5" />
@@ -243,14 +320,128 @@ export default async function HomePage({ params }: LocaleParams) {
                   locale,
                 ),
                 noSlotsLeft: dict.dailySeva.noSlotsLeft,
+=======
+                  variant="secondary"
+                  className="border-sandal-400/40 bg-transparent text-sandal-50 hover:border-marigold-300 hover:bg-night-700 hover:text-sandal-50"
+                >
+                  {dict.home.heroSecondaryCta}
+                </ButtonLink>
+              </div>
+            </div>
+
+            {/* Maharaj */}
+            <div className="lg:col-span-5">
+              <figure className="relative mx-auto max-w-sm">
+                <div className="overflow-hidden rounded-card border-4 border-gold-400 shadow-lift">
+                  <Image
+                    src="/images/shri-gajanan-maharaj.jpg"
+                    alt="Shri Gajanan Maharaj of Shegaon"
+                    width={701}
+                    height={1000}
+                    priority
+                    sizes="(max-width: 1024px) 24rem, 24rem"
+                    className="h-auto w-full"
+                  />
+                </div>
+                <figcaption className="mt-4 text-center font-display text-lg text-marigold-300 italic">
+                  Shri Gajanan Maharaj, Shegaon
+                </figcaption>
+              </figure>
+            </div>
+          </div>
+        </Container>
+      </section>
+
+      {/* ------------------------------------------------ next occasion */}
+      <Section tone="canvas" className="py-12 sm:py-14">
+        <div className="grid gap-6 lg:grid-cols-12">
+          <div className="lg:col-span-5">
+            {next ? (
+                <Card className="h-full p-7 shadow-lift">
+                  <Torana className="mb-5 -mt-1" />
+                  <p className="text-sm font-bold tracking-[0.16em] text-accent uppercase">
+                    {dict.home.nextOccasion}
+                  </p>
+                  <h2 className="mt-2 text-2xl">{t(next.title, locale)}</h2>
+
+                  <p className="mt-3 flex flex-wrap items-center gap-2 font-semibold text-heading">
+                    <Icon.Calendar className="h-5 w-5 text-gold-500" />
+                    <LocalTime
+                      iso={next.start}
+                      locale={locale}
+                      serverZone={site.timezone}
+                      mode="datetime"
+                    />
+                  </p>
+                  <Countdown
+                    iso={next.start}
+                    locale={locale}
+                    className="mt-1 block text-accent"
+                  />
+                  {!next.dateConfirmed ? (
+                    <p className="mt-2 text-sm text-muted italic">
+                      Date to be confirmed — see the occasion page for details.
+                    </p>
+                  ) : null}
+
+                  <p className="mt-4 text-muted">{t(next.summary, locale)}</p>
+
+                  <div className="mt-6 flex flex-wrap gap-3">
+                    <ButtonLink href={localePath(locale, `/occasions/${next.slug}`)}>
+                      {next.rsvpOpen ? dict.occasions.rsvp : dict.common.learnMore}
+                    </ButtonLink>
+                    <ButtonLink
+                      href={localePath(locale, "/occasions")}
+                      variant="ghost"
+                    >
+                      {dict.common.viewAll}
+                    </ButtonLink>
+                  </div>
+                </Card>
+              ) : null}
+          </div>
+
+          {/* Today / live now, beside the next occasion rather than below it */}
+          <div className="lg:col-span-7">
+            <TodayPanel
+          locale={locale}
+          mandirTimezone={site.timezone}
+          zoomUrl={site.zoom.joinUrl}
+          scheduleHref={localePath(locale, "/daily-seva")}
+          slots={dailySeva.schedule.map((slot) => ({
+            slug: slot.slug,
+            time: slot.time,
+            durationMinutes: slot.durationMinutes,
+            title: t(slot.title, locale),
+            mode: slot.mode,
+          }))}
+          labels={{
+            todayTitle: dict.home.todaySchedule,
+            liveNow: dict.home.liveNow,
+            liveNowBody: dict.home.liveNowBody,
+            joinZoom: dict.dailySeva.joinZoom,
+            nextUp: dict.dailySeva.nextUp,
+            inProgress: dict.dailySeva.inProgress,
+            concluded: dict.dailySeva.concluded,
+            online: dict.dailySeva.online,
+            inPerson: dict.dailySeva.inPerson,
+            timezoneNote: dict.common.timezoneNote,
+            viewFullSchedule: dict.dailySeva.scheduleTitle,
+              zoomUnavailable: "Zoom link available on request",
+>>>>>>> e67c5ca9bc25bf3af85c8980399123cded4b906f
               }}
             />
           </div>
         </div>
       </Section>
 
+<<<<<<< HEAD
       {/* ═══════════════════════════════════════════════════════ upcoming ══ */}
       <Section tone="tint">
+=======
+      {/* ------------------------------------------------ upcoming */}
+      <Section tone="raised">
+>>>>>>> e67c5ca9bc25bf3af85c8980399123cded4b906f
         <SectionHeader
           eyebrow={dict.nav.occasions}
           title={dict.home.upcomingTitle}
@@ -262,6 +453,7 @@ export default async function HomePage({ params }: LocaleParams) {
             </ButtonLink>
           }
         />
+<<<<<<< HEAD
         {upcoming.length ? (
           <div className="grid gap-6 md:grid-cols-3">
             {upcoming.map((occasion) => (
@@ -289,6 +481,16 @@ export default async function HomePage({ params }: LocaleParams) {
       </Section>
 
       {/* ════════════════════════════════════════════════════ first visit ══ */}
+=======
+        <div className="grid gap-6 md:grid-cols-3">
+          {upcoming.map((occasion) => (
+            <OccasionCard key={occasion.slug} occasion={occasion} locale={locale} />
+          ))}
+        </div>
+      </Section>
+
+      {/* ------------------------------------------- first visit */}
+>>>>>>> e67c5ca9bc25bf3af85c8980399123cded4b906f
       <Section tone="canvas">
         <div className="grid gap-12 lg:grid-cols-12">
           <div className="lg:col-span-5">
@@ -302,10 +504,14 @@ export default async function HomePage({ params }: LocaleParams) {
               <ButtonLink href={localePath(locale, "/visit")}>
                 {dict.visit.firstVisit}
               </ButtonLink>
+<<<<<<< HEAD
               <ButtonLink
                 href={localePath(locale, "/visit#accessibility")}
                 variant="secondary"
               >
+=======
+              <ButtonLink href={localePath(locale, "/visit#accessibility")} variant="secondary">
+>>>>>>> e67c5ca9bc25bf3af85c8980399123cded4b906f
                 {dict.visit.accessibility}
               </ButtonLink>
             </div>
@@ -314,15 +520,32 @@ export default async function HomePage({ params }: LocaleParams) {
           <div className="lg:col-span-7">
             <ol className="flex flex-col gap-4">
               {visit.firstVisit.steps.slice(0, 4).map((step, index) => (
+<<<<<<< HEAD
                 <NumberedStep key={step.title.en} index={index + 1} title={t(step.title, locale)}>
                   {t(step.body, locale)}
                 </NumberedStep>
+=======
+                <li key={step.title.en}>
+                  <Card className="flex gap-5 p-5">
+                    <span className="grid h-10 w-10 shrink-0 place-items-center rounded-full bg-saffron-600 font-display text-lg text-sandal-50">
+                      {index + 1}
+                    </span>
+                    <span>
+                      <span className="block font-semibold text-heading">
+                        {t(step.title, locale)}
+                      </span>
+                      <span className="mt-1 block text-muted">{t(step.body, locale)}</span>
+                    </span>
+                  </Card>
+                </li>
+>>>>>>> e67c5ca9bc25bf3af85c8980399123cded4b906f
               ))}
             </ol>
           </div>
         </div>
       </Section>
 
+<<<<<<< HEAD
       {/* ═════════════════════════════════════════════════════════ jaap ══ */}
       <Section tone="brand" className="relative isolate overflow-hidden">
         <MandalaField className="top-1/2 left-1/2 h-[30rem] w-[30rem] -translate-x-1/2 -translate-y-1/2 text-marigold-300 opacity-20" />
@@ -346,14 +569,40 @@ export default async function HomePage({ params }: LocaleParams) {
             </ButtonLink>
             <ButtonLink href={localePath(locale, "/library/audio")} variant="outline">
               <Icon.Audio className="h-5 w-5" />
+=======
+      {/* ------------------------------------------------ nam jaap */}
+      <Section tone="brand">
+        <div className="mx-auto max-w-3xl text-center">
+          <Icon.Sparkle className="mx-auto h-8 w-8 text-marigold-300" />
+          <h2 className="mt-5 font-deva text-4xl text-sandal-50 sm:text-5xl">
+            {dailySeva.namJaap.mantra}
+          </h2>
+          <p className="mt-5 text-lg leading-relaxed text-sandal-200">
+            {t(dailySeva.namJaap.guidance, locale)}
+          </p>
+          <div className="mt-8 flex flex-wrap justify-center gap-3">
+            <ButtonLink href={localePath(locale, "/daily-seva/nam-jaap")} variant="onbrand">
+              {dict.dailySeva.jaapTitle}
+            </ButtonLink>
+            <ButtonLink
+              href={localePath(locale, "/library/audio")}
+              variant="secondary"
+              className="border-sandal-400/40 bg-transparent text-sandal-100 hover:bg-night-700"
+            >
+>>>>>>> e67c5ca9bc25bf3af85c8980399123cded4b906f
               {dict.navGroups.audio}
             </ButtonLink>
           </div>
         </div>
       </Section>
 
+<<<<<<< HEAD
       {/* ═══════════════════════════════════════════════════════════ give ══ */}
       <Section tone="raised">
+=======
+      {/* -------------------------------------------------- donate */}
+      <Section tone="canvas">
+>>>>>>> e67c5ca9bc25bf3af85c8980399123cded4b906f
         <SectionHeader
           eyebrow={dict.nav.donate}
           title={dict.home.donateTitle}
@@ -367,11 +616,16 @@ export default async function HomePage({ params }: LocaleParams) {
         />
         <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
           {funds.slice(0, 4).map((fund) => (
+<<<<<<< HEAD
             <SpinedCard key={fund.slug} spine="saffron" interactive>
               <Link
                 href={localePath(locale, `/donate?fund=${fund.slug}`)}
                 className="block p-6"
               >
+=======
+            <Card key={fund.slug} interactive className="p-6">
+              <Link href={localePath(locale, `/donate?fund=${fund.slug}`)} className="block">
+>>>>>>> e67c5ca9bc25bf3af85c8980399123cded4b906f
                 <h3 className="text-lg">{t(fund.title, locale)}</h3>
                 <p className="mt-2 text-sm text-muted">{t(fund.description, locale)}</p>
                 {fund.suggested[0] ? (
@@ -380,12 +634,62 @@ export default async function HomePage({ params }: LocaleParams) {
                   </p>
                 ) : null}
               </Link>
+<<<<<<< HEAD
             </SpinedCard>
+=======
+            </Card>
+>>>>>>> e67c5ca9bc25bf3af85c8980399123cded4b906f
           ))}
         </div>
       </Section>
 
+<<<<<<< HEAD
       {/* ════════════════════════════════════════════════════════ library ══ */}
+=======
+      {/* -------------------------------------------------- impact */}
+      {impact ? (
+        <Section tone="raised">
+          <SectionHeader
+            align="center"
+            eyebrow={t(impact.periodLabel, locale)}
+            title={dict.home.impactTitle}
+          />
+          {hasImpactNumbers ? (
+            <div className="grid gap-8 sm:grid-cols-2 lg:grid-cols-4">
+              {impact.stats
+                .filter((stat) => stat.value != null)
+                .map((stat) => (
+                  <Stat
+                    key={stat.label.en}
+                    value={stat.value?.toLocaleString(locale === "mr" ? "mr-IN" : "en-US")}
+                    label={t(stat.label, locale)}
+                    note={stat.verified ? undefined : "approximate"}
+                  />
+                ))}
+            </div>
+          ) : (
+            <div className="mx-auto max-w-2xl">
+              <Placeholder
+                title="Seva figures are being compiled"
+                contact={site.contact.charityEmail}
+              >
+                <p>
+                  Meals served, blankets distributed and volunteer hours for the last twelve
+                  months will be published here once the trustees have finalised them. Enter the
+                  numbers in{" "}
+                  <code className="rounded bg-surface px-1.5 py-0.5 text-sm">
+                    content/data/visit.json
+                  </code>{" "}
+                  under <code className="rounded bg-surface px-1.5 py-0.5 text-sm">impact</code>.
+                </p>
+              </Placeholder>
+            </div>
+          )}
+        </Section>
+      ) : null}
+
+      {/* ------------------------------------------------- library */}
+>>>>>>> e67c5ca9bc25bf3af85c8980399123cded4b906f
       <Section tone="canvas">
         <SectionHeader
           eyebrow={dict.nav.library}
@@ -405,8 +709,13 @@ export default async function HomePage({ params }: LocaleParams) {
         </div>
       </Section>
 
+<<<<<<< HEAD
       {/* ════════════════════════════════════════════════════════ connect ══ */}
       <Section tone="tint">
+=======
+      {/* ------------------------------------------------- connect */}
+      <Section tone="raised">
+>>>>>>> e67c5ca9bc25bf3af85c8980399123cded4b906f
         <div className="grid gap-12 lg:grid-cols-12">
           <div className="lg:col-span-7">
             <SectionHeader
@@ -426,6 +735,7 @@ export default async function HomePage({ params }: LocaleParams) {
               <h2 className="mt-4 text-2xl">{dict.connect.newsletterTitle}</h2>
               <p className="mt-2 text-muted">{dict.connect.newsletterBody}</p>
               <div className="mt-6">
+<<<<<<< HEAD
                 <NewsletterForm
                   fallbackEmail={site.contact.newsletterEmail}
                   labels={{
@@ -445,6 +755,9 @@ export default async function HomePage({ params }: LocaleParams) {
                     mailtoFallback: dict.contact.mailtoFallback,
                   }}
                 />
+=======
+                <NewsletterForm locale={locale} />
+>>>>>>> e67c5ca9bc25bf3af85c8980399123cded4b906f
               </div>
             </Card>
           </div>

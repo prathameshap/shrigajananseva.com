@@ -22,6 +22,7 @@ export type ResolvedSlot = SevaSlot & {
  * "Today" means today at the mandir — a devotee in Pune reading this at 9am
  * their time is looking at the mandir's previous evening, and the timetable
  * should say so rather than silently rolling over.
+<<<<<<< HEAD
  *
  * Slots are filtered by weekday. The timetable is not the same every day:
  * Bhupali Aarti and Shejarati are Thursday only, evening aarti is at 7.30pm on
@@ -51,6 +52,18 @@ export function resolveSlotsFor(
 /** Every distinct slot, for the "full week" table rather than a single day. */
 export function slotsForWeekday(weekday: number): SevaSlot[] {
   return dailySeva.schedule.filter((slot) => slot.days.includes(weekday));
+=======
+ */
+export function resolveDay(now: Date = new Date()): ResolvedSlot[] {
+  const dateKey = dateKeyInZone(now, site.timezone);
+
+  return dailySeva.schedule.map((slot) => {
+    const start = zonedToInstant(dateKey, slot.time, site.timezone);
+    const end = new Date(start.getTime() + slot.durationMinutes * 60_000);
+    const status: SlotStatus = now >= end ? "done" : now >= start ? "live" : "upcoming";
+    return { ...slot, start, end, status };
+  });
+>>>>>>> e67c5ca9bc25bf3af85c8980399123cded4b906f
 }
 
 /** The slot in progress right now, if any. */

@@ -1,5 +1,6 @@
 [
   {
+<<<<<<< HEAD
     "slug": "pragat-din-2026",
     "type": "utsav",
     "title": { "en": "Pragat Din Utsav 2026", "mr": "प्रगट दिन उत्सव २०२६" },
@@ -263,12 +264,72 @@
     "end": "2026-12-12T18:00:00-08:00",
     "dateConfirmed": true,
     "locationName": "Shri Gajanan Seva Centre",
+=======
+    "_editing": "One entry per occurrence. `dateConfirmed: false` makes the site show 'date to be confirmed' next to the date — use it for tithi-based utsav until the panchang date is settled. Delete this _editing line freely; it is ignored.",
+    "slug": "monthly-upasana-october-2026",
+    "type": "upasana",
+    "title": {
+      "en": "Monthly Upasana",
+      "mr": "मासिक उपासना"
+    },
+    "summary": {
+      "en": "Collective upasana, aarti and mahaprasad on the first Sunday of every month. Newcomers are especially welcome — nothing is expected of you but your presence.",
+      "mr": "दर महिन्याच्या पहिल्या रविवारी सामूहिक उपासना, आरती व महाप्रसाद."
+    },
+    "start": "2026-10-04T10:30:00-07:00",
+    "end": "2026-10-04T14:00:00-07:00",
+    "dateConfirmed": true,
+    "recurrence": {
+      "en": "First Sunday of every month",
+      "mr": "दर महिन्याच्या पहिल्या रविवारी"
+    },
+    "locationName": "Shri Gajanan Seva Mandir",
+    "capacity": 120,
+    "rsvpCount": 0,
+    "rsvpOpen": true,
+    "onlineJoin": true,
+    "schedule": [
+      { "time": "10:30", "label": { "en": "Doors open, darshan" } },
+      { "time": "11:00", "label": { "en": "Upasana and Gajanan Vijay parayan" } },
+      { "time": "12:15", "label": { "en": "Madhyan Aarti" } },
+      { "time": "12:45", "label": { "en": "Mahaprasad" } },
+      { "time": "13:30", "label": { "en": "Nam jaap and closing" } }
+    ],
+    "significance": {
+      "en": "Monthly upasana keeps the practice of the household connected to the practice of the sangha. Families who cannot attend in person join the same upasana on Zoom."
+    },
+    "whatToBring": [
+      { "en": "Nothing is required. Flowers or fruit for the offering if you wish." },
+      { "en": "Footwear is left at the entrance; socks are welcome." }
+    ],
+    "volunteerNeeds": [
+      { "en": "Prasad service — 4 volunteers", "slots": 4 },
+      { "en": "Setup and cleanup — 6 volunteers", "slots": 6 }
+    ]
+  },
+  {
+    "slug": "annual-food-drive-2026",
+    "type": "seva-drive",
+    "title": {
+      "en": "Annual Food Drive",
+      "mr": "वार्षिक अन्नदान उपक्रम"
+    },
+    "summary": {
+      "en": "Our largest annadan of the year, collected at the mandir and distributed in partnership with local Bay Area food banks ahead of the holiday season.",
+      "mr": "वर्षातील सर्वात मोठा अन्नदान उपक्रम, स्थानिक फूड बँकांच्या सहकार्याने."
+    },
+    "start": "2026-11-21T10:00:00-08:00",
+    "end": "2026-11-22T18:00:00-08:00",
+    "dateConfirmed": true,
+    "locationName": "Shri Gajanan Seva Mandir",
+>>>>>>> e67c5ca9bc25bf3af85c8980399123cded4b906f
     "capacity": null,
     "rsvpCount": 0,
     "rsvpOpen": true,
     "onlineJoin": false,
     "fundSlug": "food-drive",
     "schedule": [
+<<<<<<< HEAD
       { "time": "10:00", "label": { "en": "Collection and sorting", "mr": "संकलन व वर्गीकरण" } },
       { "time": "15:00", "label": { "en": "Loading for delivery", "mr": "वितरणासाठी भरणे" } }
     ],
@@ -457,5 +518,237 @@
     "volunteerNeeds": [
       { "en": "Kitchen", "mr": "स्वयंपाकघर", "slots": 10 }
     ]
+=======
+      { "time": "10:00", "label": { "en": "Collection opens — drop off non-perishable goods" } },
+      { "time": "14:00", "label": { "en": "Sorting and packing seva" } },
+      { "time": "17:00", "label": { "en": "Loading for the food bank" } }
+    ],
+    "significance": {
+      "en": "\"No being is separated from God; God exists in all and all exist in God.\" Annadan is the most direct form this teaching takes in our community."
+    },
+    "whatToBring": [
+      { "en": "Non-perishable food: rice, lentils, pasta, canned vegetables, cooking oil" },
+      { "en": "Please check expiry dates — the food bank cannot accept expired goods" },
+      { "en": "Unopened, undamaged packaging only" }
+    ],
+    "volunteerNeeds": [
+      { "en": "Sorting and packing — 12 volunteers", "slots": 12 },
+      { "en": "Loading and transport — 4 volunteers with vehicles", "slots": 4 },
+      { "en": "Intake desk — 3 volunteers", "slots": 3 }
+    ]
+  },
+  {
+    "slug": "winter-blanket-distribution-2026",
+    "type": "seva-drive",
+    "title": {
+      "en": "Winter Blanket Distribution",
+      "mr": "हिवाळी घोंगडी वाटप"
+    },
+    "summary": {
+      "en": "New blankets and warm clothing distributed to unhoused neighbours across San Jose through partner shelters.",
+      "mr": "सॅन होजे येथील निवाराहीन बांधवांसाठी नवीन घोंगड्या व उबदार कपडे."
+    },
+    "start": "2026-12-13T09:00:00-08:00",
+    "end": "2026-12-13T15:00:00-08:00",
+    "dateConfirmed": true,
+    "locationName": "Shri Gajanan Seva Mandir",
+    "capacity": 40,
+    "rsvpCount": 0,
+    "rsvpOpen": true,
+    "onlineJoin": false,
+    "fundSlug": "blanket-drive",
+    "schedule": [
+      { "time": "09:00", "label": { "en": "Volunteers assemble, briefing" } },
+      { "time": "10:00", "label": { "en": "Packing kits" } },
+      { "time": "11:30", "label": { "en": "Distribution routes depart" } },
+      { "time": "15:00", "label": { "en": "Return and closing prayer" } }
+    ],
+    "significance": {
+      "en": "Maharaj asked that no one be turned away and no one be treated as lesser. This drive is the community's answer to a Bay Area winter."
+    },
+    "whatToBring": [
+      { "en": "New blankets only — used bedding cannot be accepted by shelters" },
+      { "en": "New socks, gloves and caps are equally needed" }
+    ],
+    "volunteerNeeds": [
+      { "en": "Kit packing — 15 volunteers", "slots": 15 },
+      { "en": "Distribution drivers — 6 volunteers", "slots": 6 }
+    ]
+  },
+  {
+    "slug": "toy-drive-2026",
+    "type": "seva-drive",
+    "title": {
+      "en": "Children's Toy Drive",
+      "mr": "बाल खेळणी वाटप"
+    },
+    "summary": {
+      "en": "New, unwrapped toys collected for children in shelters and low-income families across Santa Clara County.",
+      "mr": "गरजू कुटुंबांतील मुलांसाठी नवीन खेळणी संकलन."
+    },
+    "start": "2026-12-20T10:00:00-08:00",
+    "end": "2026-12-20T16:00:00-08:00",
+    "dateConfirmed": true,
+    "locationName": "Shri Gajanan Seva Mandir",
+    "capacity": null,
+    "rsvpCount": 0,
+    "rsvpOpen": true,
+    "onlineJoin": false,
+    "fundSlug": "toy-drive",
+    "schedule": [
+      { "time": "10:00", "label": { "en": "Collection opens" } },
+      { "time": "13:00", "label": { "en": "Sorting by age group" } },
+      { "time": "15:00", "label": { "en": "Handover to partner organisations" } }
+    ],
+    "significance": {
+      "en": "Children who have very little are the first to be remembered in seva."
+    },
+    "whatToBring": [
+      { "en": "New toys, unwrapped, with original packaging" },
+      { "en": "Suitable for ages 2–14" },
+      { "en": "No toy weapons, please" }
+    ],
+    "volunteerNeeds": [{ "en": "Sorting seva — 8 volunteers", "slots": 8 }]
+  },
+  {
+    "slug": "pragat-din-utsav-2027",
+    "type": "utsav",
+    "title": {
+      "en": "Shri Gajanan Maharaj Pragat Din Utsav",
+      "mr": "श्री गजानन महाराज प्रगट दिन उत्सव"
+    },
+    "summary": {
+      "en": "The appearance day of Shri Gajanan Maharaj in Shegaon, observed on 23 February 1878. Our largest utsav of the year — palkhi, parayan, mahaprasad and cultural programme.",
+      "mr": "श्री गजानन महाराजांचा प्रगट दिन — वर्षातील सर्वात मोठा उत्सव. पालखी, पारायण, महाप्रसाद."
+    },
+    "start": "2027-02-23T08:00:00-08:00",
+    "end": "2027-02-23T20:00:00-08:00",
+    "dateConfirmed": false,
+    "dateNote": {
+      "en": "Observance may be moved to the nearest weekend. The final date is confirmed in the January newsletter."
+    },
+    "locationName": "Shri Gajanan Seva Mandir",
+    "capacity": 300,
+    "rsvpCount": 0,
+    "rsvpOpen": false,
+    "rsvpOpensOn": "2027-01-05T00:00:00-08:00",
+    "onlineJoin": true,
+    "fundSlug": "utsav",
+    "schedule": [
+      { "time": "08:00", "label": { "en": "Kakad Aarti and Bhupali" } },
+      { "time": "09:00", "label": { "en": "Abhishek and Shrungar Seva" } },
+      { "time": "10:30", "label": { "en": "Gajanan Vijay Grantha parayan" } },
+      { "time": "12:30", "label": { "en": "Madhyan Aarti" } },
+      { "time": "13:00", "label": { "en": "Mahaprasad" } },
+      { "time": "16:00", "label": { "en": "Palkhi procession" } },
+      { "time": "18:00", "label": { "en": "Cultural programme" } },
+      { "time": "19:30", "label": { "en": "Shejarati" } }
+    ],
+    "significance": {
+      "en": "On 23 February 1878, two residents of Shegaon found a young man by the roadside, picking grains from leftover food thrown out after a meal. What looked like madness was detachment. From that day Maharaj remained in Shegaon for thirty-two years, and Pragat Din marks the moment the community first saw him."
+    },
+    "whatToBring": [
+      { "en": "Nothing is required" },
+      { "en": "Flowers, fruit or a coconut for the offering, if you wish" },
+      { "en": "Expect a large gathering — arrive early for parking" }
+    ],
+    "volunteerNeeds": [
+      { "en": "Parking and crowd management — 20 volunteers", "slots": 20 },
+      { "en": "Mahaprasad service — 25 volunteers", "slots": 25 },
+      { "en": "Palkhi seva — 15 volunteers", "slots": 15 },
+      { "en": "Registration desk — 6 volunteers", "slots": 6 }
+    ]
+  },
+  {
+    "slug": "guru-pournima-2027",
+    "type": "utsav",
+    "title": {
+      "en": "Guru Pournima",
+      "mr": "गुरुपौर्णिमा"
+    },
+    "summary": {
+      "en": "The day devotees offer gratitude at the feet of the Guru. Padyapuja, parayan and mahaprasad.",
+      "mr": "गुरुचरणी कृतज्ञता अर्पण करण्याचा दिवस. पादुकापूजन, पारायण व महाप्रसाद."
+    },
+    "start": "2027-07-18T09:00:00-07:00",
+    "end": "2027-07-18T15:00:00-07:00",
+    "dateConfirmed": false,
+    "dateNote": {
+      "en": "Date follows the panchang and is confirmed closer to the day."
+    },
+    "locationName": "Shri Gajanan Seva Mandir",
+    "capacity": 200,
+    "rsvpCount": 0,
+    "rsvpOpen": false,
+    "onlineJoin": true,
+    "schedule": [
+      { "time": "09:00", "label": { "en": "Padyapuja" } },
+      { "time": "10:30", "label": { "en": "Parayan" } },
+      { "time": "12:30", "label": { "en": "Madhyan Aarti and Mahaprasad" } }
+    ],
+    "significance": {
+      "en": "Guru Pournima is observed on the full moon of Ashadh. For devotees of Maharaj it is the day the relationship between the seeker and the Guru is renewed."
+    },
+    "whatToBring": [{ "en": "Nothing is required." }],
+    "volunteerNeeds": [{ "en": "Mahaprasad service — 12 volunteers", "slots": 12 }]
+  },
+  {
+    "slug": "rishi-panchami-samadhi-din-2026",
+    "type": "utsav",
+    "title": {
+      "en": "Rishi Panchami — Samadhi Din",
+      "mr": "ऋषिपंचमी — समाधी दिन"
+    },
+    "summary": {
+      "en": "Shri Gajanan Maharaj took Samadhi on 8 September 1910, on the day of Rishi Panchami. The day is observed with parayan and akhand nam jaap.",
+      "mr": "श्री गजानन महाराजांनी ८ सप्टेंबर १९१० रोजी ऋषिपंचमीच्या दिवशी समाधी घेतली."
+    },
+    "start": "2026-08-17T08:00:00-07:00",
+    "end": "2026-08-17T20:00:00-07:00",
+    "dateConfirmed": false,
+    "locationName": "Shri Gajanan Seva Mandir",
+    "capacity": 200,
+    "rsvpCount": 0,
+    "rsvpOpen": false,
+    "onlineJoin": true,
+    "schedule": [
+      { "time": "08:00", "label": { "en": "Kakad Aarti" } },
+      { "time": "09:00", "label": { "en": "Akhand nam jaap begins" } },
+      { "time": "12:30", "label": { "en": "Madhyan Aarti and Mahaprasad" } },
+      { "time": "19:00", "label": { "en": "Shejarati" } }
+    ],
+    "significance": {
+      "en": "Maharaj himself chose the day. Devotees mark it not as a loss but as the completion of a life lived entirely for others."
+    },
+    "whatToBring": [{ "en": "Nothing is required." }],
+    "volunteerNeeds": []
+  },
+  {
+    "slug": "school-supplies-drive-2026",
+    "type": "seva-drive",
+    "title": {
+      "en": "School Supplies Drive",
+      "mr": "शालेय साहित्य वाटप"
+    },
+    "summary": {
+      "en": "Backpacks, notebooks and stationery for students starting the school year in under-resourced districts.",
+      "mr": "गरजू विद्यार्थ्यांसाठी दप्तरे, वह्या व लेखनसाहित्य."
+    },
+    "start": "2026-08-15T10:00:00-07:00",
+    "end": "2026-08-15T16:00:00-07:00",
+    "dateConfirmed": true,
+    "locationName": "Shri Gajanan Seva Mandir",
+    "capacity": null,
+    "rsvpCount": 0,
+    "rsvpOpen": false,
+    "onlineJoin": false,
+    "fundSlug": "school-supplies",
+    "schedule": [{ "time": "10:00", "label": { "en": "Collection and packing" } }],
+    "significance": {
+      "en": "Vidyadan is counted among the highest forms of dan. A child who has what they need on the first day of school starts the year level with everyone else."
+    },
+    "whatToBring": [{ "en": "New backpacks, notebooks, pens, pencils, crayons" }],
+    "volunteerNeeds": []
+>>>>>>> e67c5ca9bc25bf3af85c8980399123cded4b906f
   }
 ]

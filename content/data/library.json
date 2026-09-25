@@ -1,5 +1,6 @@
 [
   {
+<<<<<<< HEAD
     "slug": "upasana-booklet",
     "type": "text",
     "languages": ["mr"],
@@ -11,10 +12,24 @@
       "en": "The full order of the daily upasana as the centre keeps it: Shri Ram Raksha Stotra, Maruti Stotra, the aartis and Shejarati, in order, with nothing left out. This is the one book to have if you intend to follow along at home.",
       "mr": "केंद्रात पाळली जाणारी दैनंदिन उपासनेची संपूर्ण मांडणी: श्री रामरक्षा स्तोत्र, मारुती स्तोत्र, आरत्या व शेजारती, क्रमाने, काहीही वगळले नाही. घरी सोबत म्हणायचे असेल तर हवे असलेले एकच पुस्तक."
     }
+=======
+    "_editing": "Every text, audio file, video and newsletter in one list. `fileUrl` null means the file has not been uploaded yet — the card still appears but shows 'coming soon' instead of a broken download. Put PDFs in public/library/ and set fileUrl to /library/<filename>.pdf.",
+    "slug": "upasana-booklet",
+    "type": "text",
+    "languages": ["mr", "en"],
+    "title": { "en": "Upasana Booklet", "mr": "उपासना पुस्तिका" },
+    "description": {
+      "en": "The complete order of daily upasana as it is followed at the mandir — aartis, stotras and the closing prayers, in sequence. If you read one thing, read this.",
+      "mr": "मंदिरात पाळली जाणारी संपूर्ण दैनंदिन उपासना — आरत्या, स्तोत्रे व प्रार्थना, क्रमवार."
+    },
+    "fileUrl": null,
+    "featured": true
+>>>>>>> e67c5ca9bc25bf3af85c8980399123cded4b906f
   },
   {
     "slug": "shri-gajanan-stotra",
     "type": "text",
+<<<<<<< HEAD
     "languages": ["mr", "sa"],
     "featured": true,
     "publishedOn": "2024-02-16",
@@ -24,10 +39,21 @@
       "en": "The stotra recited at every aarti. Short enough to learn by heart in a few weeks, and most devotees do.",
       "mr": "प्रत्येक आरतीत म्हटले जाणारे स्तोत्र. काही आठवड्यांत मुखोद्गत होण्याइतके छोटे, आणि बहुतेक भक्त तसे करतात."
     }
+=======
+    "languages": ["mr"],
+    "title": { "en": "Shri Gajanan Stotra", "mr": "श्री गजानन स्तोत्र" },
+    "description": {
+      "en": "The stotra recited in praise of Maharaj, with transliteration for those who do not read Devanagari.",
+      "mr": "महाराजांच्या स्तुतीपर स्तोत्र."
+    },
+    "fileUrl": null,
+    "featured": true
+>>>>>>> e67c5ca9bc25bf3af85c8980399123cded4b906f
   },
   {
     "slug": "shriram-vandana",
     "type": "text",
+<<<<<<< HEAD
     "languages": ["mr", "sa"],
     "publishedOn": "2024-03-08",
     "fileUrl": null,
@@ -36,11 +62,21 @@
       "en": "The vandana that opens the daily 7pm online upasana.",
       "mr": "दररोज सायंकाळी ७ वाजताच्या ऑनलाइन उपासनेची सुरुवात करणारी वंदना."
     }
+=======
+    "languages": ["mr"],
+    "title": { "en": "Shriram Vandana", "mr": "श्रीराम वंदना" },
+    "description": {
+      "en": "Vandana to Shri Ram, recited as part of the daily upasana.",
+      "mr": "दैनंदिन उपासनेत म्हटली जाणारी श्रीराम वंदना."
+    },
+    "fileUrl": null
+>>>>>>> e67c5ca9bc25bf3af85c8980399123cded4b906f
   },
   {
     "slug": "pradakshina-and-prasad",
     "type": "text",
     "languages": ["en", "mr"],
+<<<<<<< HEAD
     "publishedOn": "2024-05-20",
     "fileUrl": null,
     "title": { "en": "Pradakshina and Prasad", "mr": "प्रदक्षिणा व प्रसाद" },
@@ -48,11 +84,20 @@
       "en": "What pradakshina is, which direction to walk, and what to do with prasad once it is in your hand. Written for someone who has never been inside a mandir and would rather read it than ask.",
       "mr": "प्रदक्षिणा काय, कोणत्या दिशेने चालावे, आणि हातात प्रसाद आल्यावर काय करावे. ज्याने कधी मंदिरात पाऊल ठेवले नाही आणि विचारण्याऐवजी वाचायला आवडेल, त्यासाठी लिहिलेले."
     }
+=======
+    "title": { "en": "Pradakshina and Prasad", "mr": "प्रदक्षिणा व प्रसाद" },
+    "description": {
+      "en": "How pradakshina is performed and how prasad is offered and received — written for those doing it for the first time.",
+      "mr": "प्रदक्षिणा कशी घालावी व प्रसाद कसा अर्पण करावा."
+    },
+    "fileUrl": null
+>>>>>>> e67c5ca9bc25bf3af85c8980399123cded4b906f
   },
   {
     "slug": "gajanan-vijay-grantha",
     "type": "text",
     "languages": ["mr"],
+<<<<<<< HEAD
     "featured": true,
     "publishedOn": "2024-07-21",
     "fileUrl": null,
@@ -73,12 +118,44 @@
       "en": "The words of the Shejarati, sung at 8.45pm on a Thursday as Maharaj is put to rest.",
       "mr": "शेजारतीचे शब्द, गुरुवारी रात्री ८.४५ ला महाराजांना निजवताना म्हटले जातात."
     }
+=======
+    "title": { "en": "Shri Gajanan Vijay Grantha", "mr": "श्री गजानन विजय ग्रंथ" },
+    "description": {
+      "en": "The twenty-one chapter life of Maharaj, composed by Saint Dasaganu Maharaj — a disciple of Shri Sai Baba of Shirdi and a poet of considerable gift. It follows Maharaj from his arrival in Shegaon to his Samadhi, and is the text devotees read during parayan.",
+      "mr": "संत दासगणू महाराजांनी रचलेला एकवीस अध्यायांचा ग्रंथ — प्रगट दिनापासून समाधीपर्यंतचे महाराजांचे चरित्र."
+    },
+    "fileUrl": null,
+    "featured": true
+  },
+  {
+    "slug": "shejarati",
+    "type": "text",
+    "languages": ["mr"],
+    "title": { "en": "Shejarati", "mr": "शेजारती" },
+    "description": {
+      "en": "The closing aarti of the day, with its full text.",
+      "mr": "दिवसाच्या शेवटच्या आरतीचा संपूर्ण पाठ."
+    },
+    "fileUrl": null
+  },
+  {
+    "slug": "bhupali-aarti",
+    "type": "text",
+    "languages": ["mr"],
+    "title": { "en": "Bhupali Aarti", "mr": "भूपाळी आरती" },
+    "description": {
+      "en": "The morning waking song, with its full text.",
+      "mr": "पहाटेच्या भूपाळीचा संपूर्ण पाठ."
+    },
+    "fileUrl": null
+>>>>>>> e67c5ca9bc25bf3af85c8980399123cded4b906f
   },
 
   {
     "slug": "gan-gan-ganat-bote-24hr",
     "type": "audio",
     "languages": ["mr"],
+<<<<<<< HEAD
     "featured": true,
     "durationMinutes": 1440,
     "publishedOn": "2024-09-08",
@@ -88,11 +165,22 @@
       "en": "A continuous twenty-four hour recording of the nam jaap. Devotees leave it playing in the house for an akhand jaap, or during a sankalp.",
       "mr": "नामजपाचे अखंड चोवीस तासांचे ध्वनिमुद्रण. अखंड जपासाठी किंवा संकल्पाच्या काळात भक्त हे घरात लावून ठेवतात."
     }
+=======
+    "title": { "en": "Gan Gan Ganat Bote — 24 hour jap", "mr": "गण गण गणात बोते — २४ तास जप" },
+    "description": {
+      "en": "Continuous nam jaap for a full day, for akhand jaap sankalp and for playing in the home.",
+      "mr": "अखंड जप संकल्पासाठी संपूर्ण दिवसभराचा नामजप."
+    },
+    "fileUrl": null,
+    "durationMinutes": 1440,
+    "featured": true
+>>>>>>> e67c5ca9bc25bf3af85c8980399123cded4b906f
   },
   {
     "slug": "gan-gan-ganat-bote-12hr",
     "type": "audio",
     "languages": ["mr"],
+<<<<<<< HEAD
     "durationMinutes": 720,
     "publishedOn": "2024-09-08",
     "fileUrl": null,
@@ -101,11 +189,18 @@
       "en": "Twelve hours, continuous. The usual choice for an overnight or a working day.",
       "mr": "बारा तास, अखंड. रात्रभर किंवा कामाच्या दिवसासाठी नेहमीची निवड."
     }
+=======
+    "title": { "en": "Gan Gan Ganat Bote — 12 hour jap", "mr": "गण गण गणात बोते — १२ तास जप" },
+    "description": { "en": "Twelve hours of continuous nam jaap." },
+    "fileUrl": null,
+    "durationMinutes": 720
+>>>>>>> e67c5ca9bc25bf3af85c8980399123cded4b906f
   },
   {
     "slug": "gan-gan-ganat-bote-108",
     "type": "audio",
     "languages": ["mr"],
+<<<<<<< HEAD
     "durationMinutes": 12,
     "publishedOn": "2024-09-08",
     "fileUrl": null,
@@ -127,12 +222,39 @@
       "en": "Bhupali, the morning and evening aartis, and Shejarati, recorded at the centre so you can learn the tune rather than only the words.",
       "mr": "भूपाळी, सकाळ-सायंकाळच्या आरत्या व शेजारती, केंद्रात ध्वनिमुद्रित — शब्दांसोबत चालही शिकता यावी म्हणून."
     }
+=======
+    "title": { "en": "Gan Gan Ganat Bote — 108 repetitions", "mr": "गण गण गणात बोते — १०८ आवर्तने" },
+    "description": {
+      "en": "One mala. The shortest complete practice, and a good place to start.",
+      "mr": "एक माळ — सुरुवात करण्यासाठी सर्वात सोपी सेवा."
+    },
+    "fileUrl": null,
+    "durationMinutes": 11,
+    "featured": true
+  },
+  {
+    "slug": "shri-gajanan-bavanni",
+    "type": "audio",
+    "languages": ["mr"],
+    "title": { "en": "Shri Gajanan Bavanni", "mr": "श्री गजानन बावन्नी" },
+    "description": { "en": "The fifty-two verse composition in praise of Maharaj." },
+    "fileUrl": null
+  },
+  {
+    "slug": "shri-gajanan-ashtak",
+    "type": "audio",
+    "languages": ["mr"],
+    "title": { "en": "Shri Gajanan Ashtak", "mr": "श्री गजानन अष्टक" },
+    "description": { "en": "The eight-verse hymn." },
+    "fileUrl": null
+>>>>>>> e67c5ca9bc25bf3af85c8980399123cded4b906f
   },
 
   {
     "slug": "youtube-channel",
     "type": "video",
     "languages": ["mr", "en"],
+<<<<<<< HEAD
     "publishedOn": "2024-01-10",
     "externalUrl": "https://www.youtube.com/@shrigajananseva",
     "title": { "en": "Shri Gajanan Seva on YouTube", "mr": "यूट्यूबवर श्री गजानन सेवा" },
@@ -177,5 +299,24 @@
       "en": "What Pragat Din 2026 looked like, with the Mahaprasad count and thanks to the kitchen team.",
       "mr": "प्रगट दिन २०२६ कसा झाला, महाप्रसादाची संख्या आणि स्वयंपाकघर गटाचे आभार."
     }
+=======
+    "title": { "en": "Utsav and aarti recordings", "mr": "उत्सव व आरती चित्रफिती" },
+    "description": {
+      "en": "Recordings of utsav, aarti and community programmes on our YouTube channel.",
+      "mr": "आमच्या YouTube वाहिनीवरील उत्सव व आरतीच्या चित्रफिती."
+    },
+    "externalUrl": "https://www.youtube.com/channel/UCwI-uJalIJjfjroTDWaUigA",
+    "featured": true
+  },
+
+  {
+    "slug": "newsletter-2026-06",
+    "type": "newsletter",
+    "languages": ["en"],
+    "title": { "en": "Monthly Newsletter — June 2026" },
+    "description": { "en": "Seva reports, utsav news and upcoming dates." },
+    "publishedOn": "2026-06-30",
+    "fileUrl": null
+>>>>>>> e67c5ca9bc25bf3af85c8980399123cded4b906f
   }
 ]

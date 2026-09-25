@@ -2,6 +2,7 @@
   "meta": {
     "siteName": "Shri Gajanan Seva",
     "tagline": "Bay Area, California",
+<<<<<<< HEAD
     "defaultDescription": "Shri Gajanan Seva is a volunteer-run 501(c)(3) non-profit in San Jose, California, offering seva in the tradition of Shri Gajanan Maharaj of Shegaon. Darshan, daily seva, utsav and community drives — all welcome."
   },
 
@@ -31,6 +32,9 @@
     "copied": "Copied",
     "and": "and",
     "or": "or"
+=======
+    "defaultDescription": "Shri Gajanan Seva is a 501(c)(3) non-profit in the Bay Area, California, rooted in the teachings of Shri Gajanan Maharaj of Shegaon. Daily seva, utsav, and community service."
+>>>>>>> e67c5ca9bc25bf3af85c8980399123cded4b906f
   },
 
   "nav": {
@@ -42,6 +46,7 @@
     "library": "Library",
     "getInvolved": "Get Involved",
     "donate": "Donate",
+<<<<<<< HEAD
     "connect": "Connect"
   },
 
@@ -146,10 +151,113 @@
     "mapTitle": "Map of the centre",
     "callAhead": "Call ahead",
     "closedDay": "Closed"
+=======
+    "connect": "Connect",
+    "portal": "My Account",
+    "menu": "Menu",
+    "closeMenu": "Close menu",
+    "openMenu": "Open menu",
+    "skipToContent": "Skip to main content",
+    "breadcrumb": "Breadcrumb",
+    "youAreHere": "You are here"
+  },
+
+  "navGroups": {
+    "aboutSgs": "Shri Gajanan Seva, Bay Area",
+    "maharaj": "Shri Gajanan Maharaj, Shegaon",
+    "trustees": "Trustees & governance",
+    "transparency": "Transparency & finances",
+    "upasana": "Daily Upasana",
+    "bhupali": "Bhupali Aarti",
+    "shejarati": "Shejarati",
+    "namJaap": "Nam Jaap",
+    "texts": "Texts & booklets",
+    "audio": "Audio",
+    "videos": "Video gallery",
+    "newsletterArchive": "Newsletter archive",
+    "volunteer": "Volunteer programme",
+    "students": "Student service hours",
+    "contact": "Contact us",
+    "newsletter": "Newsletter"
+  },
+
+  "common": {
+    "readMore": "Read more",
+    "learnMore": "Learn more",
+    "viewAll": "View all",
+    "back": "Back",
+    "backTo": "Back to {target}",
+    "download": "Download",
+    "downloadPdf": "Download PDF",
+    "listen": "Listen",
+    "watch": "Watch",
+    "openInNewTab": "opens in a new tab",
+    "loading": "Loading…",
+    "required": "required",
+    "optional": "optional",
+    "submit": "Submit",
+    "cancel": "Cancel",
+    "save": "Save",
+    "edit": "Edit",
+    "today": "Today",
+    "allTimesLocal": "All times shown in your local timezone",
+    "timezoneNote": "Times are shown in {zone}.",
+    "comingSoon": "Coming soon",
+    "placeholderNotice": "This content is awaiting final copy from the trustees.",
+    "language": "Language",
+    "theme": "Theme",
+    "themeLight": "Light",
+    "themeDark": "Dark",
+    "themeSystem": "System"
+  },
+
+  "home": {
+    "heroEyebrow": "Shri Gajanan Seva · Bay Area, California",
+    "heroTitle": "Gan Gan Ganat Bote",
+    "heroSubtitle": "A community rooted in seva — selfless service — and in the teachings of Shri Gajanan Maharaj of Shegaon.",
+    "heroPrimaryCta": "Plan your visit",
+    "heroSecondaryCta": "Join daily seva",
+    "nextOccasion": "Next occasion",
+    "liveNow": "Live now",
+    "liveNowBody": "Daily seva is being broadcast on Zoom right now.",
+    "joinOnZoom": "Join on Zoom",
+    "todaySchedule": "Today at the mandir",
+    "todayClosed": "The mandir is not open for darshan today.",
+    "todayClosedBody": "We are open every Thursday, Saturday and Sunday. Daily seva continues online.",
+    "upcomingTitle": "Upcoming occasions",
+    "upcomingBody": "Utsav, upasana and seva drives through the year.",
+    "donateTitle": "Support the seva",
+    "donateBody": "Every meal served, every blanket distributed, every utsav is carried by devotee generosity.",
+    "connectTitle": "Stay connected",
+    "connectBody": "Announcements, darshan timings and utsav updates — on the channel that suits you.",
+    "impactTitle": "Seva in the community",
+    "welcomeTitle": "New here?",
+    "welcomeBody": "Everyone is welcome, whatever your background or familiarity. Here is what to expect on your first visit."
+  },
+
+  "visit": {
+    "title": "Visit the mandir",
+    "hours": "Darshan hours",
+    "address": "Address",
+    "getDirections": "Get directions",
+    "phone": "Phone",
+    "email": "Email",
+    "openToday": "Open today",
+    "closedToday": "Closed today",
+    "opensAt": "Opens at {time}",
+    "closesAt": "Closes at {time}",
+    "weeklySchedule": "Weekly seva schedule",
+    "firstVisit": "Your first visit",
+    "parking": "Parking",
+    "accessibility": "Accessibility",
+    "mapLabel": "Map showing the location of Shri Gajanan Seva",
+    "mapFallback": "Interactive map could not be loaded. Use the directions link below."
+>>>>>>> e67c5ca9bc25bf3af85c8980399123cded4b906f
   },
 
   "dailySeva": {
     "title": "Daily Seva",
+<<<<<<< HEAD
     "intro": "The timetable the centre keeps, converted into your timezone so you never have to do the arithmetic.",
     "scheduleTitle": "Today's schedule",
     "weeklyNote": "The centre is open Thursday, Saturday and Sunday. Online seva runs every day.",
@@ -170,10 +278,25 @@
     "durationLabel": "Duration",
     "minutes": "min",
     "noSlotsLeft": "Today's seva has concluded. The next session is tomorrow."
+=======
+    "intro": "Seva is offered every day, in person at the mandir and online on Zoom. You are welcome to join any part of it.",
+    "scheduleTitle": "Daily schedule",
+    "inPerson": "In person",
+    "online": "Online",
+    "both": "In person & online",
+    "joinZoom": "Join on Zoom",
+    "zoomNote": "The same Zoom link is used every day. Save it once.",
+    "nextUp": "Next",
+    "inProgress": "In progress",
+    "concluded": "Concluded for today",
+    "jaapTitle": "Nam Jaap",
+    "jaapBody": "Gan Gan Ganat Bote — the nam given by Maharaj himself."
+>>>>>>> e67c5ca9bc25bf3af85c8980399123cded4b906f
   },
 
   "occasions": {
     "title": "Occasions",
+<<<<<<< HEAD
     "intro": "Utsav, monthly upasana and community seva drives. Utsav dates follow the tithi and move each year, so check before you travel.",
     "rsvp": "Let us know you're coming",
     "rsvpOpensOn": "RSVP opens {date}",
@@ -206,10 +329,36 @@
     "onlineJoin": "Joinable online",
     "noneUpcoming": "No occasions are on the calendar right now. The newsletter carries new dates as soon as they are fixed.",
     "relatedFund": "Give towards this"
+=======
+    "intro": "Utsav, monthly upasana and seva drives through the year.",
+    "filterByType": "Filter by type",
+    "filterByYear": "Filter by year",
+    "allTypes": "All types",
+    "allYears": "All years",
+    "noResults": "No occasions match these filters.",
+    "clearFilters": "Clear filters",
+    "upcoming": "Upcoming",
+    "past": "Past",
+    "schedule": "Schedule",
+    "significance": "Significance",
+    "whatToBring": "What to bring",
+    "volunteerNeeds": "Volunteers needed",
+    "addToCalendar": "Add to calendar",
+    "subscribeFeed": "Subscribe to the calendar",
+    "rsvp": "RSVP",
+    "rsvpNote": "RSVP helps us plan prasad and seating.",
+    "capacityOpen": "Places available",
+    "capacityFilling": "Filling up",
+    "capacityWaitlist": "Waitlist only",
+    "capacityFull": "Full",
+    "spotsLeft": "{count} places left",
+    "registrationClosed": "Registration closed"
+>>>>>>> e67c5ca9bc25bf3af85c8980399123cded4b906f
   },
 
   "library": {
     "title": "Library",
+<<<<<<< HEAD
     "intro": "Every text, recording and newsletter the centre publishes, free to download and free to share.",
     "textsTitle": "Texts",
     "audioTitle": "Audio",
@@ -247,10 +396,32 @@
     "letterTitle": "How the letter works",
     "emailUs": "Email the seva team",
     "teamLabel": "Team"
+=======
+    "intro": "Texts, audio, video and newsletters — everything in one place, in both English and Marathi where available.",
+    "filterType": "Type",
+    "filterLanguage": "Language",
+    "typeText": "Texts",
+    "typeAudio": "Audio",
+    "typeVideo": "Video",
+    "typeNewsletter": "Newsletters",
+    "readOnline": "Read online",
+    "noResults": "Nothing matches these filters yet.",
+    "duration": "Duration",
+    "published": "Published"
+  },
+
+  "getInvolved": {
+    "title": "Get Involved",
+    "intro": "The mandir runs entirely on volunteer seva. There is a place for every skill and every amount of time.",
+    "opportunities": "Open opportunities",
+    "studentsTitle": "Student service hours",
+    "studentsIntro": "High school students earn verified community service hours through seva at the mandir."
+>>>>>>> e67c5ca9bc25bf3af85c8980399123cded4b906f
   },
 
   "donate": {
     "title": "Donate",
+<<<<<<< HEAD
     "intro": "Shri Gajanan Seva has no paid staff and no endowment. Everything — the rent, the groceries, the blankets — comes from devotees.",
     "fundsTitle": "Where your gift goes",
     "methodsTitle": "How to give",
@@ -266,10 +437,36 @@
     "onlineBody": "Card and bank giving is being set up. Until it is live, Zelle costs the centre nothing and reaches us the same day.",
     "taxNote": "Shri Gajanan Seva is a 501(c)(3) organisation. Your gift is tax-deductible to the extent allowed by law.",
     "receiptNote": "For a receipt, email us with the date and amount and we will send one."
+=======
+    "intro": "Shri Gajanan Seva is a registered 501(c)(3) non-profit. Donations are tax-deductible to the extent permitted by law.",
+    "chooseFund": "Choose a fund",
+    "chooseAmount": "Choose an amount",
+    "otherAmount": "Other amount",
+    "frequency": "Frequency",
+    "oneTime": "One time",
+    "monthly": "Monthly",
+    "quarterly": "Quarterly",
+    "annual": "Annual",
+    "coverFees": "Add {amount} to cover processing fees",
+    "coverFeesNote": "This lets your full gift reach the seva.",
+    "continueToPayment": "Continue to payment",
+    "onlineUnavailable": "Online card giving is not live yet",
+    "onlineUnavailableBody": "We are completing the setup of our payment processor. In the meantime, Zelle, Venmo and check reach the seva with no processing fee at all.",
+    "otherWays": "Other ways to give",
+    "zeroFeeNote": "Zelle and check carry no processing fee — the full amount reaches the seva.",
+    "taxTitle": "Tax information",
+    "matchingTitle": "Employer matching",
+    "matchingBody": "Many Bay Area employers match employee donations, often dollar for dollar. Use the details below in your company's giving portal.",
+    "legalName": "Legal name",
+    "ein": "EIN",
+    "mailingAddress": "Mailing address",
+    "receiptNote": "A receipt is emailed for every gift. Annual consolidated statements are available in your account."
+>>>>>>> e67c5ca9bc25bf3af85c8980399123cded4b906f
   },
 
   "connect": {
     "title": "Connect",
+<<<<<<< HEAD
     "intro": "Announcements, aarti times and utsav dates — on whichever channel you already use.",
     "channelsTitle": "Where to find us",
     "newsletterTitle": "The newsletter",
@@ -351,12 +548,53 @@
   },
 
   "portal": {
+=======
+    "intro": "Choose how you would like to hear from us.",
+    "whatsappGroup": "WhatsApp community group",
+    "whatsappGroupBody": "Conversation, coordination and seva requests among devotees.",
+    "whatsappChannel": "WhatsApp channel",
+    "whatsappChannelBody": "Announcements only. One-way, no group chatter.",
+    "join": "Join",
+    "subscribe": "Subscribe",
+    "follow": "Follow",
+    "newsletterTitle": "Monthly newsletter",
+    "newsletterBody": "Sent on the last day of every month — utsav news, seva reports and upcoming dates.",
+    "emailLabel": "Email address",
+    "emailPlaceholder": "you@example.com",
+    "namePlaceholder": "Your name",
+    "nameLabel": "Name",
+    "subjectLabel": "Subject",
+    "messageLabel": "Message",
+    "consentLabel": "Yes, email me the monthly newsletter. I can unsubscribe at any time.",
+    "consentRequired": "Please tick the consent box so we can email you.",
+    "subscribeCta": "Subscribe",
+    "subscribeSuccess": "Almost there — check your inbox and click the confirmation link.",
+    "subscribeError": "We could not complete that just now. Please try again, or email us directly.",
+    "contactTitle": "Send us a message",
+    "contactSuccess": "Thank you. We have your message and will reply soon.",
+    "contactError": "We could not send that just now. Please email us directly.",
+    "invalidEmail": "Please enter a valid email address.",
+    "fieldRequired": "This field is required."
+  },
+
+  "portal": {
+    "title": "My Account",
+    "signIn": "Sign in",
+    "signOut": "Sign out",
+    "signInTitle": "Sign in to your account",
+    "signInIntro": "Enter your email and we will send you a sign-in link. No password to remember.",
+    "sendLink": "Email me a sign-in link",
+    "linkSent": "Check your email for a sign-in link.",
+    "continueWithGoogle": "Continue with Google",
+    "or": "or",
+>>>>>>> e67c5ca9bc25bf3af85c8980399123cded4b906f
     "dashboard": "Dashboard",
     "household": "My household",
     "myRsvps": "My RSVPs",
     "myTickets": "My tickets",
     "giving": "My giving",
     "preferences": "Preferences",
+<<<<<<< HEAD
     "privacy": "Privacy"
   },
 
@@ -367,5 +605,66 @@
     "serverTitle": "Something broke",
     "serverBody": "This is our fault, not yours. Try again in a moment.",
     "retry": "Try again"
+=======
+    "privacy": "Privacy",
+    "welcomeBack": "Namaskar, {name}",
+    "noRsvps": "You have not registered for any occasion yet.",
+    "noGiving": "No donations are recorded against this account yet.",
+    "addMember": "Add a household member",
+    "partySize": "Party size",
+    "attendees": "Who is attending",
+    "dietaryNotes": "Dietary or accessibility notes",
+    "editRsvp": "Edit RSVP",
+    "cancelRsvp": "Cancel RSVP",
+    "ticketFor": "Ticket for {name}",
+    "showAtGate": "Show this code at the gate",
+    "downloadTicket": "Download ticket (PDF)",
+    "attendanceHistory": "Attendance history",
+    "downloadReceipt": "Download receipt",
+    "annualStatement": "Annual tax statement",
+    "recurringGifts": "Recurring gifts",
+    "exportMyData": "Export my data",
+    "deleteMyData": "Request deletion",
+    "demoBanner": "Demonstration mode — this account uses sample data. No real information is stored.",
+    "demoBannerCta": "What does this mean?"
+  },
+
+  "legal": {
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Use",
+    "accessibility": "Accessibility Statement",
+    "privacyChoices": "Your Privacy Choices",
+    "lastUpdated": "Last updated {date}"
+  },
+
+  "footer": {
+    "explore": "Explore",
+    "participate": "Participate",
+    "resources": "Resources",
+    "legalHeading": "Legal",
+    "contactHeading": "Contact",
+    "nonprofitNote": "Shri Gajanan Seva is a registered 501(c)(3) non-profit organisation in California.",
+    "copyright": "© {year} Shri Gajanan Seva. All rights reserved.",
+    "builtNote": "Seva offered at the feet of Shri Gajanan Maharaj."
+  },
+
+  "errors": {
+    "notFoundTitle": "This page could not be found",
+    "notFoundBody": "The page you are looking for may have moved when the site was rebuilt. Try one of the links below.",
+    "goHome": "Go to the home page",
+    "errorTitle": "Something went wrong",
+    "errorBody": "Please try again. If it keeps happening, let us know.",
+    "tryAgain": "Try again"
+  },
+
+  "days": {
+    "sunday": "Sunday",
+    "monday": "Monday",
+    "tuesday": "Tuesday",
+    "wednesday": "Wednesday",
+    "thursday": "Thursday",
+    "friday": "Friday",
+    "saturday": "Saturday"
+>>>>>>> e67c5ca9bc25bf3af85c8980399123cded4b906f
   }
 }

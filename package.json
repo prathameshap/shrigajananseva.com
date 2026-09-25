@@ -2,12 +2,17 @@
   "name": "shrigajananseva",
   "version": "1.0.0",
   "private": true,
+<<<<<<< HEAD
   "description": "Shri Gajanan Seva — Bay Area, California. Public website.",
   "license": "UNLICENSED",
+=======
+  "description": "Shri Gajanan Seva — Bay Area, California. Official website.",
+>>>>>>> e67c5ca9bc25bf3af85c8980399123cded4b906f
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
+<<<<<<< HEAD
     "lint": "eslint .",
     "typecheck": "tsc --noEmit",
     "check:links": "node scripts/check-links.mjs",
@@ -25,6 +30,9 @@
   "homepage": "https://shrigajananseva.org",
   "overrides": {
     "postcss": "^8.5.28"
+=======
+    "typecheck": "tsc --noEmit"
+>>>>>>> e67c5ca9bc25bf3af85c8980399123cded4b906f
   },
   "dependencies": {
     "@vercel/analytics": "^2.0.1",
@@ -37,14 +45,20 @@
     "react-dom": "^19.2.0"
   },
   "devDependencies": {
+<<<<<<< HEAD
     "@eslint/eslintrc": "^3.3.7",
+=======
+>>>>>>> e67c5ca9bc25bf3af85c8980399123cded4b906f
     "@tailwindcss/postcss": "^4.1.13",
     "@types/node": "^24.5.2",
     "@types/qrcode": "^1.5.6",
     "@types/react": "^19.2.0",
     "@types/react-dom": "^19.2.0",
+<<<<<<< HEAD
     "eslint": "^9.39.5",
     "eslint-config-next": "^15.5.26",
+=======
+>>>>>>> e67c5ca9bc25bf3af85c8980399123cded4b906f
     "postcss": "^8.5.28",
     "tailwindcss": "^4.1.13",
     "typescript": "^5.9.2"

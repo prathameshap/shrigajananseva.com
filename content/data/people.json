@@ -1,15 +1,25 @@
 {
+<<<<<<< HEAD
   "_note": "trustees is intentionally empty until the board approves which names and photographs may be published. The /about/trustees page detects the empty array and shows an honest placeholder with a contact address rather than inventing anything.",
+=======
+  "_editing": "Trustees and seva team leads. This page is currently a placeholder — the site shows an honest 'being published' notice until at least one trustee is listed here. Add entries in the order they should appear. `photo` may be null.",
+>>>>>>> e67c5ca9bc25bf3af85c8980399123cded4b906f
 
   "trustees": [],
 
   "governanceNote": {
+<<<<<<< HEAD
     "en": "Shri Gajanan Seva is a California non-profit corporation governed by a volunteer board of trustees. No trustee draws a salary, a stipend or an expense allowance, and no trustee or relative of a trustee is paid by the organisation for any service. The board meets quarterly and approves the annual budget, every expenditure above a set threshold, and the use of each restricted fund. Financial records are reviewed annually. Any devotee may ask to see the minutes of a board meeting or the accounts for a particular drive, and we will send them.",
     "mr": "श्री गजानन सेवा ही कॅलिफोर्नियातील ना-नफा संस्था असून स्वयंसेवक विश्वस्त मंडळाद्वारे चालवली जाते. कोणताही विश्वस्त पगार, मानधन किंवा खर्चभत्ता घेत नाही, आणि कोणत्याही विश्वस्ताला किंवा त्यांच्या नातेवाइकाला संस्थेकडून कोणत्याही सेवेसाठी पैसे दिले जात नाहीत. मंडळ तिमाहीत भेटते आणि वार्षिक अंदाजपत्रक, ठरलेल्या मर्यादेवरील प्रत्येक खर्च, आणि प्रत्येक राखीव निधीचा वापर मंजूर करते. आर्थिक नोंदींची वार्षिक तपासणी होते. कोणताही भक्त मंडळाच्या बैठकीचे इतिवृत्त किंवा विशिष्ट उपक्रमाचा हिशोब मागू शकतो, आणि आम्ही तो पाठवू."
+=======
+    "en": "Shri Gajanan Seva is governed by a volunteer board of trustees. The board meets quarterly and is responsible for finances, programme direction and safeguarding. Trustee names, roles and the governance policy are being prepared for publication.",
+    "mr": "श्री गजानन सेवा स्वयंसेवी विश्वस्त मंडळामार्फत चालविली जाते."
+>>>>>>> e67c5ca9bc25bf3af85c8980399123cded4b906f
   },
 
   "sevaTeams": [
     {
+<<<<<<< HEAD
       "slug": "shrungar",
       "title": { "en": "Shrungar", "mr": "शृंगार" },
       "description": {
@@ -55,6 +65,47 @@
       "description": {
         "en": "Filming and uploading aarti, writing the newsletter, running the WhatsApp channel, and keeping this website's content current. Mostly remote work.",
         "mr": "आरतीचे चित्रीकरण व अपलोड, वार्तापत्र लिहिणे, व्हॉट्सअॅप चॅनेल चालवणे, आणि या संकेतस्थळाचा मजकूर अद्ययावत ठेवणे. बहुतांश काम दूरस्थ."
+=======
+      "slug": "upasana",
+      "title": { "en": "Upasana team", "mr": "उपासना गट" },
+      "description": {
+        "en": "Leads the daily and monthly upasana, maintains the seva timetable and trains new devotees in the order of the aartis."
+      }
+    },
+    {
+      "slug": "annadan",
+      "title": { "en": "Annadan team", "mr": "अन्नदान गट" },
+      "description": {
+        "en": "Plans, cooks and serves mahaprasad at every upasana and utsav, and runs the kitchen during seva drives."
+      }
+    },
+    {
+      "slug": "outreach",
+      "title": { "en": "Community outreach", "mr": "समाजसेवा गट" },
+      "description": {
+        "en": "Coordinates the food, blanket, clothing, school supply, toy and hygiene kit drives with partner organisations."
+      }
+    },
+    {
+      "slug": "utsav",
+      "title": { "en": "Utsav team", "mr": "उत्सव गट" },
+      "description": {
+        "en": "Decoration, palkhi, cultural programme, sound and stage for the three major utsav of the year."
+      }
+    },
+    {
+      "slug": "youth",
+      "title": { "en": "Youth seva team", "mr": "युवा सेवा गट" },
+      "description": {
+        "en": "Runs the high school service-hours programme — logistics, crowd management, food service coordination, supply chain and administrative seva."
+      }
+    },
+    {
+      "slug": "media",
+      "title": { "en": "Media and communications", "mr": "माध्यम गट" },
+      "description": {
+        "en": "Newsletter, website, WhatsApp channel, photography and the YouTube recordings."
+>>>>>>> e67c5ca9bc25bf3af85c8980399123cded4b906f
       }
     }
   ]

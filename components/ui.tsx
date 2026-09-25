@@ -39,6 +39,7 @@ export function Container({
 
 /* ---------------------------------------------------------------- section */
 
+<<<<<<< HEAD
 /**
  * Five grounds, deliberately far enough apart to be told apart.
  *
@@ -49,6 +50,8 @@ export function Container({
  */
 export type SectionTone = "canvas" | "raised" | "tint" | "brand" | "wash";
 
+=======
+>>>>>>> e67c5ca9bc25bf3af85c8980399123cded4b906f
 export function Section({
   className,
   children,
@@ -58,6 +61,7 @@ export function Section({
 }: {
   className?: string;
   children: ReactNode;
+<<<<<<< HEAD
   tone?: SectionTone;
   id?: string;
   width?: "default" | "narrow" | "wide";
@@ -74,11 +78,26 @@ export function Section({
       id={id}
       className={cx("scroll-mt-24 py-14 sm:py-20", tones[tone], className)}
     >
+=======
+  tone?: "canvas" | "raised" | "brand" | "wash";
+  id?: string;
+  width?: "default" | "narrow" | "wide";
+}) {
+  const tones = {
+    canvas: "bg-canvas",
+    raised: "bg-surface-raised",
+    brand: "bg-night-900 text-sandal-100",
+    wash: "festive-wash",
+  };
+  return (
+    <section id={id} className={cx("py-14 sm:py-20", tones[tone], className)}>
+>>>>>>> e67c5ca9bc25bf3af85c8980399123cded4b906f
       <Container width={width}>{children}</Container>
     </section>
   );
 }
 
+<<<<<<< HEAD
 export function Eyebrow({
   children,
   className,
@@ -106,21 +125,29 @@ export function Eyebrow({
   );
 }
 
+=======
+>>>>>>> e67c5ca9bc25bf3af85c8980399123cded4b906f
 export function SectionHeader({
   eyebrow,
   title,
   description,
   action,
   align = "start",
+<<<<<<< HEAD
   onBrand,
+=======
+>>>>>>> e67c5ca9bc25bf3af85c8980399123cded4b906f
 }: {
   eyebrow?: ReactNode;
   title: ReactNode;
   description?: ReactNode;
   action?: ReactNode;
   align?: "start" | "center";
+<<<<<<< HEAD
   /** Set on the indigo bands, where heading and muted colours have to flip. */
   onBrand?: boolean;
+=======
+>>>>>>> e67c5ca9bc25bf3af85c8980399123cded4b906f
 }) {
   return (
     <div
@@ -131,6 +158,7 @@ export function SectionHeader({
     >
       <div className={cx("max-w-2xl", align === "center" && "mx-auto")}>
         {eyebrow ? (
+<<<<<<< HEAD
           <Eyebrow tone={onBrand ? "onbrand" : "accent"} className="mb-2">
             {eyebrow}
           </Eyebrow>
@@ -141,6 +169,14 @@ export function SectionHeader({
             {description}
           </p>
         ) : null}
+=======
+          <p className="mb-2 text-sm font-semibold tracking-[0.14em] text-accent uppercase">
+            {eyebrow}
+          </p>
+        ) : null}
+        <h2 className="text-3xl sm:text-4xl">{title}</h2>
+        {description ? <p className="mt-3 text-lg text-muted">{description}</p> : null}
+>>>>>>> e67c5ca9bc25bf3af85c8980399123cded4b906f
       </div>
       {action ? <div className="shrink-0">{action}</div> : null}
     </div>
@@ -149,7 +185,11 @@ export function SectionHeader({
 
 /* ----------------------------------------------------------------- button */
 
+<<<<<<< HEAD
 type ButtonVariant = "primary" | "secondary" | "ghost" | "onbrand" | "accent" | "outline";
+=======
+type ButtonVariant = "primary" | "secondary" | "ghost" | "onbrand";
+>>>>>>> e67c5ca9bc25bf3af85c8980399123cded4b906f
 type ButtonSize = "sm" | "md" | "lg";
 
 /**
@@ -166,6 +206,7 @@ type ButtonSize = "sm" | "md" | "lg";
  * The min-heights double as comfortable touch targets (44px at `md`).
  */
 const buttonBase =
+<<<<<<< HEAD
   "inline-flex items-center justify-center gap-2 rounded-full text-center leading-snug font-semibold transition-all duration-150 [&>svg]:shrink-0 disabled:cursor-not-allowed disabled:opacity-55";
 
 const buttonVariants: Record<ButtonVariant, string> = {
@@ -177,6 +218,14 @@ const buttonVariants: Record<ButtonVariant, string> = {
     "border border-hairline-strong bg-surface text-heading hover:border-saffron-400 hover:bg-surface-raised",
   outline:
     "border border-sandal-400/40 bg-transparent text-sandal-50 hover:border-marigold-300 hover:bg-night-700",
+=======
+  "inline-flex items-center justify-center gap-2 rounded-full text-center leading-snug font-semibold transition-colors duration-150 [&>svg]:shrink-0 disabled:cursor-not-allowed disabled:opacity-55";
+
+const buttonVariants: Record<ButtonVariant, string> = {
+  primary: "bg-saffron-600 text-sandal-50 hover:bg-saffron-700 active:bg-saffron-800",
+  secondary:
+    "border border-hairline bg-surface text-heading hover:border-saffron-400 hover:bg-surface-raised",
+>>>>>>> e67c5ca9bc25bf3af85c8980399123cded4b906f
   ghost: "text-accent hover:bg-accent-soft",
   onbrand: "bg-marigold-400 text-ink-900 hover:bg-marigold-300",
 };
@@ -233,7 +282,10 @@ export function Card({
   as: As = "div",
   interactive,
   id,
+<<<<<<< HEAD
   tone = "surface",
+=======
+>>>>>>> e67c5ca9bc25bf3af85c8980399123cded4b906f
 }: {
   className?: string;
   children: ReactNode;
@@ -241,6 +293,7 @@ export function Card({
   interactive?: boolean;
   /** Set when the card is a link target, so `scroll-mt-*` can offset it under the sticky header. */
   id?: string;
+<<<<<<< HEAD
   tone?: "surface" | "gold" | "night";
 }) {
   const tones = {
@@ -248,15 +301,23 @@ export function Card({
     gold: "border-gold-400/60 bg-gradient-to-br from-marigold-50 to-sandal-100",
     night: "border-night-600 bg-night-800 text-sandal-100",
   };
+=======
+}) {
+>>>>>>> e67c5ca9bc25bf3af85c8980399123cded4b906f
   return (
     <As
       id={id}
       className={cx(
+<<<<<<< HEAD
         "rounded-card border shadow-soft",
         tones[tone],
         interactive &&
           "transition-all duration-200 hover:-translate-y-0.5 hover:border-saffron-300 hover:shadow-lift",
         id && "scroll-mt-28",
+=======
+        "rounded-card border border-hairline bg-surface shadow-soft",
+        interactive && "transition-shadow duration-200 hover:shadow-lift",
+>>>>>>> e67c5ca9bc25bf3af85c8980399123cded4b906f
         className,
       )}
     >
@@ -265,6 +326,7 @@ export function Card({
   );
 }
 
+<<<<<<< HEAD
 /**
  * A card with a coloured spine down its leading edge.
  *
@@ -321,6 +383,11 @@ type BadgeTone =
   | "live"
   | "gold"
   | "onbrand";
+=======
+/* ------------------------------------------------------------------ badge */
+
+type BadgeTone = "neutral" | "accent" | "brand" | "success" | "warning" | "live";
+>>>>>>> e67c5ca9bc25bf3af85c8980399123cded4b906f
 
 export function Badge({
   tone = "neutral",
@@ -333,6 +400,7 @@ export function Badge({
 }) {
   const tones: Record<BadgeTone, string> = {
     neutral: "bg-surface-raised text-muted border-hairline",
+<<<<<<< HEAD
     accent: "bg-peacock-50 text-peacock-700 border-peacock-200",
     brand: "bg-saffron-50 text-saffron-700 border-saffron-200",
     success: "bg-tulsi-50 text-tulsi-700 border-tulsi-100",
@@ -340,6 +408,13 @@ export function Badge({
     live: "bg-saffron-600 text-sandal-50 border-saffron-700",
     gold: "bg-marigold-50 text-gold-600 border-gold-400/60",
     onbrand: "bg-night-700 text-marigold-200 border-night-600",
+=======
+    accent: "bg-accent-soft text-accent border-marigold-200",
+    brand: "bg-brand-soft text-brand border-kumkum-200",
+    success: "bg-tulsi-50 text-tulsi-700 border-tulsi-100",
+    warning: "bg-marigold-100 text-marigold-800 border-marigold-200",
+    live: "bg-saffron-600 text-sandal-50 border-kumkum-700",
+>>>>>>> e67c5ca9bc25bf3af85c8980399123cded4b906f
   };
   return (
     <span
@@ -383,19 +458,29 @@ export function Placeholder({
   contact?: string;
 }) {
   return (
+<<<<<<< HEAD
     <div className="rounded-card border border-dashed border-gold-400 bg-marigold-50 p-6">
       <p className="flex items-center gap-2 font-semibold text-heading">
         <Icon.Info className="h-5 w-5 shrink-0 text-gold-600" />
+=======
+    <div className="rounded-card border border-dashed border-gold-400 bg-accent-soft/50 p-6">
+      <p className="flex items-center gap-2 font-semibold text-heading">
+        <Icon.Info className="h-5 w-5 shrink-0 text-accent" />
+>>>>>>> e67c5ca9bc25bf3af85c8980399123cded4b906f
         {title}
       </p>
       {children ? <div className="mt-2 text-muted">{children}</div> : null}
       {contact ? (
         <p className="mt-3 text-sm text-muted">
           For this information in the meantime, contact{" "}
+<<<<<<< HEAD
           <a
             className="font-semibold text-accent underline underline-offset-2"
             href={`mailto:${contact}`}
           >
+=======
+          <a className="font-semibold text-accent underline underline-offset-2" href={`mailto:${contact}`}>
+>>>>>>> e67c5ca9bc25bf3af85c8980399123cded4b906f
             {contact}
           </a>
           .
@@ -405,6 +490,7 @@ export function Placeholder({
   );
 }
 
+<<<<<<< HEAD
 /* ------------------------------------------------------------------ alert */
 
 export function Alert({
@@ -438,6 +524,8 @@ export function Alert({
   );
 }
 
+=======
+>>>>>>> e67c5ca9bc25bf3af85c8980399123cded4b906f
 /* ------------------------------------------------------------------- misc */
 
 export function GoldRule({ className }: { className?: string }) {
@@ -468,13 +556,18 @@ export function Stat({
 }) {
   return (
     <div className="text-center">
+<<<<<<< HEAD
       <p className="font-display text-4xl text-gold-foil sm:text-5xl">{value}</p>
+=======
+      <p className="font-display text-4xl text-heading sm:text-5xl">{value}</p>
+>>>>>>> e67c5ca9bc25bf3af85c8980399123cded4b906f
       <p className="mt-1 font-semibold text-body">{label}</p>
       {note ? <p className="mt-0.5 text-sm text-muted">{note}</p> : null}
     </div>
   );
 }
 
+<<<<<<< HEAD
 /** A numbered step, as used by the first-visit guide. */
 export function NumberedStep({
   index,
@@ -498,6 +591,8 @@ export function NumberedStep({
   );
 }
 
+=======
+>>>>>>> e67c5ca9bc25bf3af85c8980399123cded4b906f
 /** Body copy rendered from a Markdown string that has already been sanitised. */
 export function Prose({ html, className }: { html: string; className?: string }) {
   return (
@@ -507,6 +602,7 @@ export function Prose({ html, className }: { html: string; className?: string })
     />
   );
 }
+<<<<<<< HEAD
 
 /* ------------------------------------------------------------ form fields */
 
@@ -611,3 +707,5 @@ export function Honeypot({ label }: { label: string }) {
     </div>
   );
 }
+=======
+>>>>>>> e67c5ca9bc25bf3af85c8980399123cded4b906f
