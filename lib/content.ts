@@ -65,8 +65,21 @@ export type Site = {
     handle: string | null;
     description?: LocalizedText;
   }[];
+  /**
+   * The daily seva meeting.
+   *
+   * `joinUrl` is deliberately the direct Zoom address rather than the
+   * tinyurl.com/DailySeva short link the community shares. That short link
+   * currently redirects through `redirect.viglink.com`, an affiliate
+   * monetisation tracker, before reaching Zoom — so every devotee opening it
+   * is logged by a third party. Linking it from the site would contradict the
+   * no-third-party-tracking claim in our privacy policy, and adds a hop that
+   * can fail. `shortUrl` is kept for display only: it is the form you can read
+   * out to someone over the phone.
+   */
   zoom: {
     joinUrl: string | null;
+    shortUrl: string | null;
     meetingId: string | null;
     passcode: string | null;
     note: LocalizedText;

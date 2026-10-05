@@ -131,18 +131,35 @@ export default async function DailySevaPage({ params }: LocaleParams) {
               <>
                 <dl className="mt-5 flex flex-col gap-2 text-muted">
                   {site.zoom.meetingId ? (
-                    <div className="flex gap-3">
-                      <dt className="w-32 font-semibold text-heading">Meeting ID</dt>
+                    <div className="flex flex-wrap gap-x-3">
+                      <dt className="w-32 shrink-0 font-semibold text-heading">Meeting ID</dt>
                       <dd className="font-mono tabular-nums">{site.zoom.meetingId}</dd>
                     </div>
                   ) : null}
                   {site.zoom.passcode ? (
-                    <div className="flex gap-3">
-                      <dt className="w-32 font-semibold text-heading">Passcode</dt>
+                    <div className="flex flex-wrap gap-x-3">
+                      <dt className="w-32 shrink-0 font-semibold text-heading">Passcode</dt>
                       <dd className="font-mono">{site.zoom.passcode}</dd>
                     </div>
                   ) : null}
+                  {site.zoom.shortUrl ? (
+                    <div className="flex flex-wrap gap-x-3">
+                      <dt className="w-32 shrink-0 font-semibold text-heading">Short link</dt>
+                      {/*
+                        Shown as plain text, not a link. The short link redirects
+                        through an affiliate tracker; the buttons use the direct
+                        Zoom address. This is here for reading out loud.
+                      */}
+                      <dd className="font-mono break-all">
+                        {site.zoom.shortUrl.replace(/^https?:\/\//, "")}
+                      </dd>
+                    </div>
+                  ) : null}
                 </dl>
+                <p className="mt-3 text-sm text-muted">
+                  The short link is easy to say over the phone. The button below goes straight to
+                  Zoom.
+                </p>
                 <ButtonLink href={site.zoom.joinUrl} external className="mt-6 w-full">
                   {dict.dailySeva.joinZoom}
                 </ButtonLink>

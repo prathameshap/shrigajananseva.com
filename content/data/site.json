@@ -88,12 +88,14 @@
   ],
 
   "zoom": {
-    "joinUrl": null,
-    "meetingId": null,
+    "_editing": "The daily seva meeting. `joinUrl` is the direct Zoom address and is what every button on the site points at. `shortUrl` is the memorable form, shown as text for anyone reading it out over the phone — do not use it for the buttons, see the note in lib/content.ts.",
+    "joinUrl": "https://us02web.zoom.us/j/83860731566?pwd=dWFqWGMwbENwb0tNQ1IzTVN2ejhXQT09",
+    "shortUrl": "https://tinyurl.com/DailySeva",
+    "meetingId": "838 6073 1566",
     "passcode": null,
     "note": {
-      "en": "The same Zoom link is used for daily seva every day. Email info@shrigajananseva.org to receive it.",
-      "mr": "दैनंदिन सेवेसाठी दररोज तोच Zoom दुवा वापरला जातो."
+      "en": "The same Zoom link is used for daily seva every day. Save it once and it will work every morning.",
+      "mr": "दैनंदिन सेवेसाठी दररोज तोच Zoom दुवा वापरला जातो. एकदा जतन करा, तो रोज चालेल."
     }
   },
 
