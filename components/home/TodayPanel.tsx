@@ -133,13 +133,31 @@ export function TodayPanel({
             <Icon.Clock className="h-5 w-5 text-gold-500" />
             {labels.todayTitle}
           </h2>
-          <Link
-            href={scheduleHref}
-            className="inline-flex items-center gap-1.5 text-sm font-semibold text-accent hover:underline hover:underline-offset-4"
-          >
-            {labels.viewFullSchedule}
-            <Icon.ArrowRight className="h-4 w-4" />
-          </Link>
+          <div className="flex flex-wrap items-center gap-x-4 gap-y-2">
+            {/*
+              A standing join button. The live-now card above only appears
+              during a broadcast window, which left the home page with no way
+              to reach Zoom for most of the day.
+            */}
+            {zoomUrl ? (
+              <a
+                href={zoomUrl}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex min-h-9 items-center gap-1.5 rounded-full bg-saffron-600 px-4 py-2 text-sm font-semibold text-sandal-50 hover:bg-saffron-700"
+              >
+                <Icon.Video className="h-4 w-4 shrink-0" />
+                {labels.joinZoom}
+              </a>
+            ) : null}
+            <Link
+              href={scheduleHref}
+              className="inline-flex items-center gap-1.5 text-sm font-semibold text-accent hover:underline hover:underline-offset-4"
+            >
+              {labels.viewFullSchedule}
+              <Icon.ArrowRight className="h-4 w-4" />
+            </Link>
+          </div>
         </div>
 
         <ul className="divide-y divide-hairline">
@@ -167,11 +185,31 @@ export function TodayPanel({
                 </span>
                 <span className="min-w-0 flex-1 font-medium text-body">{slot.title}</span>
                 <span className="flex items-center gap-2">
+                  {/*
+                    This badge used to be an inert <span>. It is pill-shaped
+                    and carries a video icon, so it reads as a button and
+                    people tapped it expecting to join — and nothing happened.
+                    For a seva that is actually broadcast, it is now the link
+                    it already looked like.
+                  */}
                   {slot.mode !== "in-person" ? (
-                    <Badge tone="neutral">
-                      <Icon.Video className="h-3.5 w-3.5" />
-                      {labels.online}
-                    </Badge>
+                    zoomUrl ? (
+                      <a
+                        href={zoomUrl}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        aria-label={`${labels.joinZoom} — ${slot.title}`}
+                        className="inline-flex items-center gap-1.5 rounded-full border border-marigold-200 bg-accent-soft px-3 py-1 text-sm font-semibold text-accent transition-colors hover:border-saffron-500 hover:bg-saffron-600 hover:text-sandal-50"
+                      >
+                        <Icon.Video className="h-3.5 w-3.5 shrink-0" />
+                        {labels.online}
+                      </a>
+                    ) : (
+                      <Badge tone="neutral">
+                        <Icon.Video className="h-3.5 w-3.5" />
+                        {labels.online}
+                      </Badge>
+                    )
                   ) : (
                     <Badge tone="neutral">{labels.inPerson}</Badge>
                   )}
